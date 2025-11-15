@@ -1,0 +1,85 @@
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="logo">
+                    <svg width="200" height="70" viewBox="0 0 260 70" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="footerTechGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#059669;stop-opacity:1" />
+                                <stop offset="50%" style="stop-color:#4e9a69;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#4e9a69;stop-opacity:1" />
+                            </linearGradient>
+                            <linearGradient id="footerHighlightGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#4e9a69;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+
+                        <g transform="translate(8, 18)">
+                            <path d="M27 5 L45 18 L45 36 L27 49 L9 36 L9 18 Z"
+                                  fill="none"
+                                  stroke="url(#footerTechGradient)"
+                                  stroke-width="2.5"/>
+                            <polygon points="27,15 35,25 27,35" fill="url(#footerTechGradient)" opacity="0.8"/>
+                            <polygon points="27,15 19,25 27,35" fill="url(#footerHighlightGradient)" opacity="0.7"/>
+                            <circle cx="27" cy="25" r="3" fill="url(#footerTechGradient)"/>
+                            <circle cx="18" cy="18" r="2" fill="url(#footerHighlightGradient)"/>
+                            <circle cx="36" cy="18" r="2" fill="url(#footerTechGradient)" opacity="0.8"/>
+                            <circle cx="18" cy="32" r="2" fill="url(#footerTechGradient)" opacity="0.8"/>
+                            <circle cx="36" cy="32" r="2" fill="url(#footerHighlightGradient)"/>
+                            <line x1="20" y1="20" x2="25" y2="23" stroke="url(#footerHighlightGradient)" stroke-width="1.5" opacity="0.6"/>
+                            <line x1="34" y1="20" x2="29" y2="23" stroke="url(#footerTechGradient)" stroke-width="1.5" opacity="0.6"/>
+                            <line x1="20" y1="30" x2="25" y2="27" stroke="url(#footerTechGradient)" stroke-width="1.5" opacity="0.6"/>
+                            <line x1="34" y1="30" x2="29" y2="27" stroke="url(#footerHighlightGradient)" stroke-width="1.5" opacity="0.6"/>
+                        </g>
+
+                        <g transform="translate(65, 0)">
+                            <text x="0" y="32" font-family="'Outfit', Arial, sans-serif" font-size="16" font-weight="600" fill="#c4c4c4">
+                                STARTUP
+                            </text>
+                            <text x="0" y="65" font-family="'Outfit', Arial, sans-serif" font-size="24" font-weight="700" fill="url(#footerTechGradient)" letter-spacing="1px">
+                                FOR STARTUPS
+                            </text>
+                        </g>
+                    </svg>
+                </div>
+                <p>{{ .Site.Params.description }}</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Platform</h4>
+                    <a href="#features">Features</a>
+                    <a href="#platform">How it Works</a>
+                    <a href="https://app.startupforstartups.com">Get Started</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Features</h4>
+                    <a href="/launchpages">Launch Pages</a>
+                    <a href="/job-boards">Job Boards</a>
+                    <a href="/email-marketing">Email Marketing</a>
+                    <a href="/widgets">Widgets</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <a href="/terms">Terms of Service</a>
+                    <a href="/privacy">Privacy Policy</a>
+                    <a href="mailto:sushrut@startupforstartups.com">Contact</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="current-year"></span> {{ .Site.Params.footer.copyright }}</p>
+            <div class="footer-social">
+                {{ range $key, $url := .Site.Params.social }}
+                {{ if eq $key "twitter" }}
+                <a href="{{ $url }}" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>
+                {{ else if eq $key "blog" }}
+                <a href="{{ $url }}" target="_blank" class="social-link"><i class="fas fa-blog"></i></a>
+                {{ end }}
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</footer>
