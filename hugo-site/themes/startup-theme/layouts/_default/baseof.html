@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang | default "en" }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {{ block "title" . }}
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+    {{ end }}
+
+    {{ block "meta" . }}
+    <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    {{ end }}
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+    <link rel="shortcut icon" href="/assets/favicon.ico">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/assets/css/styles.css">
+
+    <!-- SFS Config -->
+    <script>
+        window.SFSConfig = {
+            clientId: '763241800455287549'
+        };
+    </script>
+    <script src="https://app.startupforstartups.com/loader/loader.js" async></script>
+
+    {{ block "head" . }}{{ end }}
+</head>
+<body>
+    <div data-widget="TOP_BANNER" data-widget-id="776405251229836020"></div>
+
+    {{ block "header" . }}
+    {{ partial "header.html" . }}
+    {{ end }}
+
+    {{ block "main" . }}
+    <main>
+        {{ .Content }}
+    </main>
+    {{ end }}
+
+    {{ block "footer" . }}
+    {{ partial "footer.html" . }}
+    {{ end }}
+
+    <div data-widget="CONSENT_BANNER" data-widget-id="776024258838655894"></div>
+
+    {{ block "scripts" . }}
+    <script src="/assets/js/main.js"></script>
+    {{ end }}
+</body>
+</html>

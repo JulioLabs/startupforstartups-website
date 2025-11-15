@@ -1,0 +1,44 @@
+<svg width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="techGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E40AF;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#00FFB7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00FFB7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="highlightGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00FFB7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E40AF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="54" height="54" rx="8" fill="#0F1629"/>
+  
+  <!-- Main logo symbol -->
+  <g transform="translate(8, 8)">
+    <!-- Outer diamond/rhombus -->
+    <path d="M19 3 L33 12 L33 26 L19 35 L5 26 L5 12 Z" 
+          fill="none" 
+          stroke="url(#techGradient)" 
+          stroke-width="2"/>
+    
+    <!-- Inner triangular elements -->
+    <polygon points="19,9 25,17 19,25" fill="url(#techGradient)" opacity="0.8"/>
+    <polygon points="19,9 13,17 19,25" fill="url(#highlightGradient)" opacity="0.7"/>
+    
+    <!-- Central connection point -->
+    <circle cx="19" cy="17" r="2" fill="url(#techGradient)"/>
+    
+    <!-- Network nodes -->
+    <circle cx="12" cy="12" r="1.5" fill="url(#highlightGradient)"/>
+    <circle cx="26" cy="12" r="1.5" fill="url(#techGradient)" opacity="0.8"/>
+    <circle cx="12" cy="22" r="1.5" fill="url(#techGradient)" opacity="0.8"/>
+    <circle cx="26" cy="22" r="1.5" fill="url(#highlightGradient)"/>
+    
+    <!-- Connection lines -->
+    <line x1="13" y1="13" x2="17" y2="16" stroke="url(#highlightGradient)" stroke-width="1" opacity="0.6"/>
+    <line x1="25" y1="13" x2="21" y2="16" stroke="url(#techGradient)" stroke-width="1" opacity="0.6"/>
+    <line x1="13" y1="21" x2="17" y2="18" stroke="url(#techGradient)" stroke-width="1" opacity="0.6"/>
+    <line x1="25" y1="21" x2="21" y2="18" stroke="url(#highlightGradient)" stroke-width="1" opacity="0.6"/>
+  </g>
+</svg>

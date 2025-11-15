@@ -1,0 +1,21 @@
+User-agent: *
+
+# Allow access to main site
+Allow: /
+
+# Explicitly allow blog subdomain
+Allow: https://blog.startupforstartups.com/
+
+# Explicitly allow jobs subdomain
+Allow: https://jobs.startupforstartups.com/
+
+# Block access to app subdomain
+Disallow: https://app.startupforstartups.com/
+
+# Standard exclusions for better SEO
+Disallow: /assets/
+Disallow: /*.js$
+Disallow: /*.css$
+
+# Sitemap location
+Sitemap: https://startupforstartups.com/sitemap.xml

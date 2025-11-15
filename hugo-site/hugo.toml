@@ -1,0 +1,55 @@
+baseURL = 'https://startupforstartups.com'
+languageCode = 'en-us'
+title = 'Startup For Startups - Zero to One Platform'
+theme = 'startup-theme'
+
+# Enable unsafe HTML in markdown (needed for custom HTML in content)
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+      hardWraps = false
+    [markup.goldmark.parser]
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+
+# Configure menus for navigation
+[menu]
+  [[menu.main]]
+    name = "Features"
+    url = "/#features"
+    weight = 10
+
+  [[menu.main]]
+    name = "Platform"
+    url = "/#platform"
+    weight = 20
+
+  [[menu.main]]
+    name = "Get Started"
+    url = "https://app.startupforstartups.com"
+    weight = 30
+
+# Site parameters
+[params]
+  description = "The complete operating system for startups. From idea to functioning business - all the tools you need in one unified platform."
+
+  # Footer configuration
+  [params.footer]
+    copyright = "Startup For Startups. All rights reserved."
+
+  # Social links
+  [params.social]
+    twitter = "https://twitter.com/get_s4s"
+    blog = "https://blog.startupforstartups.com"
+
+# Output formats for different content types
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML"]
+
+# SEO and meta configuration
+[params.seo]
+  title = "Startup OS - Zero to One Platform"
+  description = "The complete operating system for startups. From idea to functioning business - all the tools you need in one unified platform."
+  image = "/assets/images/heroimage.png"
