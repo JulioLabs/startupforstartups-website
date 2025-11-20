@@ -151,106 +151,106 @@ layout: "feature"
                 Professional embedding system with customization, targeting, and enterprise-grade features
             </p>
         </div>
-        <div class="features-grid">
-            <div class="feature-category">
-                <div class="category-header">
-                    <i class="fas fa-code category-icon"></i>
-                    <h3>Universal Embedding</h3>
-                </div>
-                <div class="feature-list">
-                    <div class="feature-item">
-                        <i class="fas fa-check"></i>
-                        <span>Simple One-Line Embed Code</span>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-check"></i>
-                        <span>Cross-Domain Compatible</span>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-check"></i>
-                        <span>Async Loading Performance</span>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-check"></i>
-                        <span>Multi-Widget Support</span>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-check"></i>
-                        <span>Auto-Discovery System</span>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-check"></i>
-                        <span>Mobile-Optimized</span>
-                    </div>
-                </div>
-            </div>
+<div class="features-grid">
+<div class="feature-category">
+<div class="category-header">
+<i class="fas fa-code category-icon"></i>
+<h3>Universal Embedding</h3>
+</div>
+<div class="feature-list">
+<div class="feature-item">
+<i class="fas fa-check"></i>
+<span>Simple One-Line Embed Code</span>
+</div>
+<div class="feature-item">
+<i class="fas fa-check"></i>
+<span>Cross-Domain Compatible</span>
+</div>
+<div class="feature-item">
+<i class="fas fa-check"></i>
+<span>Async Loading Performance</span>
+</div>
+<div class="feature-item">
+<i class="fas fa-check"></i>
+<span>Multi-Widget Support</span>
+</div>
+<div class="feature-item">
+<i class="fas fa-check"></i>
+<span>Auto-Discovery System</span>
+</div>
+<div class="feature-item">
+<i class="fas fa-check"></i>
+<span>Mobile-Optimized</span>
+</div>
+</div>
+</div>
 
-            <div class="feature-category">
-                <div class="category-header">
-                    <i class="fas fa-palette category-icon"></i>
-                    <h3>Complete Customization</h3>
-                </div>
-                <div class="feature-list">
-                    <div class="feature-item">
-                        <i class="fas fa-check"></i>
-                        <span>Professional Pre-designed Themes</span>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-check"></i>
-                        <span>50+ CSS Style Variables</span>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-check"></i>
-                        <span>Brand Alignment Control</span>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-check"></i>
-                        <span>Responsive Design System</span>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-check"></i>
-                        <span>Live Preview Editor</span>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-check"></i>
-                        <span>Custom Colors & Fonts</span>
-                    </div>
-                </div>
-            </div>
+<div class="feature-category">
+<div class="category-header">
+<i class="fas fa-palette category-icon"></i>
+<h3>Complete Customization</h3>
+</div>
+<div class="feature-list">
+<div class="feature-item">
+<i class="fas fa-check"></i>
+<span>Professional Pre-designed Themes</span>
+</div>
+<div class="feature-item">
+<i class="fas fa-check"></i>
+<span>50+ CSS Style Variables</span>
+</div>
+<div class="feature-item">
+<i class="fas fa-check"></i>
+<span>Brand Alignment Control</span>
+</div>
+<div class="feature-item">
+<i class="fas fa-check"></i>
+<span>Responsive Design System</span>
+</div>
+<div class="feature-item">
+<i class="fas fa-check"></i>
+<span>Live Preview Editor</span>
+</div>
+<div class="feature-item">
+<i class="fas fa-check"></i>
+<span>Custom Colors & Fonts</span>
+</div>
+</div>
+</div>
 
-            <div class="feature-category">
-                <div class="category-header">
-                    <i class="fas fa-bullseye category-icon"></i>
-                    <h3>Smart Targeting</h3>
-                </div>
-                <div class="feature-list">
-                    <div class="feature-item">
-                        <i class="fas fa-check"></i>
-                        <span>Advanced Page Targeting</span>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-check"></i>
-                        <span>Smart Display Triggers</span>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-check"></i>
-                        <span>Position & Timing Control</span>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-check"></i>
-                        <span>Exit Intent Detection</span>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-check"></i>
-                        <span>Scroll Depth Triggers</span>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-check"></i>
-                        <span>Session Management</span>
-                    </div>
-                </div>
-            </div>
-        </div>
+<div class="feature-category">
+<div class="category-header">
+<i class="fas fa-bullseye category-icon"></i>
+<h3>Smart Targeting</h3>
+</div>
+<div class="feature-list">
+<div class="feature-item">
+<i class="fas fa-check"></i>
+<span>Advanced Page Targeting</span>
+</div>
+<div class="feature-item">
+<i class="fas fa-check"></i>
+<span>Smart Display Triggers</span>
+</div>
+<div class="feature-item">
+<i class="fas fa-check"></i>
+<span>Position & Timing Control</span>
+</div>
+<div class="feature-item">
+<i class="fas fa-check"></i>
+<span>Exit Intent Detection</span>
+</div>
+<div class="feature-item">
+<i class="fas fa-check"></i>
+<span>Scroll Depth Triggers</span>
+</div>
+<div class="feature-item">
+<i class="fas fa-check"></i>
+<span>Session Management</span>
+</div>
+</div>
+</div>
+</div>
     </div>
 </section>
 
