@@ -46,7 +46,7 @@ layout: "feature"
             </div>
             <div class="hero-visual">
                 <div class="hero-image-container">
-                    <img src="/assets/images/analytics-hero-placeholder.png" alt="Privacy-compliant web analytics dashboard with real-time insights" class="hero-image">
+                    <img src="/assets/images/daily traffic trends.png" alt="Daily traffic trends analytics dashboard with comprehensive insights" class="hero-image">
                 </div>
             </div>
         </div>
@@ -178,41 +178,33 @@ layout: "feature"
             <div class="image-slider" id="analyticsSlider">
                 <div class="slide active">
                     <div class="slide-image">
-                        <img src="/assets/images/analytics-dashboard-placeholder.png" alt="Real-time analytics dashboard with live visitor data">
+                        <img src="/assets/images/daily traffic trends.png" alt="Daily traffic trends with comprehensive visitor analytics">
                         <div class="slide-overlay">
-                            <h3>Real-Time Analytics Dashboard</h3>
+                            <h3>Daily Traffic Trends and Visitor Analytics</h3>
                         </div>
                     </div>
                 </div>
                 <div class="slide">
                     <div class="slide-image">
-                        <img src="/assets/images/analytics-setup-placeholder.png" alt="Easy analytics setup with tracking code generation">
+                        <img src="/assets/images/properties chart.png" alt="Properties analytics with detailed breakdown by property type">
                         <div class="slide-overlay">
-                            <h3>Quick Setup with Generated Tracking Code</h3>
+                            <h3>Properties Chart with Detailed Breakdown</h3>
                         </div>
                     </div>
                 </div>
                 <div class="slide">
                     <div class="slide-image">
-                        <img src="/assets/images/analytics-insights-placeholder.png" alt="Detailed user behavior and traffic insights">
+                        <img src="/assets/images/last year analytics.png" alt="Last year analytics overview with historical insights">
                         <div class="slide-overlay">
-                            <h3>Deep Insights into User Behavior</h3>
+                            <h3>Historical Analytics and Year-over-Year Insights</h3>
                         </div>
                     </div>
                 </div>
                 <div class="slide">
                     <div class="slide-image">
-                        <img src="/assets/images/analytics-goals-placeholder.png" alt="Goal tracking and conversion funnel analysis">
+                        <img src="/assets/images/property breakdown.png" alt="Property breakdown showing detailed analytics by property type">
                         <div class="slide-overlay">
-                            <h3>Track Goals and Conversion Funnels</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="slide">
-                    <div class="slide-image">
-                        <img src="/assets/images/analytics-reports-placeholder.png" alt="Custom reporting and data export capabilities">
-                        <div class="slide-overlay">
-                            <h3>Custom Reports and Data Export</h3>
+                            <h3>Detailed Property Breakdown and Analysis</h3>
                         </div>
                     </div>
                 </div>
