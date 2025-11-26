@@ -46,7 +46,7 @@ layout: "feature"
             </div>
             <div class="hero-visual">
                 <div class="hero-image-container">
-                    <img src="/assets/images/widgets-hero-placeholder.png" alt="Professional embeddable widgets with customization and analytics" class="hero-image">
+                    <img src="/assets/images/demo form widget submissions.png" alt="Professional embeddable widgets with form submission analytics" class="hero-image">
                 </div>
             </div>
         </div>
@@ -267,23 +267,23 @@ layout: "feature"
             <div class="image-slider" id="widgetsSlider">
                 <div class="slide active">
                     <div class="slide-image">
-                        <img src="/assets/images/widgets-dashboard-placeholder.png" alt="Comprehensive widget management dashboard">
+                        <img src="/assets/images/form widget demo.png" alt="Dynamic form widget embedded on live website">
                         <div class="slide-overlay">
-                            <h3>Manage All Your Widgets in One Dashboard</h3>
+                            <h3>Professional Forms Embedded Anywhere</h3>
                         </div>
                     </div>
                 </div>
                 <div class="slide">
                     <div class="slide-image">
-                        <img src="/assets/images/widgets-creation-placeholder.png" alt="Create different widget types with forms">
+                        <img src="/assets/images/demo form widget submissions.png" alt="Form submission analytics and data management">
                         <div class="slide-overlay">
-                            <h3>Create Professional Widgets with Easy Forms</h3>
+                            <h3>Track Submissions and Analytics in Real-time</h3>
                         </div>
                     </div>
                 </div>
                 <div class="slide">
                     <div class="slide-image">
-                        <img src="/assets/images/widgets-styling-placeholder.png" alt="Advanced style customization with live preview">
+                        <img src="/assets/images/demo form style changes.png" alt="Advanced style customization with live preview">
                         <div class="slide-overlay">
                             <h3>Customize Every Detail with Live Preview</h3>
                         </div>
@@ -291,17 +291,17 @@ layout: "feature"
                 </div>
                 <div class="slide">
                     <div class="slide-image">
-                        <img src="/assets/images/widgets-embedding-placeholder.png" alt="Universal embed code for any website">
+                        <img src="/assets/images/top banner demo.png" alt="Top banner widget embedded on website">
                         <div class="slide-overlay">
-                            <h3>Embed Anywhere with Universal Code</h3>
+                            <h3>Engage Visitors with Smart Banners</h3>
                         </div>
                     </div>
                 </div>
                 <div class="slide">
                     <div class="slide-image">
-                        <img src="/assets/images/widgets-analytics-placeholder.png" alt="Real-time analytics and submission tracking">
+                        <img src="/assets/images/survey widget demo.png" alt="Survey widget collecting user feedback">
                         <div class="slide-overlay">
-                            <h3>Track Performance with Real-time Analytics</h3>
+                            <h3>Gather Feedback with Interactive Surveys</h3>
                         </div>
                     </div>
                 </div>
