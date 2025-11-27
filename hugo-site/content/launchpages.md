@@ -542,61 +542,6 @@ keywords: ["launch page builder", "coming soon pages", "landing page creator", "
         margin-top: 20px;
     }
 }
-
-/* FAQ Section Styles */
-.faq {
-    padding: 80px 0;
-    background: #f8f9fa;
-}
-
-.faq-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 30px;
-    margin-top: 50px;
-}
-
-.faq-item {
-    background: white;
-    border-radius: 15px;
-    padding: 30px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.faq-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 20px 40px rgba(0,0,0,0.12);
-}
-
-.faq-item h3 {
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 15px;
-    color: #1a1a1a;
-    line-height: 1.4;
-}
-
-.faq-item p {
-    color: #666;
-    line-height: 1.6;
-    margin: 0;
-}
-
-@media (max-width: 768px) {
-    .faq-grid {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-
-    .faq-item {
-        padding: 20px;
-    }
-
-    .faq-item h3 {
-        font-size: 18px;
-    }
-}
 </style>
 
 <script>
