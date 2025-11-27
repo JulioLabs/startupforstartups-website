@@ -62,7 +62,7 @@ layout: "feature"
                 Privacy-first analytics platform with real-time insights, custom reporting, and enterprise-grade features
             </p>
         </div>
-        <div class="features-grid">
+<div class="features-grid">
             <div class="feature-category">
                 <div class="category-header">
                     <i class="fas fa-chart-bar category-icon"></i>
@@ -96,73 +96,73 @@ layout: "feature"
                 </div>
             </div>
 
-            <div class="feature-category">
-                <div class="category-header">
-                    <i class="fas fa-shield-alt category-icon"></i>
-                    <h3>Privacy & Compliance</h3>
-                </div>
-                <div class="feature-list">
-                    <div class="feature-item">
-                        <i class="fas fa-check"></i>
-                        <span>GDPR Compliant</span>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-check"></i>
-                        <span>Anonymous Tracking</span>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-check"></i>
-                        <span>Cookie-less Options</span>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-check"></i>
-                        <span>Data Retention Controls</span>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-check"></i>
-                        <span>Consent Management</span>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-check"></i>
-                        <span>Data Export Rights</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="feature-category">
-                <div class="category-header">
-                    <i class="fas fa-file-alt category-icon"></i>
-                    <h3>Advanced Reporting</h3>
-                </div>
-                <div class="feature-list">
-                    <div class="feature-item">
-                        <i class="fas fa-check"></i>
-                        <span>Interactive Dashboards</span>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-check"></i>
-                        <span>Custom Report Builder</span>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-check"></i>
-                        <span>Goal Tracking</span>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-check"></i>
-                        <span>Conversion Funnels</span>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-check"></i>
-                        <span>Multi-Format Exports</span>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-check"></i>
-                        <span>Scheduled Reports</span>
-                    </div>
-                </div>
-            </div>
+<div class="feature-category">
+<div class="category-header">
+<i class="fas fa-shield-alt category-icon"></i>
+<h3>Privacy & Compliance</h3>
+</div>
+<div class="feature-list">
+<div class="feature-item">
+<i class="fas fa-check"></i>
+<span>GDPR Compliant</span>
+</div>
+<div class="feature-item">
+<i class="fas fa-check"></i>
+<span>Anonymous Tracking</span>
+</div>
+<div class="feature-item">
+<i class="fas fa-check"></i>
+<span>Cookie-less Options</span>
+</div>
+<div class="feature-item">
+<i class="fas fa-check"></i>
+<span>Data Retention Controls</span>
+</div>
+<div class="feature-item">
+<i class="fas fa-check"></i>
+<span>Consent Management</span>
+</div>
+<div class="feature-item">
+<i class="fas fa-check"></i>
+<span>Data Export Rights</span>
+</div>
+</div>
         </div>
-    </div>
+
+<div class="feature-category">
+<div class="category-header">
+<i class="fas fa-file-alt category-icon"></i>
+<h3>Advanced Reporting</h3>
+</div>
+<div class="feature-list">
+<div class="feature-item">
+<i class="fas fa-check"></i>
+<span>Interactive Dashboards</span>
+</div>
+<div class="feature-item">
+<i class="fas fa-check"></i>
+<span>Custom Report Builder</span>
+</div>
+<div class="feature-item">
+<i class="fas fa-check"></i>
+<span>Goal Tracking</span>
+</div>
+<div class="feature-item">
+<i class="fas fa-check"></i>
+<span>Conversion Funnels</span>
+</div>
+<div class="feature-item">
+<i class="fas fa-check"></i>
+<span>Multi-Format Exports</span>
+</div>
+<div class="feature-item">
+<i class="fas fa-check"></i>
+<span>Scheduled Reports</span>
+</div>
+</div>
+</div>
+</div>
+</div>
 </section>
 
 <!-- Image Showcase Section -->

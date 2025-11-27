@@ -1,0 +1,30 @@
+{{ define "main" }}
+<div class="container">
+    <div class="section-header">
+        <h1>{{ .Title }}</h1>
+        {{ if .Content }}
+            <div class="section-content">{{ .Content }}</div>
+        {{ end }}
+    </div>
+
+    {{ if .Pages }}
+    <div class="taxonomy-list">
+        {{ range .Pages }}
+        <div class="taxonomy-item">
+            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+            {{ if .Description }}
+                <p>{{ .Description }}</p>
+            {{ else if .Summary }}
+                <p>{{ .Summary }}</p>
+            {{ end }}
+            <div class="taxonomy-meta">
+                {{ if .Date }}
+                    <span class="date">{{ .Date.Format "January 2, 2006" }}</span>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+    </div>
+    {{ end }}
+</div>
+{{ end }}
