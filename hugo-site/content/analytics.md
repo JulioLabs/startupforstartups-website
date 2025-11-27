@@ -218,7 +218,6 @@ layout: "feature"
                     <span class="dot" onclick="currentSlide(2)"></span>
                     <span class="dot" onclick="currentSlide(3)"></span>
                     <span class="dot" onclick="currentSlide(4)"></span>
-                    <span class="dot" onclick="currentSlide(5)"></span>
                 </div>
                 <button class="slider-btn next" onclick="changeSlide(1)">
                     <i class="fas fa-chevron-right"></i>
