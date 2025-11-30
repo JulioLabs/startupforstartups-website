@@ -50,7 +50,7 @@ keywords: ["email marketing platform", "mailing lists", "email campaigns", "news
             </div>
             <div class="hero-visual">
                 <div class="hero-image-container">
-                    <img src="/assets/images/mailing-lists-hero-placeholder.png" alt="Email Marketing Platform - Professional campaign builder with subscriber management and automation" class="hero-image">
+                    <img src="/assets/images/mailing list create 1.png" alt="Email Marketing Platform - Professional mailing list creation interface with subscriber management" class="hero-image">
                 </div>
             </div>
         </div>
@@ -126,7 +126,7 @@ keywords: ["email marketing platform", "mailing lists", "email campaigns", "news
                 </ul>
             </div>
             <div class="showcase-visual">
-                <img src="/assets/images/mailing-lists-composer-placeholder.png" alt="Email composition interface with rich text editor and template customization" class="showcase-image">
+                <img src="/assets/images/mailing list create 2.png" alt="Email composition interface with rich text editor and template customization" class="showcase-image">
             </div>
         </div>
 
@@ -143,7 +143,7 @@ keywords: ["email marketing platform", "mailing lists", "email campaigns", "news
                 </ul>
             </div>
             <div class="showcase-visual">
-                <img src="/assets/images/mailing-lists-subscribers-placeholder.png" alt="Subscriber management dashboard with search, filtering, and bulk operations" class="showcase-image">
+                <img src="/assets/images/mailing list style changes.png" alt="Subscriber management dashboard with search, filtering, and bulk operations" class="showcase-image">
             </div>
         </div>
 
@@ -256,7 +256,7 @@ keywords: ["email marketing platform", "mailing lists", "email campaigns", "news
                     <p>Set up multiple mailing lists, import subscribers, and configure styling. Organize your audience with segmentation and advanced management tools.</p>
                 </div>
                 <div class="step-image">
-                    <img src="/assets/images/mailing-lists-step1-placeholder.png" alt="Creating and managing mailing lists with subscriber segmentation">
+                    <img src="/assets/images/mailing list create 1.png" alt="Creating and managing mailing lists with subscriber segmentation">
                 </div>
             </div>
             <div class="workflow-step reverse">
@@ -266,7 +266,7 @@ keywords: ["email marketing platform", "mailing lists", "email campaigns", "news
                     <p>Use the rich text editor to create stunning email campaigns. Apply templates, add media, and ensure brand consistency across all communications.</p>
                 </div>
                 <div class="step-image">
-                    <img src="/assets/images/mailing-lists-step2-placeholder.png" alt="Email composition with rich text editor and template customization">
+                    <img src="/assets/images/mailing list create 2.png" alt="Email composition with rich text editor and template customization">
                 </div>
             </div>
             <div class="workflow-step">
@@ -276,7 +276,7 @@ keywords: ["email marketing platform", "mailing lists", "email campaigns", "news
                     <p>Send test emails, preview across devices, and optimize content. Ensure perfect delivery and appearance before launching to your full list.</p>
                 </div>
                 <div class="step-image">
-                    <img src="/assets/images/mailing-lists-step3-placeholder.png" alt="Email testing and optimization with device previews">
+                    <img src="/assets/images/mailing list style changes.png" alt="Email testing and optimization with style customization">
                 </div>
             </div>
             <div class="workflow-step reverse">
