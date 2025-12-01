@@ -724,8 +724,8 @@ p {
 
 .footer-content {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: var(--spacing-2xl);
+  grid-template-columns: 0.8fr 2.2fr;
+  gap: var(--spacing-lg);
   margin-bottom: var(--spacing-2xl);
 }
 
@@ -745,10 +745,10 @@ p {
 }
 
 .footer-links {
-  grid-column: span 3;
+  grid-column: span 1;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: var(--spacing-xl);
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--spacing-lg);
 }
 
 .footer-column h4 {
