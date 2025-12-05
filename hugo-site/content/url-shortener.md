@@ -11,8 +11,6 @@ keywords: ["URL shortener", "short link generator", "branded short links", "cust
 <!-- Hero Section -->
 <section class="hero">
 <div class="container">
-<div class="hero-grid">
-<div class="hero-content">
 <div class="hero-badge">
 <i class="fas fa-link"></i>
 <span>Professional URL Shortener</span>
@@ -21,6 +19,8 @@ keywords: ["URL shortener", "short link generator", "branded short links", "cust
 URL Shortener: Create <span class="gradient-text">Branded Short Links</span><br>
 With Click Tracking & Analytics
 </h1>
+<div class="hero-grid">
+<div class="hero-content">
 <p class="hero-description">
 Professional URL shortening tool with custom domains, click tracking, and comprehensive analytics.
 Perfect Bitly alternative for marketing campaigns, social media, and team collaboration.

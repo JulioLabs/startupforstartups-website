@@ -228,19 +228,31 @@ p {
 
 /* === HERO SECTION === */
 .hero {
-  padding: calc(var(--header-height) + var(--spacing-4xl)) 0 var(--spacing-4xl);
+  padding: calc(var(--header-height) + 2rem) 0 0;
   background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
   min-height: 85vh;
   display: flex;
   align-items: center;
 }
 
+/* Full-width Hero Title Layout */
+.hero .hero-badge {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.hero .hero-title {
+  text-align: center;
+  margin-bottom: 3rem;
+  max-width: none;
+}
+
 .hero-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: var(--spacing-4xl);
+  grid-template-columns: 1fr 2.33fr;
+  gap: 1.5rem;
   align-items: center;
-  min-height: 600px;
+  min-height: 650px;
 }
 
 .hero-content {
@@ -251,19 +263,34 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
 }
 
 .hero-image-container {
   position: relative;
   width: 100%;
-  max-width: 600px;
+  height: 100%;
+  overflow: hidden;
 }
 
 .hero-image {
-  width: 100%;
+  width: auto;
   height: auto;
+  max-width: none;
+  max-height: none;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  display: block;
   border-radius: var(--border-radius-lg);
   box-shadow: var(--shadow-xl);
+}
+
+/* Features section spacing */
+#features.features {
+  padding-top: 2rem;
 }
 
 .hero-badge {
