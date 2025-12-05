@@ -49,7 +49,7 @@ Start Shortening
 </div>
 <div class="hero-visual">
 <div class="hero-image-container">
-<img src="/assets/images/urlshortener-hero-placeholder.png" alt="Professional URL shortener with analytics and API integration" class="hero-image">
+<img src="/assets/images/create-url-shortener.png" alt="Create and manage professional URL shortener with custom domains and analytics" class="hero-image">
 </div>
 </div>
 </div>
@@ -181,7 +181,7 @@ From creating short URLs to tracking analytics - see the complete workflow
 <div class="image-slider" id="urlShortenerSlider">
 <div class="slide active">
 <div class="slide-image">
-<img src="/assets/images/urlshortener-create-placeholder.png" alt="Create and manage short URLs with custom domains">
+<img src="/assets/images/create-url-shortener.png" alt="Create and manage short URLs with custom domains">
 <div class="slide-overlay">
 <h3>Create Short URLs with Custom Domains</h3>
 </div>
@@ -189,25 +189,9 @@ From creating short URLs to tracking analytics - see the complete workflow
 </div>
 <div class="slide">
 <div class="slide-image">
-<img src="/assets/images/urlshortener-analytics-placeholder.png" alt="Comprehensive analytics dashboard with click tracking">
+<img src="/assets/images/url-shortener-api.png" alt="REST API integration and comprehensive analytics dashboard">
 <div class="slide-overlay">
-<h3>Track Clicks with Detailed Analytics</h3>
-</div>
-</div>
-</div>
-<div class="slide">
-<div class="slide-image">
-<img src="/assets/images/urlshortener-api-placeholder.png" alt="REST API integration and documentation">
-<div class="slide-overlay">
-<h3>Integrate with REST APIs & Webhooks</h3>
-</div>
-</div>
-</div>
-<div class="slide">
-<div class="slide-image">
-<img src="/assets/images/urlshortener-reports-placeholder.png" alt="Export reports and analytics data">
-<div class="slide-overlay">
-<h3>Export Reports & Analytics Data</h3>
+<h3>API Integration & Analytics Dashboard</h3>
 </div>
 </div>
 </div>
@@ -219,8 +203,6 @@ From creating short URLs to tracking analytics - see the complete workflow
 <div class="slider-dots">
 <span class="dot active" onclick="currentSlide(1)"></span>
 <span class="dot" onclick="currentSlide(2)"></span>
-<span class="dot" onclick="currentSlide(3)"></span>
-<span class="dot" onclick="currentSlide(4)"></span>
 </div>
 <button class="slider-btn next" onclick="changeSlide(1)">
 <i class="fas fa-chevron-right"></i>
