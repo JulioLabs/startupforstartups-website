@@ -1,0 +1,66 @@
+{
+  "googleAds": {
+    "sitelinks": [
+      {
+        "text": "Job Boards",
+        "description1": "Create professional job boards",
+        "description2": "ATS and hiring management",
+        "url": "/job-boards"
+      },
+      {
+        "text": "URL Shortener",
+        "description1": "Custom link shortening",
+        "description2": "Track clicks and analytics",
+        "url": "/url-shortener"
+      },
+      {
+        "text": "Email Marketing",
+        "description1": "Email campaigns & automation",
+        "description2": "Newsletter management",
+        "url": "/email-marketing"
+      },
+      {
+        "text": "Analytics",
+        "description1": "Web analytics platform",
+        "description2": "Visitor tracking & insights",
+        "url": "/analytics"
+      },
+      {
+        "text": "Widgets",
+        "description1": "Embeddable components",
+        "description2": "Easy website integration",
+        "url": "/widgets"
+      },
+      {
+        "text": "Startup Platform",
+        "description1": "Complete startup toolkit",
+        "description2": "All-in-one business solution",
+        "url": "/startup-platform"
+      }
+    ]
+  },
+  "organicSeo": {
+    "priorityPages": [
+      {
+        "title": "Job Boards - Startup For Startups",
+        "url": "/job-boards",
+        "priority": "high"
+      },
+      {
+        "title": "URL Shortener - Startup For Startups",
+        "url": "/url-shortener",
+        "priority": "high"
+      },
+      {
+        "title": "Email Marketing - Startup For Startups",
+        "url": "/email-marketing",
+        "priority": "medium"
+      },
+      {
+        "title": "Analytics - Startup For Startups",
+        "url": "/analytics",
+        "priority": "medium"
+      }
+    ]
+  }
+}

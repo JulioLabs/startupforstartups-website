@@ -50,6 +50,114 @@
 
     {{ end }}
 
+    <!-- Structured Data for SEO and Sitelinks -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "{{ .Site.Title }}",
+        "alternateName": "Startup OS",
+        "url": "{{ .Site.BaseURL }}",
+        "description": "{{ .Site.Params.description }}",
+        "publisher": {
+            "@type": "Organization",
+            "name": "{{ .Site.Title }}",
+            "url": "{{ .Site.BaseURL }}",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "{{ .Site.BaseURL }}assets/images/logo.png"
+            }
+        },
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "{{ .Site.BaseURL }}?q={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+
+    {{ if .IsHome }}
+    <!-- Sitelinks Searchbox and Navigation Structure -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "{{ .Site.Title }}",
+        "url": "{{ .Site.BaseURL }}",
+        "description": "{{ .Site.Params.description }}",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "{{ .Site.BaseURL }}assets/images/logo.png"
+        },
+        "sameAs": [
+            "https://twitter.com/get_s4s"
+        ],
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer service",
+            "url": "{{ .Site.BaseURL }}"
+        }
+    }
+    </script>
+
+    <!-- Website Navigation Menu for Sitelinks -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SiteNavigationElement",
+        "name": "Main Navigation",
+        "url": "{{ .Site.BaseURL }}",
+        "hasPart": [
+            {
+                "@type": "WebPage",
+                "name": "Job Boards",
+                "description": "Create and manage professional job boards for your startup",
+                "url": "{{ .Site.BaseURL }}job-boards"
+            },
+            {
+                "@type": "WebPage",
+                "name": "Mailing Lists",
+                "description": "Email marketing and newsletter management platform",
+                "url": "{{ .Site.BaseURL }}mailing-lists"
+            },
+            {
+                "@type": "WebPage",
+                "name": "Widgets",
+                "description": "Embeddable widgets for your website and applications",
+                "url": "{{ .Site.BaseURL }}widgets"
+            },
+            {
+                "@type": "WebPage",
+                "name": "URL Shortener",
+                "description": "Custom URL shortening and link management",
+                "url": "{{ .Site.BaseURL }}url-shortener"
+            },
+            {
+                "@type": "WebPage",
+                "name": "Analytics",
+                "description": "Web analytics and visitor tracking platform",
+                "url": "{{ .Site.BaseURL }}analytics"
+            },
+            {
+                "@type": "WebPage",
+                "name": "Email Marketing",
+                "description": "Email campaign management and automation",
+                "url": "{{ .Site.BaseURL }}email-marketing"
+            },
+            {
+                "@type": "WebPage",
+                "name": "Startup Platform",
+                "description": "Complete startup operation system and tools",
+                "url": "{{ .Site.BaseURL }}startup-platform"
+            }
+        ]
+    }
+    </script>
+    {{ end }}
+
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
