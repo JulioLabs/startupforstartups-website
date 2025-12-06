@@ -228,9 +228,9 @@ p {
 
 /* === HERO SECTION === */
 .hero {
-  padding: calc(var(--header-height) + 2rem) 0 0;
+  /* padding: calc(var(--header-height) + 2rem) 0 0; */
   background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
-  min-height: 85vh;
+  min-height: 70vh;
   display: flex;
   align-items: center;
 }
@@ -249,10 +249,11 @@ p {
 
 .hero-grid {
   display: grid;
-  grid-template-columns: 1fr 2.33fr;
-  gap: 1.5rem;
+  grid-template-columns: 2fr 1fr;
+  gap: 4rem;
   align-items: center;
-  min-height: 650px;
+  padding-top: 2rem;
+  /* min-height: 650px; */
 }
 
 .hero-content {
@@ -501,6 +502,7 @@ p {
 .feature-item i {
   color: var(--color-success);
   font-size: var(--font-size-base);
+  margin-left: 1rem;
 }
 
 .feature-item span {

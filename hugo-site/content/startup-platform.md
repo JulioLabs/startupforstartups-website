@@ -11,15 +11,15 @@ keywords: ["all-in-one startup tool", "run your startup online", "forms blog and
 <!-- Hero Section -->
 <section class="hero">
     <div class="container">
+        <div class="hero-badge">
+            <i class="fas fa-rocket"></i>
+            <span>All-in-One Startup Platform</span>
+        </div>
+        <h1 class="hero-title">
+            Run Your Startup From <span class="gradient-text">One Simple Platform</span>
+        </h1>
         <div class="hero-grid">
             <div class="hero-content">
-                <div class="hero-badge">
-                    <i class="fas fa-rocket"></i>
-                    <span>All-in-One Startup Platform</span>
-                </div>
-                <h1 class="hero-title">
-                    Run Your Startup From <span class="gradient-text">One Simple Platform</span>
-                </h1>
                 <p class="hero-description">
                     Stop juggling 15+ different tools. Launch your blog, capture leads, hire talent, and track everything
                     from one unified dashboard. Built for busy founders who want to focus on building, not managing software.

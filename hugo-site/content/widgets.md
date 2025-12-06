@@ -11,16 +11,16 @@ keywords: ["embeddable widgets", "contact form widget", "survey widget", "websit
 <!-- Hero Section -->
 <section class="hero">
     <div class="container">
+        <div class="hero-badge">
+            <i class="fas fa-puzzle-piece"></i>
+            <span>Professional Embeddable Widgets</span>
+        </div>
+        <h1 class="hero-title">
+            Embeddable Widget Builder: Create <span class="gradient-text">Contact Forms & Surveys</span><br>
+            For Any Website in Minutes
+        </h1>
         <div class="hero-grid">
             <div class="hero-content">
-                <div class="hero-badge">
-                    <i class="fas fa-puzzle-piece"></i>
-                    <span>Professional Embeddable Widgets</span>
-                </div>
-                <h1 class="hero-title">
-                    Embeddable Widget Builder: Create <span class="gradient-text">Contact Forms & Surveys</span><br>
-                    For Any Website in Minutes
-                </h1>
                 <p class="hero-description">
                     Build professional embeddable widgets including contact forms, surveys, banners, and lead capture forms with simple HTML embed codes.
                     No coding required - works on any website including WordPress, Shopify, Squarespace, and custom sites.

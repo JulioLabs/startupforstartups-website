@@ -11,16 +11,16 @@ keywords: ["email marketing platform", "mailing lists", "email campaigns", "news
 <!-- Hero Section -->
 <section class="hero">
     <div class="container">
+        <div class="hero-badge">
+            <i class="fas fa-envelope-open"></i>
+            <span>Professional Email Marketing</span>
+        </div>
+        <h1 class="hero-title">
+            Email Marketing Platform: Build <span class="gradient-text">Professional Campaigns</span><br>
+            That Convert and Grow Your Business
+        </h1>
         <div class="hero-grid">
             <div class="hero-content">
-                <div class="hero-badge">
-                    <i class="fas fa-envelope-open"></i>
-                    <span>Professional Email Marketing</span>
-                </div>
-                <h1 class="hero-title">
-                    Email Marketing Platform: Build <span class="gradient-text">Professional Campaigns</span><br>
-                    That Convert and Grow Your Business
-                </h1>
                 <p class="hero-description">
                     Create stunning email campaigns with our comprehensive mailing list platform. Rich text editor,
                     advanced subscriber management, automated workflows, and professional email templates.
