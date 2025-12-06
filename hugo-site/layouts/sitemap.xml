@@ -1,0 +1,146 @@
+{{- printf "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" | safeHTML }}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+    <!-- Main website pages -->
+    <url>
+        <loc>{{ .Site.BaseURL }}</loc>
+        <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Section anchors from main page -->
+    <url>
+        <loc>{{ .Site.BaseURL }}#features</loc>
+        <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>{{ .Site.BaseURL }}#platform</loc>
+        <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Main product/feature pages -->
+    <url>
+        <loc>{{ .Site.BaseURL }}job-boards</loc>
+        <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>{{ .Site.BaseURL }}mailing-lists</loc>
+        <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>{{ .Site.BaseURL }}widgets</loc>
+        <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>{{ .Site.BaseURL }}url-shortener</loc>
+        <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>{{ .Site.BaseURL }}startup-platform</loc>
+        <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>{{ .Site.BaseURL }}analytics</loc>
+        <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>{{ .Site.BaseURL }}email-marketing</loc>
+        <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Landing pages (Google ads) -->
+    <url>
+        <loc>{{ .Site.BaseURL }}launchpages</loc>
+        <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>{{ .Site.BaseURL }}links</loc>
+        <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>{{ .Site.BaseURL }}startup-blog-platform</loc>
+        <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>{{ .Site.BaseURL }}startup-job-board</loc>
+        <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>{{ .Site.BaseURL }}lead-generation-forms</loc>
+        <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- Legal pages -->
+    <url>
+        <loc>{{ .Site.BaseURL }}legal/terms</loc>
+        <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+
+    <url>
+        <loc>{{ .Site.BaseURL }}legal/privacy</loc>
+        <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+
+    <!-- Subdomain sites (explicitly allowed in robots.txt) -->
+    <url>
+        <loc>https://blog.startupforstartups.com/</loc>
+        <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://jobs.startupforstartups.com/</loc>
+        <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+</urlset>
