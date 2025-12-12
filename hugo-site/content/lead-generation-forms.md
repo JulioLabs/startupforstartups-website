@@ -18,7 +18,7 @@ keywords: ["lead generation forms", "high converting lead forms", "no-code form 
         <div class="hero-grid">
             <div class="hero-visual">
                 <div class="hero-image-container">
-                    <img src="/assets/images/form widget demo.png" alt="High-converting lead generation forms with submission tracking" class="hero-image">
+                    <img src="/assets/images/lead-generation-form-hero.png" alt="High-converting lead generation forms with submission tracking" class="hero-image">
                 </div>
             </div>
             <div class="hero-content">
