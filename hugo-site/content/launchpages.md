@@ -11,16 +11,17 @@ keywords: ["launch page builder", "coming soon pages", "landing page creator", "
 <!-- Hero Section -->
 <section class="hero">
     <div class="container">
+        <h1 class="hero-title" style="font-size: 2.5em; margin-top: 2rem; margin-bottom: 2rem;">
+            Launch Page Builder: Create <span class="gradient-text">Professional Coming Soon Pages</span><br>
+            That Convert Visitors Into Leads
+        </h1>
         <div class="hero-grid">
-            <div class="hero-content">
-                <div class="hero-badge">
-                    <i class="fas fa-rocket"></i>
-                    <span>Professional Launch Campaigns</span>
+            <div class="hero-visual">
+                <div class="hero-image-container">
+                    <img src="/assets/images/launchpages-hero.png" alt="Create professional launch pages in seconds" class="hero-image">
                 </div>
-                <h1 class="hero-title">
-                    Launch Page Builder: Create <span class="gradient-text">Professional Coming Soon Pages</span><br>
-                    That Convert Visitors Into Leads
-                </h1>
+            </div>
+            <div class="hero-content">
                 <p class="hero-description">
                     Create stunning pre-launch websites with countdown timers, email capture forms, and beautiful templates in minutes.
                     Our launch page builder helps startups generate buzz, capture leads, and build anticipation before product launches.
@@ -45,11 +46,6 @@ keywords: ["launch page builder", "coming soon pages", "landing page creator", "
                         <div class="stat-number">100%</div>
                         <div class="stat-label">Customizable</div>
                     </div>
-                </div>
-            </div>
-            <div class="hero-visual">
-                <div class="hero-image-container">
-                    <img src="/assets/images/create launchpage.png" alt="Create professional launch pages in seconds" class="hero-image">
                 </div>
             </div>
         </div>
@@ -181,7 +177,7 @@ keywords: ["launch page builder", "coming soon pages", "landing page creator", "
             <div class="image-slider" id="launchpageSlider">
                 <div class="slide active">
                     <div class="slide-image">
-                        <img src="/assets/images/create launchpage.png" alt="Create launch page in seconds">
+                        <img src="/assets/images/launchpages-create.png" alt="Create launch page in seconds">
                         <div class="slide-overlay">
                             <h3>Choose Your Theme and Launch in Seconds</h3>
                         </div>
@@ -189,7 +185,7 @@ keywords: ["launch page builder", "coming soon pages", "landing page creator", "
                 </div>
                 <div class="slide">
                     <div class="slide-image">
-                        <img src="/assets/images/style customization.png" alt="Customize styling with live preview">
+                        <img src="/assets/images/launchpages-edit-styles.png" alt="Customize styling with live preview">
                         <div class="slide-overlay">
                             <h3>Customize Every Detail with Live Preview</h3>
                         </div>

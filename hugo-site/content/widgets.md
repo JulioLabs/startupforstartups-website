@@ -11,15 +11,16 @@ keywords: ["embeddable widgets", "contact form widget", "survey widget", "websit
 <!-- Hero Section -->
 <section class="hero">
     <div class="container">
-        <div class="hero-badge">
-            <i class="fas fa-puzzle-piece"></i>
-            <span>Professional Embeddable Widgets</span>
-        </div>
-        <h1 class="hero-title">
+        <h1 class="hero-title" style="font-size: 2.5em; margin-top: 2rem; margin-bottom: 2rem;">
             Embeddable Widget Builder: Create <span class="gradient-text">Contact Forms & Surveys</span><br>
             For Any Website in Minutes
         </h1>
         <div class="hero-grid">
+            <div class="hero-visual">
+                <div class="hero-image-container">
+                    <img src="/assets/images/widgets-hero.png" alt="Professional embeddable widgets with form submission analytics" class="hero-image">
+                </div>
+            </div>
             <div class="hero-content">
                 <p class="hero-description">
                     Build professional embeddable widgets including contact forms, surveys, banners, and lead capture forms with simple HTML embed codes.
@@ -45,11 +46,6 @@ keywords: ["embeddable widgets", "contact form widget", "survey widget", "websit
                         <div class="stat-number">Universal</div>
                         <div class="stat-label">Embed Code</div>
                     </div>
-                </div>
-            </div>
-            <div class="hero-visual">
-                <div class="hero-image-container">
-                    <img src="/assets/images/demo form widget submissions.png" alt="Professional embeddable widgets with form submission analytics" class="hero-image">
                 </div>
             </div>
         </div>

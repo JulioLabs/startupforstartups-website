@@ -11,16 +11,17 @@ keywords: ["startup blog platform", "simple blog for business", "wordpress alter
 <!-- Hero Section -->
 <section class="hero">
     <div class="container">
+        <h1 class="hero-title" style="font-size: 2.5em; margin-top: 2rem; margin-bottom: 2rem;">
+            Launch Your <span class="gradient-text">Startup Blog</span><br>
+            Without the WordPress Headaches
+        </h1>
         <div class="hero-grid">
-            <div class="hero-content">
-                <div class="hero-badge">
-                    <i class="fas fa-edit"></i>
-                    <span>Built for Startup Success</span>
+            <div class="hero-visual">
+                <div class="hero-image-container">
+                    <img src="/assets/images/startup-blog-platform-hero.png" alt="Blog editor with customization options and live preview" class="hero-image">
                 </div>
-                <h1 class="hero-title">
-                    Launch Your <span class="gradient-text">Startup Blog</span><br>
-                    Without the WordPress Headaches
-                </h1>
+            </div>
+            <div class="hero-content">
                 <p class="hero-description">
                     A clean, fast blog platform designed for busy founders. Built-in lead capture, SEO optimization,
                     and zero maintenance. Turn your content into customers without plugins, themes, or technical complexity.
@@ -44,11 +45,6 @@ keywords: ["startup blog platform", "simple blog for business", "wordpress alter
                         <div class="stat-number">SEO</div>
                         <div class="stat-label">Optimized</div>
                     </div>
-                </div>
-            </div>
-            <div class="hero-visual">
-                <div class="hero-image-container">
-                    <img src="/assets/images/startup-blog-platform-hero.png" alt="Blog editor with customization options and live preview" class="hero-image">
                 </div>
             </div>
         </div>

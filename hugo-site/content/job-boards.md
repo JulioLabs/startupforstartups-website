@@ -11,16 +11,17 @@ keywords: ["job board software", "career page builder", "company job board", "re
 <!-- Hero Section -->
 <section class="hero">
     <div class="container">
+        <h1 class="hero-title" style="font-size: 2.5em; margin-top: 2rem; margin-bottom: 2rem;">
+            Job Board Software: Create <span class="gradient-text">Professional Career Pages</span><br>
+            That Attract Top Talent
+        </h1>
         <div class="hero-grid">
-            <div class="hero-content">
-                <div class="hero-badge">
-                    <i class="fas fa-briefcase"></i>
-                    <span>Professional Recruitment Platform</span>
+            <div class="hero-visual">
+                <div class="hero-image-container">
+                    <img src="/assets/images/jobboard-hero-dashboard.png" alt="Create professional job boards with custom branding" class="hero-image">
                 </div>
-                <h1 class="hero-title">
-                    Job Board Software: Create <span class="gradient-text">Professional Career Pages</span><br>
-                    That Attract Top Talent
-                </h1>
+            </div>
+            <div class="hero-content">
                 <p class="hero-description">
                     Build custom job boards and career pages with advanced filtering, application management, and branded design.
                     Professional recruitment software for companies, startups, and agencies - streamline hiring with automated workflows,
@@ -45,11 +46,6 @@ keywords: ["job board software", "career page builder", "company job board", "re
                         <div class="stat-number">100%</div>
                         <div class="stat-label">Branded</div>
                     </div>
-                </div>
-            </div>
-            <div class="hero-visual">
-                <div class="hero-image-container">
-                    <img src="/assets/images/jobboard-hero-dashboard.png" alt="Create professional job boards with custom branding" class="hero-image">
                 </div>
             </div>
         </div>

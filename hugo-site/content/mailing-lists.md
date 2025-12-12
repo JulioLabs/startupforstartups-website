@@ -11,15 +11,16 @@ keywords: ["email marketing platform", "mailing lists", "email campaigns", "news
 <!-- Hero Section -->
 <section class="hero">
     <div class="container">
-        <div class="hero-badge">
-            <i class="fas fa-envelope-open"></i>
-            <span>Professional Email Marketing</span>
-        </div>
-        <h1 class="hero-title">
+        <h1 class="hero-title" style="font-size: 2.5em; margin-top: 2rem; margin-bottom: 2rem;">
             Email Marketing Platform: Build <span class="gradient-text">Professional Campaigns</span><br>
             That Convert and Grow Your Business
         </h1>
         <div class="hero-grid">
+            <div class="hero-visual">
+                <div class="hero-image-container">
+                    <img src="/assets/images/mailing list create 1.png" alt="Email Marketing Platform - Professional mailing list creation interface with subscriber management" class="hero-image">
+                </div>
+            </div>
             <div class="hero-content">
                 <p class="hero-description">
                     Create stunning email campaigns with our comprehensive mailing list platform. Rich text editor,
@@ -46,11 +47,6 @@ keywords: ["email marketing platform", "mailing lists", "email campaigns", "news
                         <div class="stat-number">AWS</div>
                         <div class="stat-label">Powered</div>
                     </div>
-                </div>
-            </div>
-            <div class="hero-visual">
-                <div class="hero-image-container">
-                    <img src="/assets/images/mailing list create 1.png" alt="Email Marketing Platform - Professional mailing list creation interface with subscriber management" class="hero-image">
                 </div>
             </div>
         </div>

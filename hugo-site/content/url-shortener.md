@@ -10,50 +10,46 @@ keywords: ["URL shortener", "short link generator", "branded short links", "cust
 
 <!-- Hero Section -->
 <section class="hero">
-<div class="container">
-<div class="hero-badge">
-<i class="fas fa-link"></i>
-<span>Professional URL Shortener</span>
-</div>
-<h1 class="hero-title">
-URL Shortener: Create <span class="gradient-text">Branded Short Links</span><br>
-With Click Tracking & Analytics
-</h1>
-<div class="hero-grid">
-<div class="hero-content">
-<p class="hero-description">
-Professional URL shortening tool with custom domains, click tracking, and comprehensive analytics.
-Perfect Bitly alternative for marketing campaigns, social media, and team collaboration.
-Create branded short URLs that build trust and track performance with detailed insights.
-</p>
-<div class="hero-actions">
-<a href="https://app.startupforstartups.com" class="btn btn-primary btn-lg">
-<i class="fas fa-rocket"></i>
-Start Shortening
-</a>
-</div>
-<div class="hero-stats">
-<div class="stat">
-<div class="stat-number">Unlimited</div>
-<div class="stat-label">Short URLs</div>
-</div>
-<div class="stat">
-<div class="stat-number">API</div>
-<div class="stat-label">Integration</div>
-</div>
-<div class="stat">
-<div class="stat-number">Real-time</div>
-<div class="stat-label">Analytics</div>
-</div>
-</div>
-</div>
-<div class="hero-visual">
-<div class="hero-image-container">
-<img src="/assets/images/create-url-shortener.png" alt="Create and manage professional URL shortener with custom domains and analytics" class="hero-image">
-</div>
-</div>
-</div>
-</div>
+    <div class="container">
+        <h1 class="hero-title" style="font-size: 2.5em; margin-top: 2rem; margin-bottom: 2rem;">
+            URL Shortener: Create <span class="gradient-text">Branded Short Links</span><br>
+            With Click Tracking & Analytics
+        </h1>
+        <div class="hero-grid">
+            <div class="hero-visual">
+                <div class="hero-image-container">
+                    <img src="/assets/images/url-hero.png" alt="Create and manage professional URL shortener with custom domains and analytics" class="hero-image">
+                </div>
+            </div>
+            <div class="hero-content">
+                <p class="hero-description">
+                    Professional URL shortening tool with custom domains, click tracking, and comprehensive analytics.
+                    Perfect solution for marketing campaigns, social media, and team collaboration.
+                    Create branded short URLs that build trust and track performance with detailed insights.
+                </p>
+                <div class="hero-actions">
+                    <a href="https://app.startupforstartups.com" class="btn btn-primary btn-lg">
+                        <i class="fas fa-rocket"></i>
+                        Start Shortening
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">Unlimited</div>
+                        <div class="stat-label">Short URLs</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">API</div>
+                        <div class="stat-label">Integration</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">Real-time</div>
+                        <div class="stat-label">Analytics</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <!-- Features Section -->

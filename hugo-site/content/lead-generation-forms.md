@@ -11,16 +11,17 @@ keywords: ["lead generation forms", "high converting lead forms", "no-code form 
 <!-- Hero Section -->
 <section class="hero">
     <div class="container">
+        <h1 class="hero-title" style="font-size: 2.5em; margin-top: 2rem; margin-bottom: 2rem;">
+            Create High-Converting <span class="gradient-text">Lead Forms</span><br>
+            in Minutes, Not Hours
+        </h1>
         <div class="hero-grid">
-            <div class="hero-content">
-                <div class="hero-badge">
-                    <i class="fas fa-rocket"></i>
-                    <span>High-Converting Lead Generation</span>
+            <div class="hero-visual">
+                <div class="hero-image-container">
+                    <img src="/assets/images/form widget demo.png" alt="High-converting lead generation forms with submission tracking" class="hero-image">
                 </div>
-                <h1 class="hero-title">
-                    Create High-Converting <span class="gradient-text">Lead Forms</span><br>
-                    in Minutes, Not Hours
-                </h1>
+            </div>
+            <div class="hero-content">
                 <p class="hero-description">
                     Build and embed powerful lead generation forms, popups, and widgets without code.
                     Capture more leads from your website, blog, and landing pages with simple, conversion-optimized forms
@@ -45,11 +46,6 @@ keywords: ["lead generation forms", "high converting lead forms", "no-code form 
                         <div class="stat-number">Any Site</div>
                         <div class="stat-label">Embed Anywhere</div>
                     </div>
-                </div>
-            </div>
-            <div class="hero-visual">
-                <div class="hero-image-container">
-                    <img src="/assets/images/form widget demo.png" alt="High-converting lead generation forms with submission tracking" class="hero-image">
                 </div>
             </div>
         </div>
