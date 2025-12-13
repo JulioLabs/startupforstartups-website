@@ -18,7 +18,7 @@ keywords: ["job board software", "career page builder", "company job board", "re
         <div class="hero-grid">
             <div class="hero-visual">
                 <div class="hero-image-container">
-                    <img src="/assets/images/jobboard-hero-dashboard.png" alt="Create professional job boards with custom branding" class="hero-image">
+                    <img src="/assets/images/jobboard-hero-modern.png" alt="Create professional job boards with custom branding" class="hero-image">
                 </div>
             </div>
             <div class="hero-content">
@@ -177,7 +177,7 @@ keywords: ["job board software", "career page builder", "company job board", "re
             <div class="image-slider" id="jobboardSlider">
                 <div class="slide active">
                     <div class="slide-image">
-                        <img src="/assets/images/jobboard-setup.png" alt="Set up professional job board in minutes">
+                        <img src="/assets/images/jobboard-creation.png" alt="Set up professional job board in minutes">
                         <div class="slide-overlay">
                             <h3>Set Up Your Professional Job Board in Minutes</h3>
                         </div>
@@ -185,7 +185,7 @@ keywords: ["job board software", "career page builder", "company job board", "re
                 </div>
                 <div class="slide">
                     <div class="slide-image">
-                        <img src="/assets/images/jobboard-themes.png" alt="Choose from 6 professional themes">
+                        <img src="/assets/images/jobboard-elegant-theme.png" alt="Choose from 6 professional themes">
                         <div class="slide-overlay">
                             <h3>Choose from 6 Stunning Professional Themes</h3>
                         </div>
@@ -193,7 +193,7 @@ keywords: ["job board software", "career page builder", "company job board", "re
                 </div>
                 <div class="slide">
                     <div class="slide-image">
-                        <img src="/assets/images/jobboard-customization.png" alt="Customize branding and styling">
+                        <img src="/assets/images/jobboard-styling.png" alt="Customize branding and styling">
                         <div class="slide-overlay">
                             <h3>Complete Brand Customization with Live Preview</h3>
                         </div>
@@ -201,7 +201,7 @@ keywords: ["job board software", "career page builder", "company job board", "re
                 </div>
                 <div class="slide">
                     <div class="slide-image">
-                        <img src="/assets/images/jobboard-live.png" alt="Live job board attracting candidates">
+                        <img src="/assets/images/jobboard-minimal-theme.png" alt="Live job board attracting candidates">
                         <div class="slide-overlay">
                             <h3>Start Attracting Top Talent Immediately</h3>
                         </div>
