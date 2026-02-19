@@ -1,6 +1,6 @@
 baseURL = 'https://startupforstartups.com'
 languageCode = 'en-us'
-title = 'Startup For Startups - Zero to One Platform'
+title = 'Startup For Startups - Digital Presence Platform for Businesses'
 theme = 'startup-theme'
 
 # Enable unsafe HTML in markdown (needed for custom HTML in content)
@@ -32,7 +32,7 @@ theme = 'startup-theme'
 
 # Site parameters
 [params]
-  description = "The complete operating system for startups. From idea to functioning business - all the tools you need in one unified platform."
+  description = "The complete digital presence solution for businesses. Job boards, blogs, widgets, analytics and more - all the tools you need in one unified platform."
 
   # Footer configuration
   [params.footer]
@@ -50,6 +50,6 @@ theme = 'startup-theme'
 
 # SEO and meta configuration
 [params.seo]
-  title = "Startup OS - Zero to One Platform"
-  description = "The complete operating system for startups. From idea to functioning business - all the tools you need in one unified platform."
+  title = "Startup For Startups - Digital Presence Platform for Businesses"
+  description = "The complete digital presence solution for businesses. Job boards, blogs, widgets, analytics and more - all the tools you need in one unified platform."
   image = "/assets/images/heroimage.png"

@@ -1,11 +1,11 @@
 ---
-title: "All-in-One Startup Platform | Run Your Startup Online | StartupForStartups"
-description: "Run your startup from one simple platform with forms, blog, jobs and widgets. Replace many SaaS tools with one dashboard for your startup's online presence. Launch fast with no-code tools for content, lead capture and hiring."
+title: "All-in-One Digital Presence Platform | Build Your Business Online | StartupForStartups"
+description: "Build your digital presence from one simple platform with forms, blog, jobs and widgets. Replace many SaaS tools with one dashboard for your business's online presence. Launch fast with no-code tools for content, lead capture and hiring."
 date: 2025-12-01
 draft: false
 layout: "feature"
 canonical: "https://startupforstartups.com/startup-platform"
-keywords: ["all-in-one startup tool", "run your startup online", "forms blog and jobs", "launch fast no code", "built for founders", "single startup platform", "replace many SaaS tools", "startup toolkit online", "manage everything online"]
+keywords: ["all-in-one business platform", "digital presence solution", "forms blog and jobs", "launch fast no code", "built for businesses", "single business platform", "replace many SaaS tools", "business tools online", "manage everything online"]
 ---
 
 <!-- Hero Section -->

@@ -137,9 +137,9 @@ keywords: ["email marketing", "newsletter builder", "email campaigns", "marketin
 <section class="integration-benefits">
     <div class="container">
         <div class="section-header">
-            <h2 class="section-title">Integrated with Your <span class="gradient-text">Startup OS</span></h2>
+            <h2 class="section-title">Integrated with Your <span class="gradient-text">Digital Presence</span></h2>
             <p class="section-description">
-                Email marketing that works seamlessly with all your other startup tools
+                Email marketing that works seamlessly with all your other business tools
             </p>
         </div>
         <div class="benefits-grid">
