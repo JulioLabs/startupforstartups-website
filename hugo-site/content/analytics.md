@@ -515,11 +515,9 @@ keywords: ["privacy analytics", "privacy first analytics", "web analytics tool",
     border-radius: 15px;
     padding: 30px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .analytics-type-card:hover {
-    transform: translateY(-5px);
     box-shadow: 0 20px 40px rgba(0,0,0,0.15);
 }
 
@@ -646,7 +644,6 @@ keywords: ["privacy analytics", "privacy first analytics", "web analytics tool",
     width: 50px;
     height: 50px;
     cursor: pointer;
-    transition: all 0.3s ease;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -654,7 +651,6 @@ keywords: ["privacy analytics", "privacy first analytics", "web analytics tool",
 
 .slider-btn:hover {
     background: #047857;
-    transform: scale(1.1);
 }
 
 .slider-dots {
@@ -668,12 +664,10 @@ keywords: ["privacy analytics", "privacy first analytics", "web analytics tool",
     border-radius: 50%;
     background: #d1d5db;
     cursor: pointer;
-    transition: all 0.3s ease;
 }
 
 .dot.active {
     background: #059669;
-    transform: scale(1.2);
 }
 
 .dot:hover {
