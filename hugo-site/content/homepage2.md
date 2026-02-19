@@ -11,8 +11,8 @@ keywords: ["startup platform", "no ops team", "startup tools", "small business s
 <!-- Hero Section -->
 <section class="hero">
 <div class="container">
-<h1 class="hero-title" style="margin-bottom: 2rem;">
-Startups shouldn't need <span class="gradient-text">ops muscle</span> to look professional.
+<h1 class="hero-title" style="margin-bottom: 2rem;">	
+Build and Run Your <span class="gradient-text">Entire Digital Presence</span>  from One Place.
 </h1>
 <div class="hero-grid">
 <div class="hero-visual">
@@ -22,8 +22,7 @@ Startups shouldn't need <span class="gradient-text">ops muscle</span> to look pr
 </div>
 <div class="hero-content">
 <p class="hero-description">
-Most modern software assumes you have admins, procurement, and domain experts.
-Early-stage startups and small businesses don't. We're built for that gap.
+Blog, forms, email, hiring, launches, analytics — all under your domain, fully integrated and ready from day one.
 </p>
 <div class="hero-actions">
 <a href="https://app.startupforstartups.com/login" class="btn btn-primary btn-lg">
@@ -639,7 +638,6 @@ Start Your Journey
     width: 50px;
     height: 50px;
     cursor: pointer;
-    transition: all 0.3s ease;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -647,7 +645,6 @@ Start Your Journey
 
 .slider-btn:hover {
     background: #047857;
-    transform: scale(1.1);
 }
 
 .slider-dots {
@@ -661,12 +658,10 @@ Start Your Journey
     border-radius: 50%;
     background: #d1d5db;
     cursor: pointer;
-    transition: all 0.3s ease;
 }
 
 .dot.active {
     background: #059669;
-    transform: scale(1.2);
 }
 
 .dot:hover {

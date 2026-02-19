@@ -539,11 +539,9 @@ keywords: ["embeddable widgets", "contact form widget", "survey widget", "websit
     border-radius: 15px;
     padding: 30px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .widget-type-card:hover {
-    transform: translateY(-5px);
     box-shadow: 0 20px 40px rgba(0,0,0,0.15);
 }
 
@@ -670,7 +668,6 @@ keywords: ["embeddable widgets", "contact form widget", "survey widget", "websit
     width: 50px;
     height: 50px;
     cursor: pointer;
-    transition: all 0.3s ease;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -678,7 +675,6 @@ keywords: ["embeddable widgets", "contact form widget", "survey widget", "websit
 
 .slider-btn:hover {
     background: #047857;
-    transform: scale(1.1);
 }
 
 .slider-dots {
@@ -692,12 +688,10 @@ keywords: ["embeddable widgets", "contact form widget", "survey widget", "websit
     border-radius: 50%;
     background: #d1d5db;
     cursor: pointer;
-    transition: all 0.3s ease;
 }
 
 .dot.active {
     background: #059669;
-    transform: scale(1.2);
 }
 
 .dot:hover {

@@ -485,7 +485,6 @@ keywords: ["launch page builder", "coming soon pages", "landing page creator", "
     width: 50px;
     height: 50px;
     cursor: pointer;
-    transition: all 0.3s ease;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -493,7 +492,6 @@ keywords: ["launch page builder", "coming soon pages", "landing page creator", "
 
 .slider-btn:hover {
     background: #047857;
-    transform: scale(1.1);
 }
 
 .slider-dots {
@@ -507,12 +505,10 @@ keywords: ["launch page builder", "coming soon pages", "landing page creator", "
     border-radius: 50%;
     background: #d1d5db;
     cursor: pointer;
-    transition: all 0.3s ease;
 }
 
 .dot.active {
     background: #059669;
-    transform: scale(1.2);
 }
 
 .dot:hover {

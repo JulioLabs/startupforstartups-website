@@ -479,7 +479,6 @@ Common questions about URL shortening, branded links, and Bitly alternatives
     width: 50px;
     height: 50px;
     cursor: pointer;
-    transition: all 0.3s ease;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -487,7 +486,6 @@ Common questions about URL shortening, branded links, and Bitly alternatives
 
 .slider-btn:hover {
     background: #047857;
-    transform: scale(1.1);
 }
 
 .slider-dots {
@@ -501,12 +499,10 @@ Common questions about URL shortening, branded links, and Bitly alternatives
     border-radius: 50%;
     background: #d1d5db;
     cursor: pointer;
-    transition: all 0.3s ease;
 }
 
 .dot.active {
     background: #059669;
-    transform: scale(1.2);
 }
 
 .dot:hover {
