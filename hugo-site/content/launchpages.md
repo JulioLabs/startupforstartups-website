@@ -6,50 +6,25 @@ draft: false
 layout: "feature"
 canonical: "https://startupforstartups.com/launchpages"
 keywords: ["launch page builder", "coming soon pages", "landing page creator", "product launch pages", "pre-launch website", "startup launch page template", "countdown timer landing page", "email capture page"]
+image: /assets/images/launchpages-hero.png
 ---
 
 <!-- Hero Section -->
-<section class="hero">
-    <div class="container">
-        <h1 class="hero-title" style="font-size: 2.5em; margin-top: 2rem; margin-bottom: 2rem;">
-            Launch Page Builder: Create <span class="gradient-text">Professional Coming Soon Pages</span><br>
-            That Convert Visitors Into Leads
-        </h1>
-        <div class="hero-grid">
-            <div class="hero-visual">
-                <div class="hero-image-container">
-                    <img src="/assets/images/launchpages-hero.png" alt="Create professional launch pages in seconds" class="hero-image">
-                </div>
-            </div>
-            <div class="hero-content">
-                <p class="hero-description">
-                    Create stunning pre-launch websites with countdown timers, email capture forms, and beautiful templates in minutes.
-                    Our launch page builder helps startups generate buzz, capture leads, and build anticipation before product launches.
-                    No coding required - unlimited customization included.
-                </p>
-                <div class="hero-actions">
-                    <a href="https://app.startupforstartups.com" class="btn btn-primary btn-lg">
-                        <i class="fas fa-rocket"></i>
-                        Start Building
-                    </a>
-                </div>
-                <div class="hero-stats">
-                    <div class="stat">
-                        <div class="stat-number">No Limits</div>
-                        <div class="stat-label">Create Unlimited</div>
-                    </div>
-                    <div class="stat">
-                        <div class="stat-number">Seconds</div>
-                        <div class="stat-label">Ready In</div>
-                    </div>
-                    <div class="stat">
-                        <div class="stat-number">100%</div>
-                        <div class="stat-label">Customizable</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<section class="hr-hero" id="hr-hero">
+<div class="hr-hero-inner">
+<div class="hr-brand-badge">Startup For Startups</div>
+<h1 class="hr-headline">Create Professional<br><span class="gradient-text">Coming Soon Pages</span><br>That Convert</h1>
+<p class="hr-subheadline">
+Build stunning pre-launch websites with countdown timers, email capture, and beautiful templates in minutes. No coding required.
+</p>
+<div class="hr-cta-group">
+<a href="https://app.startupforstartups.com" class="hr-cta-btn">
+<span><i class="fas fa-rocket"></i> Start Building</span>
+<span class="hr-cta-note">No credit card required</span>
+</a>
+</div>
+</div>
+<div class="hr-scroll-hint"><i class="fas fa-chevron-down"></i></div>
 </section>
 
 <!-- Features Section -->
@@ -162,6 +137,102 @@ keywords: ["launch page builder", "coming soon pages", "landing page creator", "
 </div>
 </div>
     </div>
+</section>
+
+<!-- Theme Options Section -->
+<section class="lp-themes">
+<div class="container">
+<div class="section-header">
+<h2 class="section-title">Choose Your Theme</h2>
+<p class="section-description">Pick from professionally designed templates and make it yours in minutes</p>
+</div>
+<div class="lp-themes-grid">
+
+<div class="lp-theme-card">
+<div class="lp-theme-image-wrap">
+<img src="/assets/images/launchpage-themes/launchpage-fullscreen.png" alt="Full Screen launch page theme" loading="lazy">
+<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Full Screen theme">
+<span><i class="fas fa-rocket"></i> Use this theme</span>
+</a>
+</div>
+<div class="lp-theme-meta">
+<span class="lp-theme-name">Full Screen</span>
+<span class="lp-theme-desc">Bold, distraction-free hero that commands attention</span>
+</div>
+</div>
+
+<div class="lp-theme-card">
+<div class="lp-theme-image-wrap">
+<img src="/assets/images/launchpage-themes/launchpage-splitscreen.png" alt="Split Screen launch page theme" loading="lazy">
+<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Split Screen theme">
+<span><i class="fas fa-rocket"></i> Use this theme</span>
+</a>
+</div>
+<div class="lp-theme-meta">
+<span class="lp-theme-name">Split Screen</span>
+<span class="lp-theme-desc">Side-by-side layout pairing your image with the sign-up form</span>
+</div>
+</div>
+
+<div class="lp-theme-card">
+<div class="lp-theme-image-wrap">
+<img src="/assets/images/launchpage-themes/launchpage-fullscreen-countdown.png" alt="Full Screen Countdown launch page theme" loading="lazy">
+<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Full Screen Countdown theme">
+<span><i class="fas fa-rocket"></i> Use this theme</span>
+</a>
+</div>
+<div class="lp-theme-meta">
+<span class="lp-theme-name">Full Screen Countdown</span>
+<span class="lp-theme-desc">Full-bleed hero with a live countdown timer to drive urgency</span>
+</div>
+</div>
+
+<div class="lp-theme-card">
+<div class="lp-theme-image-wrap">
+<img src="/assets/images/launchpage-themes/launchpage-splitscreen-countdown.png" alt="Split Screen Countdown launch page theme" loading="lazy">
+<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Split Screen Countdown theme">
+<span><i class="fas fa-rocket"></i> Use this theme</span>
+</a>
+</div>
+<div class="lp-theme-meta">
+<span class="lp-theme-name">Split Screen Countdown</span>
+<span class="lp-theme-desc">Two-column layout with countdown and email capture side by side</span>
+</div>
+</div>
+
+<div class="lp-theme-card">
+<div class="lp-theme-image-wrap">
+<img src="/assets/images/launchpage-themes/launchpage-founder-letter.png" alt="Founder Letter launch page theme" loading="lazy">
+<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Founder Letter theme">
+<span><i class="fas fa-rocket"></i> Use this theme</span>
+</a>
+</div>
+<div class="lp-theme-meta">
+<span class="lp-theme-name">Founder Letter</span>
+<span class="lp-theme-desc">Personal, trust-driven story-first layout to build early community</span>
+</div>
+</div>
+
+<div class="lp-theme-card">
+<div class="lp-theme-image-wrap">
+<img src="/assets/images/launchpage-themes/launchpage-momentum.png" alt="Social Proof Momentum launch page theme" loading="lazy">
+<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Momentum theme">
+<span><i class="fas fa-rocket"></i> Use this theme</span>
+</a>
+</div>
+<div class="lp-theme-meta">
+<span class="lp-theme-name">Social Proof + Momentum</span>
+<span class="lp-theme-desc">High-energy, FOMO-driven layout with a live join counter</span>
+</div>
+</div>
+
+</div>
+<div class="lp-themes-cta">
+<a href="https://app.startupforstartups.com" class="btn btn-primary btn-lg">
+<i class="fas fa-rocket"></i> Start Building — Free
+</a>
+</div>
+</div>
 </section>
 
 <!-- Image Showcase Section -->

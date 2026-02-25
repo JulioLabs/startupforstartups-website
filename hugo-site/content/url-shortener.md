@@ -6,50 +6,23 @@ draft: false
 layout: "feature"
 canonical: "https://startupforstartups.com/url-shortener"
 keywords: ["URL shortener", "short link generator", "branded short links", "custom domain shortener", "bitly alternative", "link shortening service", "URL shortening tool", "click tracking", "link analytics", "custom short URLs"]
+image: /assets/images/url-hero.png
 ---
 
 <!-- Hero Section -->
-<section class="hero">
-    <div class="container">
-        <h1 class="hero-title" style="font-size: 2.5em; margin-top: 2rem; margin-bottom: 2rem;">
-            URL Shortener: Create <span class="gradient-text">Branded Short Links</span><br>
-            With Click Tracking & Analytics
-        </h1>
-        <div class="hero-grid">
-            <div class="hero-visual">
-                <div class="hero-image-container">
-                    <img src="/assets/images/url-hero.png" alt="Create and manage professional URL shortener with custom domains and analytics" class="hero-image">
-                </div>
-            </div>
-            <div class="hero-content">
-                <p class="hero-description">
-                    Professional URL shortening tool with custom domains, click tracking, and comprehensive analytics.
-                    Perfect solution for marketing campaigns, social media, and team collaboration.
-                    Create branded short URLs that build trust and track performance with detailed insights.
-                </p>
-                <div class="hero-actions">
-                    <a href="https://app.startupforstartups.com" class="btn btn-primary btn-lg">
-                        <i class="fas fa-rocket"></i>
-                        Start Shortening
-                    </a>
-                </div>
-                <div class="hero-stats">
-                    <div class="stat">
-                        <div class="stat-number">Unlimited</div>
-                        <div class="stat-label">Short URLs</div>
-                    </div>
-                    <div class="stat">
-                        <div class="stat-number">API</div>
-                        <div class="stat-label">Integration</div>
-                    </div>
-                    <div class="stat">
-                        <div class="stat-number">Real-time</div>
-                        <div class="stat-label">Analytics</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<section class="hr-hero" id="hr-hero">
+<div class="hr-hero-inner">
+<div class="hr-brand-badge">Startup For Startups</div>
+<h1 class="hr-headline">Branded Short Links<br>With Real-Time Analytics</h1>
+<p class="hr-subheadline">Create custom short URLs with your own domain, click tracking, and detailed analytics. The Bitly alternative built for teams.</p>
+<div class="hr-cta-group">
+<a href="https://app.startupforstartups.com" class="hr-cta-btn">
+<span><i class="fas fa-rocket"></i> Start Shortening</span>
+<span class="hr-cta-note">No credit card required</span>
+</a>
+</div>
+</div>
+<div class="hr-scroll-hint"><i class="fas fa-chevron-down"></i></div>
 </section>
 
 <!-- Features Section -->
@@ -126,7 +99,7 @@ Professional URL shortening with analytics, branding, and enterprise-grade APIs
 <span>Export Data & Reports</span>
 </div>
 </div>
-            </div>
+</div>
 
 <div class="feature-category">
 <div class="category-header">
@@ -159,7 +132,7 @@ Professional URL shortening with analytics, branding, and enterprise-grade APIs
 <span>Batch Operations</span>
 </div>
 </div>
-            </div>
+</div>
 </div>
 </div>
 </section>
@@ -345,188 +318,188 @@ Common questions about URL shortening, branded links, and Bitly alternatives
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "URL Shortener",
-  "description": "Professional URL shortening tool with custom domains, click tracking, and comprehensive analytics for marketing campaigns",
-  "url": "https://startupforstartups.com/url-shortener",
-  "applicationCategory": "WebApplication",
-  "operatingSystem": "Web Browser",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD"
-  },
-  "creator": {
-    "@type": "Organization",
-    "name": "StartupForStartups"
-  },
-  "featureList": [
-    "Unlimited URL shortening",
-    "Custom domain branding",
-    "Click tracking analytics",
-    "API integration",
-    "Real-time statistics",
-    "Link management",
-    "Geographic analytics",
-    "Referral tracking",
-    "Device analytics",
-    "Bulk operations"
-  ],
-  "faq": {
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "What is a URL shortener and how does it work?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "A URL shortener takes long, complex URLs and converts them into short, memorable links that redirect to the original destination while tracking click data and analytics."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How is this different from Bitly?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Our URL shortener offers unlimited link creation, custom domain branding, detailed analytics, and API access - all for free, without Bitly's usage limits or paid tier restrictions."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Can I use my own custom domain for short links?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes! Use your own branded domain like go.yourbrand.com for all short links to increase click-through rates, build brand trust, and provide professional appearance."
-        }
-      }
-    ]
-  }
+"@context": "https://schema.org",
+"@type": "SoftwareApplication",
+"name": "URL Shortener",
+"description": "Professional URL shortening tool with custom domains, click tracking, and comprehensive analytics for marketing campaigns",
+"url": "https://startupforstartups.com/url-shortener",
+"applicationCategory": "WebApplication",
+"operatingSystem": "Web Browser",
+"offers": {
+"@type": "Offer",
+"price": "0",
+"priceCurrency": "USD"
+},
+"creator": {
+"@type": "Organization",
+"name": "StartupForStartups"
+},
+"featureList": [
+"Unlimited URL shortening",
+"Custom domain branding",
+"Click tracking analytics",
+"API integration",
+"Real-time statistics",
+"Link management",
+"Geographic analytics",
+"Referral tracking",
+"Device analytics",
+"Bulk operations"
+],
+"faq": {
+"@type": "FAQPage",
+"mainEntity": [
+{
+"@type": "Question",
+"name": "What is a URL shortener and how does it work?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "A URL shortener takes long, complex URLs and converts them into short, memorable links that redirect to the original destination while tracking click data and analytics."
+}
+},
+{
+"@type": "Question",
+"name": "How is this different from Bitly?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Our URL shortener offers unlimited link creation, custom domain branding, detailed analytics, and API access - all for free, without Bitly's usage limits or paid tier restrictions."
+}
+},
+{
+"@type": "Question",
+"name": "Can I use my own custom domain for short links?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Yes! Use your own branded domain like go.yourbrand.com for all short links to increase click-through rates, build brand trust, and provide professional appearance."
+}
+}
+]
+}
 }
 </script>
 
 <style>
 .image-showcase {
-    padding: 80px 0;
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+padding: 80px 0;
+background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
 }
 
 .image-slider-container {
-    max-width: 900px;
-    margin: 0 auto;
-    position: relative;
+max-width: 900px;
+margin: 0 auto;
+position: relative;
 }
 
 .image-slider {
-    position: relative;
-    overflow: hidden;
-    border-radius: 15px;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+position: relative;
+overflow: hidden;
+border-radius: 15px;
+box-shadow: 0 20px 40px rgba(0,0,0,0.1);
 }
 
 .slide {
-    display: none;
-    position: relative;
+display: none;
+position: relative;
 }
 
 .slide.active {
-    display: block;
+display: block;
 }
 
 .slide-image {
-    position: relative;
-    width: 100%;
+position: relative;
+width: 100%;
 }
 
 .slide-image img {
-    width: 100%;
-    height: auto;
-    display: block;
+width: 100%;
+height: auto;
+display: block;
 }
 
 .slide-overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: linear-gradient(transparent, rgba(0,0,0,0.8));
-    color: white;
-    padding: 40px 30px 30px;
-    text-align: center;
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+background: linear-gradient(transparent, rgba(0,0,0,0.8));
+color: white;
+padding: 40px 30px 30px;
+text-align: center;
 }
 
 .slide-overlay h3 {
-    font-size: 24px;
-    font-weight: 600;
-    margin: 0;
-    color: #ffffff;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+font-size: 24px;
+font-weight: 600;
+margin: 0;
+color: #ffffff;
+text-shadow: 0 2px 4px rgba(0,0,0,0.5);
 }
 
 .slider-controls {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 30px;
-    padding: 0 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 30px;
+padding: 0 20px;
 }
 
 .slider-btn {
-    background: #059669;
-    color: white;
-    border: none;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+background: #059669;
+color: white;
+border: none;
+border-radius: 50%;
+width: 50px;
+height: 50px;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 .slider-btn:hover {
-    background: #047857;
+background: #047857;
 }
 
 .slider-dots {
-    display: flex;
-    gap: 15px;
+display: flex;
+gap: 15px;
 }
 
 .dot {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background: #d1d5db;
-    cursor: pointer;
+width: 12px;
+height: 12px;
+border-radius: 50%;
+background: #d1d5db;
+cursor: pointer;
 }
 
 .dot.active {
-    background: #059669;
+background: #059669;
 }
 
 .dot:hover {
-    background: #047857;
+background: #047857;
 }
 
 @media (max-width: 768px) {
-    .slide-overlay h3 {
-        font-size: 18px;
-    }
+.slide-overlay h3 {
+font-size: 18px;
+}
 
-    .slide-overlay {
-        padding: 20px 15px 15px;
-    }
+.slide-overlay {
+padding: 20px 15px 15px;
+}
 
-    .slider-btn {
-        width: 40px;
-        height: 40px;
-    }
+.slider-btn {
+width: 40px;
+height: 40px;
+}
 
-    .slider-controls {
-        padding: 0 10px;
-        margin-top: 20px;
-    }
+.slider-controls {
+padding: 0 10px;
+margin-top: 20px;
+}
 }
 </style>
 
@@ -534,40 +507,40 @@ Common questions about URL shortening, branded links, and Bitly alternatives
 let currentSlideIndex = 1;
 
 function changeSlide(direction) {
-    showSlide(currentSlideIndex += direction);
+showSlide(currentSlideIndex += direction);
 }
 
 function currentSlide(index) {
-    showSlide(currentSlideIndex = index);
+showSlide(currentSlideIndex = index);
 }
 
 function showSlide(index) {
-    const slides = document.querySelectorAll('#urlShortenerSlider .slide');
-    const dots = document.querySelectorAll('#urlShortenerSlider + .slider-controls .dot');
+const slides = document.querySelectorAll('#urlShortenerSlider .slide');
+const dots = document.querySelectorAll('#urlShortenerSlider + .slider-controls .dot');
 
-    if (index > slides.length) { currentSlideIndex = 1; }
-    if (index < 1) { currentSlideIndex = slides.length; }
+if (index > slides.length) { currentSlideIndex = 1; }
+if (index < 1) { currentSlideIndex = slides.length; }
 
-    // Hide all slides
-    slides.forEach(slide => slide.classList.remove('active'));
-    dots.forEach(dot => dot.classList.remove('active'));
+// Hide all slides
+slides.forEach(slide => slide.classList.remove('active'));
+dots.forEach(dot => dot.classList.remove('active'));
 
-    // Show current slide
-    if (slides[currentSlideIndex - 1]) {
-        slides[currentSlideIndex - 1].classList.add('active');
-    }
-    if (dots[currentSlideIndex - 1]) {
-        dots[currentSlideIndex - 1].classList.add('active');
-    }
+// Show current slide
+if (slides[currentSlideIndex - 1]) {
+slides[currentSlideIndex - 1].classList.add('active');
+}
+if (dots[currentSlideIndex - 1]) {
+dots[currentSlideIndex - 1].classList.add('active');
+}
 }
 
 // Auto-advance slides every 5 seconds
 setInterval(() => {
-    changeSlide(1);
+changeSlide(1);
 }, 5000);
 
 // Initialize slider when page loads
 document.addEventListener('DOMContentLoaded', function() {
-    showSlide(currentSlideIndex);
+showSlide(currentSlideIndex);
 });
 </script>
