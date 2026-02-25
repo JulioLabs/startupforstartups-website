@@ -66,18 +66,45 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Header background on scroll
-    const header = document.querySelector('.header');
+    // Scroll-reveal header: show after dark hero scrolls out of view
+    (function () {
+        var header = document.getElementById('hr-site-header');
+        var hero   = document.getElementById('hr-hero');
 
-    window.addEventListener('scroll', function() {
-        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
-        if (scrollTop > 50) {
-            header.style.background = '#0F172A';
-        } else {
-            header.style.background = '#0F172A';
+        if (header && hero) {
+            var observer = new IntersectionObserver(function (entries) {
+                if (entries[0].isIntersecting) {
+                    header.classList.remove('hr-header-visible');
+                } else {
+                    header.classList.add('hr-header-visible');
+                }
+            }, { threshold: 0.05 });
+            observer.observe(hero);
+        } else if (header) {
+            // No dark hero on this page — show header immediately
+            header.classList.add('hr-header-visible');
         }
-    });
+    }());
+
+    // Feature rotator (homepage hero)
+    (function () {
+        var items = document.querySelectorAll('.hr-feature-item');
+        if (items.length === 0) return;
+
+        var current = 0;
+        items[0].classList.add('hr-active');
+
+        setInterval(function () {
+            var prev = current;
+            current = (current + 1) % items.length;
+
+            items[prev].classList.remove('hr-active');
+            items[prev].classList.add('hr-exit');
+            setTimeout(function () { items[prev].classList.remove('hr-exit'); }, 400);
+
+            items[current].classList.add('hr-active');
+        }, 1800);
+    }());
 
     // Form validation (if contact forms are added later)
     function validateEmail(email) {
