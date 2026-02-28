@@ -1834,8 +1834,8 @@ p {
     bottom: 32px;
     left: 50%;
     transform: translateX(-50%);
-    color: #3d3d3d;
-    font-size: 22px;
+    color: white;
+    font-size: 32px;
     animation: hr-bounce 2s infinite;
 }
 
