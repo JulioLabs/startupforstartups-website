@@ -139,6 +139,76 @@ Everything you need to build, publish, and analyze surveys — from multi-page q
 </div>
 </section>
 
+<!-- Theme Options Section -->
+<section class="lp-themes">
+<div class="container">
+<div class="section-header">
+<h2 class="section-title">Choose Your Survey Theme</h2>
+<p class="section-description">Pick from professionally designed survey templates and make it yours in minutes</p>
+</div>
+<div class="lp-themes-grid">
+
+<div class="lp-theme-card">
+<div class="lp-theme-image-wrap">
+<img src="/assets/images/questionnaire-themes/basic-form.png" alt="Basic survey theme" loading="lazy">
+<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Basic Survey theme">
+<span><i class="fas fa-rocket"></i> Use this theme</span>
+</a>
+</div>
+<div class="lp-theme-meta">
+<span class="lp-theme-name">Basic</span>
+<span class="lp-theme-desc">Clean, mobile-friendly card layout that works for any use case</span>
+</div>
+</div>
+
+<div class="lp-theme-card">
+<div class="lp-theme-image-wrap">
+<img src="/assets/images/questionnaire-themes/focus-form.png" alt="Focus Mode survey theme" loading="lazy">
+<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Focus Mode theme">
+<span><i class="fas fa-rocket"></i> Use this theme</span>
+</a>
+</div>
+<div class="lp-theme-meta">
+<span class="lp-theme-name">Focus Mode</span>
+<span class="lp-theme-desc">Immersive, distraction-free experience with large typography and no card framing</span>
+</div>
+</div>
+
+<div class="lp-theme-card">
+<div class="lp-theme-image-wrap">
+<img src="/assets/images/questionnaire-themes/structured-form.png" alt="Structured survey theme" loading="lazy">
+<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Structured theme">
+<span><i class="fas fa-rocket"></i> Use this theme</span>
+</a>
+</div>
+<div class="lp-theme-meta">
+<span class="lp-theme-name">Structured</span>
+<span class="lp-theme-desc">Professional card layout with step indicator and clear section hierarchy</span>
+</div>
+</div>
+
+<div class="lp-theme-card">
+<div class="lp-theme-image-wrap">
+<img src="/assets/images/questionnaire-themes/compact-form.png" alt="Compact survey theme" loading="lazy">
+<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Compact theme">
+<span><i class="fas fa-rocket"></i> Use this theme</span>
+</a>
+</div>
+<div class="lp-theme-meta">
+<span class="lp-theme-name">Compact</span>
+<span class="lp-theme-desc">High-density, efficient layout designed for fast completion</span>
+</div>
+</div>
+
+</div>
+<div class="lp-themes-cta">
+<a href="https://app.startupforstartups.com" class="btn btn-primary btn-lg">
+<i class="fas fa-rocket"></i> Start Building — Free
+</a>
+</div>
+</div>
+</section>
+
 <!-- Image Showcase Section -->
 <section class="image-showcase">
 <div class="container">
