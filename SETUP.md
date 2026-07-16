@@ -27,7 +27,7 @@ git push -u origin main
 5. Click "Save"
 
 ### 3. Configure Custom Domain
-1. In Pages settings, add custom domain: `startupforstartups.com`
+1. In Pages settings, add custom domain: `presencewave.com`
 2. Enable "Enforce HTTPS"
 3. GitHub will verify domain ownership
 
@@ -44,12 +44,12 @@ Update your DNS provider with these records:
 
 **CNAME Record:**
 ```
-www.startupforstartups.com → username.github.io
+www.presencewave.com → username.github.io
 ```
 
 ### 5. Verification
 - Check Actions tab for deployment status
-- Visit startupforstartups.com to verify
+- Visit presencewave.com to verify
 - Test all links and functionality
 - Verify HTTPS is working
 
@@ -57,7 +57,7 @@ www.startupforstartups.com → username.github.io
 The GitHub Actions workflow will automatically:
 - Trigger on every push to main branch
 - Build and deploy the website
-- Update the live site at startupforstartups.com
+- Update the live site at presencewave.com
 
 ## 📞 Troubleshooting
 - DNS changes can take up to 24 hours to propagate

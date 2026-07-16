@@ -1,17 +1,17 @@
 ---
-title: "Email Marketing Platform | Newsletter & Campaign Builder | StartupForStartups"
+title: "Email Marketing Platform | Newsletter & Campaign Builder | PresenceWave"
 description: "Build professional email campaigns and newsletters with our integrated email marketing platform. Drag-and-drop builder, automation, analytics, and seamless integration with your startup tools."
 date: 2025-11-27
 draft: false
 layout: "feature"
-canonical: "https://startupforstartups.com/email-marketing"
+canonical: "https://presencewave.com/email-marketing"
 keywords: ["email marketing", "newsletter builder", "email campaigns", "marketing automation", "email templates", "startup email marketing", "drag drop email builder", "email analytics", "email automation", "newsletter platform"]
 ---
 
 <!-- Hero Section -->
 <section class="hr-hero" id="hr-hero">
 <div class="hr-hero-inner">
-<div class="hr-brand-badge">Startup For Startups</div>
+<div class="hr-brand-badge">PresenceWave</div>
 <h1 class="hr-headline">Build Email Campaigns<br>That Convert and Grow</h1>
 <p class="hr-subheadline">Drag-and-drop email builder with automation, analytics, and seamless platform integration. Launch your first campaign in minutes.</p>
 <div class="hr-cta-group">

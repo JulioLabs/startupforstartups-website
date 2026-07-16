@@ -1,10 +1,10 @@
 ---
-title: "URL Shortener | Custom Branded Short Links with Analytics | StartupForStartups"
+title: "URL Shortener | Custom Branded Short Links with Analytics | PresenceWave"
 description: "Professional URL shortener with custom domains, click tracking & analytics. Create branded short links for marketing campaigns. Free alternative to Bitly with API integration!"
 date: 2025-11-20
 draft: false
 layout: "feature"
-canonical: "https://startupforstartups.com/url-shortener"
+canonical: "https://presencewave.com/url-shortener"
 keywords: ["URL shortener", "short link generator", "branded short links", "custom domain shortener", "bitly alternative", "link shortening service", "URL shortening tool", "click tracking", "link analytics", "custom short URLs"]
 image: /assets/images/url-hero.png
 ---
@@ -12,7 +12,7 @@ image: /assets/images/url-hero.png
 <!-- Hero Section -->
 <section class="hr-hero" id="hr-hero">
 <div class="hr-hero-inner">
-<div class="hr-brand-badge">Startup For Startups</div>
+<div class="hr-brand-badge">PresenceWave</div>
 <h1 class="hr-headline">Branded Short Links<br>With Real-Time Analytics</h1>
 <p class="hr-subheadline">Create custom short URLs with your own domain, click tracking, and detailed analytics. The Bitly alternative built for teams.</p>
 <div class="hr-cta-group">
@@ -322,7 +322,7 @@ Common questions about URL shortening, branded links, and Bitly alternatives
 "@type": "SoftwareApplication",
 "name": "URL Shortener",
 "description": "Professional URL shortening tool with custom domains, click tracking, and comprehensive analytics for marketing campaigns",
-"url": "https://startupforstartups.com/url-shortener",
+"url": "https://presencewave.com/url-shortener",
 "applicationCategory": "WebApplication",
 "operatingSystem": "Web Browser",
 "offers": {
@@ -332,7 +332,7 @@ Common questions about URL shortening, branded links, and Bitly alternatives
 },
 "creator": {
 "@type": "Organization",
-"name": "StartupForStartups"
+"name": "PresenceWave"
 },
 "featureList": [
 "Unlimited URL shortening",

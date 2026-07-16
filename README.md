@@ -1,6 +1,6 @@
-# Startup For Startups - Static Website
+# PresenceWave - Static Website
 
-This repository contains the static marketing website for [Startup For Startups](https://startupforstartups.com), built with Hugo and deployed via GitHub Pages.
+This repository contains the static marketing website for [PresenceWave](https://presencewave.com), built with Hugo and deployed via GitHub Pages.
 
 ## 🚀 Quick Start
 
@@ -57,7 +57,7 @@ This repository contains the static marketing website for [Startup For Startups]
 
 ## 🎨 Design System
 
-The website follows the **Future Forward** design system used throughout the StartupForStartups platform:
+The website follows the **Future Forward** design system used throughout the PresenceWave platform:
 
 - **Colors**: Professional green gradients (#059669, #4e9a69)
 - **Typography**: Outfit font family for modern, clean appearance
@@ -76,7 +76,7 @@ The website is fully responsive and optimized for:
 This website is automatically deployed using GitHub Pages with GitHub Actions:
 
 - **Source**: Main branch
-- **Domain**: startupforstartups.com
+- **Domain**: presencewave.com
 - **HTTPS**: Enabled
 - **Auto-deploy**: On every push to main branch
 
@@ -109,7 +109,7 @@ startupforstartups-website/
 ## 🎨 Theme: Startup Theme
 
 ### Overview
-Custom Hugo theme built specifically for Startup For Startups, featuring:
+Custom Hugo theme built specifically for PresenceWave, featuring:
 - **Responsive design** optimized for all devices
 - **Modern styling** with Outfit font and custom color gradients
 - **Component-based layout** with reusable partials
@@ -169,7 +169,7 @@ Update `hugo.toml` to add menu items:
 ## 🔗 Important Links
 
 - **Main Application**: [app.startupforstartups.com](https://app.startupforstartups.com)
-- **Blog**: [blog.startupforstartups.com](https://blog.startupforstartups.com)
+- **Blog**: [blog.presencewave.com](https://blog.presencewave.com)
 - **Twitter**: [@get_s4s](https://twitter.com/get_s4s)
 
 ## 🛠 Development Tips
@@ -229,13 +229,13 @@ hugo server --buildFuture  # Include future-dated content
 ## 📞 Contact
 
 For questions about the website or theme:
-- **Email**: sushrut@startupforstartups.com
+- **Email**: sushrut@presencewave.com
 - **Repository Issues**: Create an issue in this repository
 - **Documentation**: See `/documentation/` in the main platform repository
 
 ## 📝 License
 
-© 2025 Startup For Startups. All rights reserved.
+© 2025 PresenceWave. All rights reserved.
 
 ---
 

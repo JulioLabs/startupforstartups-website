@@ -1,17 +1,17 @@
 ---
-title: "All-in-One Digital Presence Platform | Build Your Business Online | StartupForStartups"
+title: "All-in-One Digital Presence Platform | Build Your Business Online | PresenceWave"
 description: "Build your digital presence from one simple platform with forms, blog, jobs and widgets. Replace many SaaS tools with one dashboard for your business's online presence. Launch fast with no-code tools for content, lead capture and hiring."
 date: 2025-12-01
 draft: false
 layout: "feature"
-canonical: "https://startupforstartups.com/startup-platform"
+canonical: "https://presencewave.com/startup-platform"
 keywords: ["all-in-one business platform", "digital presence solution", "forms blog and jobs", "launch fast no code", "built for businesses", "single business platform", "replace many SaaS tools", "business tools online", "manage everything online"]
 ---
 
 <!-- Hero Section -->
 <section class="hr-hero" id="hr-hero">
 <div class="hr-hero-inner">
-<div class="hr-brand-badge">Startup For Startups</div>
+<div class="hr-brand-badge">PresenceWave</div>
 <h1 class="hr-headline">Run Your Startup From<br>One Simple Platform</h1>
 <p class="hr-subheadline">Stop juggling 15+ tools. Blog, lead capture, hiring, analytics, and more — all from one unified dashboard built for founders.</p>
 <div class="hr-cta-group">
@@ -547,7 +547,7 @@ Common questions about our startup platform and how it replaces multiple tools
 "@type": "SoftwareApplication",
 "name": "All-in-One Startup Platform",
 "description": "Run your startup from one simple platform with forms, blog, jobs and widgets. Replace many SaaS tools with one dashboard for your startup's online presence.",
-"url": "https://startupforstartups.com/startup-platform",
+"url": "https://presencewave.com/startup-platform",
 "applicationCategory": "WebApplication",
 "operatingSystem": "Web Browser",
 "offers": {
@@ -557,7 +557,7 @@ Common questions about our startup platform and how it replaces multiple tools
 },
 "creator": {
 "@type": "Organization",
-"name": "StartupForStartups"
+"name": "PresenceWave"
 },
 "featureList": [
 "All-in-one startup tools",

@@ -1,10 +1,10 @@
 ---
-title: "Online Survey & Questionnaire Builder | Create Multi-Page Surveys | StartupForStartups"
+title: "Online Survey & Questionnaire Builder | Create Multi-Page Surveys | PresenceWave"
 description: "Build professional multi-page surveys and questionnaires in minutes. Collect structured feedback, track responses, and export results. Beautiful themes, full customization, no coding required."
 date: 2026-02-28
 draft: false
 layout: "feature"
-canonical: "https://startupforstartups.com/questionnaire"
+canonical: "https://presencewave.com/questionnaire"
 keywords: ["online survey maker", "questionnaire builder", "create surveys online", "multi-page survey", "customer feedback form", "survey tool", "free survey builder", "form builder", "survey software"]
 image: /assets/images/questionnaire-form.png
 ---
@@ -12,7 +12,7 @@ image: /assets/images/questionnaire-form.png
 <!-- Hero Section -->
 <section class="hr-hero" id="hr-hero">
 <div class="hr-hero-inner">
-<div class="hr-brand-badge">Startup For Startups</div>
+<div class="hr-brand-badge">PresenceWave</div>
 <h1 class="hr-headline">Build Professional<br><span class="gradient-text">Surveys & Questionnaires</span><br>That Get Responses</h1>
 <p class="hr-subheadline">
 Create multi-page surveys with beautiful themes, collect structured feedback, and analyze responses — all in minutes. No coding required.
@@ -403,7 +403,7 @@ Common questions about building and managing online surveys and questionnaires
   "@type": "SoftwareApplication",
   "name": "Survey & Questionnaire Builder",
   "description": "Build professional multi-page surveys and questionnaires with beautiful themes, collect structured responses, and export results as CSV",
-  "url": "https://startupforstartups.com/questionnaire",
+  "url": "https://presencewave.com/questionnaire",
   "applicationCategory": "WebApplication",
   "operatingSystem": "Web Browser",
   "offers": {
@@ -413,7 +413,7 @@ Common questions about building and managing online surveys and questionnaires
   },
   "creator": {
     "@type": "Organization",
-    "name": "StartupForStartups"
+    "name": "PresenceWave"
   },
   "featureList": [
     "Multi-page question flows",

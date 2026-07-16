@@ -4,10 +4,7 @@ User-agent: *
 Allow: /
 
 # Explicitly allow blog subdomain
-Allow: https://blog.startupforstartups.com/
-
-# Explicitly allow jobs subdomain
-Allow: https://jobs.startupforstartups.com/
+Allow: https://blog.presencewave.com/
 
 # Block access to app subdomain
 Disallow: https://app.startupforstartups.com/
@@ -18,4 +15,4 @@ Disallow: /*.js$
 Disallow: /*.css$
 
 # Sitemap location
-Sitemap: https://startupforstartups.com/sitemap.xml
+Sitemap: https://presencewave.com/sitemap.xml

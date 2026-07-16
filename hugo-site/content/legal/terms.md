@@ -1,6 +1,6 @@
 ---
-title: "Terms of Service | StartupForStartups"
-description: "Terms of Service for StartupForStartups platform and services. Please read these terms carefully before using our service."
+title: "Terms of Service | PresenceWave"
+description: "Terms of Service for PresenceWave platform and services. Please read these terms carefully before using our service."
 date: 2025-12-01
 draft: false
 layout: "single"
@@ -11,7 +11,7 @@ layout: "single"
 **Effective Date:** 01 December 2025
 **Last Updated:** 01 December 2025
 
-Welcome to StartupForStartups (the "Service"), operated by Julio Labs (OPC) Pvt. Ltd. ("Company", "we", "us", or "our"). These Terms of Service ("Terms") govern your access to and use of the Service available at https://startupforstartups.com and its subdomains (collectively, the "Platform").
+Welcome to PresenceWave (the "Service"), operated by Julio Labs (OPC) Pvt. Ltd. ("Company", "we", "us", or "our"). These Terms of Service ("Terms") govern your access to and use of the Service available at https://presencewave.com and its subdomains (collectively, the "Platform").
 
 By creating an account or using any part of the Service, you agree to be bound by these Terms. If you do not agree, you must stop using the Service.
 
@@ -25,7 +25,7 @@ By creating an account or using any part of the Service, you agree to be bound b
 
 **"Subscription"** means any paid plan or tier that grants access to specific features or limits.
 
-**"Service"** means the SaaS platform and tools provided through https://startupforstartups.com.
+**"Service"** means the SaaS platform and tools provided through https://presencewave.com.
 
 ## 2. Eligibility
 
@@ -112,7 +112,7 @@ We strive for reliable service but do not guarantee uninterrupted or error-free 
 We may suspend the Service temporarily for maintenance, updates, or upgrades.
 
 ### 8.3 Support
-Support requests can be sent to [sushrut@startupforstartups.com](mailto:sushrut@startupforstartups.com).
+Support requests can be sent to [sushrut@presencewave.com](mailto:sushrut@presencewave.com).
 
 ## 9. Warranties Disclaimer
 
@@ -173,4 +173,4 @@ For questions about these Terms, contact:
 **Julio Labs (OPC) Pvt. Ltd.**
 4A, Ruchita Heights, Savarkar Nagar,
 Nashik, 422013, India
-📧 [sushrut@startupforstartups.com](mailto:sushrut@startupforstartups.com)
+📧 [sushrut@presencewave.com](mailto:sushrut@presencewave.com)

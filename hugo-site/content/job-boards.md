@@ -1,10 +1,10 @@
 ---
-title: "Job Board Software | Custom Career Pages for Companies | StartupForStartups"
+title: "Job Board Software | Custom Career Pages for Companies | PresenceWave"
 description: "Professional job board software with custom branding, advanced filtering & application management. Create branded career pages for hiring. Perfect for companies & recruitment agencies!"
 date: 2025-11-20
 draft: false
 layout: "feature"
-canonical: "https://startupforstartups.com/job-boards"
+canonical: "https://presencewave.com/job-boards"
 keywords: ["job board software", "career page builder", "company job board", "recruitment software", "hiring platform", "job posting site", "applicant tracking", "career portal", "job board creation", "employment website"]
 image: /assets/images/jobboard-hero-modern.png
 ---
@@ -12,7 +12,7 @@ image: /assets/images/jobboard-hero-modern.png
 <!-- Hero Section -->
 <section class="hr-hero" id="hr-hero">
 <div class="hr-hero-inner">
-<div class="hr-brand-badge">Startup For Startups</div>
+<div class="hr-brand-badge">PresenceWave</div>
 <h1 class="hr-headline">Create Professional<br>Career Pages That Attract<br>Top Talent</h1>
 <p class="hr-subheadline">Custom job boards with advanced filtering, application management, and branded design. Professional recruitment software for companies and startups.</p>
 <div class="hr-cta-group">
@@ -429,7 +429,7 @@ Common questions about job board creation, career pages, and recruitment softwar
 "@type": "SoftwareApplication",
 "name": "Job Board Software",
 "description": "Professional job board software for creating custom career pages with application management, advanced filtering, and branded design",
-"url": "https://startupforstartups.com/job-boards",
+"url": "https://presencewave.com/job-boards",
 "applicationCategory": "WebApplication",
 "operatingSystem": "Web Browser",
 "offers": {
@@ -439,7 +439,7 @@ Common questions about job board creation, career pages, and recruitment softwar
 },
 "creator": {
 "@type": "Organization",
-"name": "StartupForStartups"
+"name": "PresenceWave"
 },
 "featureList": [
 "Custom job board creation",

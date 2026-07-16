@@ -1,17 +1,17 @@
 ---
-title: "Privacy-First Web Analytics | Privacy-Focused Analytics Tool | StartupForStartups"
+title: "Privacy-First Web Analytics | Privacy-Focused Analytics Tool | PresenceWave"
 description: "Privacy-compliant web analytics with real-time insights, custom dashboards & goal tracking. Google Analytics alternative with privacy-first design. No cookies, full control over your data!"
 date: 2025-11-20
 draft: false
 layout: "feature"
-canonical: "https://startupforstartups.com/analytics"
+canonical: "https://presencewave.com/analytics"
 keywords: ["privacy analytics", "privacy first analytics", "web analytics tool", "privacy compliant analytics", "google analytics alternative", "cookieless analytics", "real-time analytics", "website analytics", "anonymous tracking", "privacy focused analytics"]
 ---
 
 <!-- Hero Section -->
 <section class="hr-hero" id="hr-hero">
 <div class="hr-hero-inner">
-<div class="hr-brand-badge">Startup For Startups</div>
+<div class="hr-brand-badge">PresenceWave</div>
 <h1 class="hr-headline">Privacy-First Analytics<br>No Cookies. Full Insights.</h1>
 <p class="hr-subheadline">Real-time web analytics with custom dashboards and goal tracking — all without cookies. A privacy-first alternative to Google Analytics.</p>
 <div class="hr-cta-group">
@@ -413,7 +413,7 @@ Common questions about privacy-focused analytics and Google Analytics alternativ
 "@type": "SoftwareApplication",
 "name": "Privacy-First Web Analytics",
 "description": "Privacy-focused web analytics tool providing real-time insights, custom dashboards, and goal tracking without compromising user privacy",
-"url": "https://startupforstartups.com/analytics",
+"url": "https://presencewave.com/analytics",
 "applicationCategory": "WebApplication",
 "operatingSystem": "Web Browser",
 "offers": {
@@ -423,7 +423,7 @@ Common questions about privacy-focused analytics and Google Analytics alternativ
 },
 "creator": {
 "@type": "Organization",
-"name": "StartupForStartups"
+"name": "PresenceWave"
 },
 "featureList": [
 "Privacy-focused tracking",

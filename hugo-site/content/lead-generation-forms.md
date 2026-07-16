@@ -1,10 +1,10 @@
 ---
-title: "Lead Generation Forms | High-Converting Form Builder | StartupForStartups"
+title: "Lead Generation Forms | High-Converting Form Builder | PresenceWave"
 description: "Build and embed high converting lead forms, popups and widgets without code. Capture more leads from your site, blog and pages with simple powerful forms. Create flexible forms for lead capture, onboarding and feedback in minutes."
 date: 2025-12-01
 draft: false
 layout: "feature"
-canonical: "https://startupforstartups.com/lead-generation-forms"
+canonical: "https://presencewave.com/lead-generation-forms"
 keywords: ["lead generation forms", "high converting lead forms", "no-code form builder", "embed forms", "capture leads", "form builder for startups", "popups and form widgets", "simple lead capture", "unlimited forms", "built for SaaS teams"]
 image: /assets/images/lead-generation-form-hero.png
 ---
@@ -12,7 +12,7 @@ image: /assets/images/lead-generation-form-hero.png
 <!-- Hero Section -->
 <section class="hr-hero" id="hr-hero">
 <div class="hr-hero-inner">
-<div class="hr-brand-badge">Startup For Startups</div>
+<div class="hr-brand-badge">PresenceWave</div>
 <h1 class="hr-headline">Create High-Converting<br>Lead Forms in Minutes</h1>
 <p class="hr-subheadline">Build and embed powerful lead forms, popups, and widgets without code. Capture more leads from any website.</p>
 <div class="hr-cta-group">
@@ -392,7 +392,7 @@ Common questions about building high-converting lead capture forms
 "@type": "SoftwareApplication",
 "name": "Lead Generation Form Builder",
 "description": "Build and embed high converting lead forms, popups and widgets without code. Capture more leads with simple powerful forms for startups and small teams.",
-"url": "https://startupforstartups.com/lead-generation-forms",
+"url": "https://presencewave.com/lead-generation-forms",
 "applicationCategory": "WebApplication",
 "operatingSystem": "Web Browser",
 "offers": {
@@ -402,7 +402,7 @@ Common questions about building high-converting lead capture forms
 },
 "creator": {
 "@type": "Organization",
-"name": "StartupForStartups"
+"name": "PresenceWave"
 },
 "featureList": [
 "High-converting lead forms",

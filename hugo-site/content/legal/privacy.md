@@ -1,6 +1,6 @@
 ---
-title: "Privacy Policy | StartupForStartups"
-description: "Privacy Policy for StartupForStartups platform and services. Learn how we collect, use, and protect your personal information."
+title: "Privacy Policy | PresenceWave"
+description: "Privacy Policy for PresenceWave platform and services. Learn how we collect, use, and protect your personal information."
 date: 2025-12-01
 draft: false
 layout: "single"
@@ -11,7 +11,7 @@ layout: "single"
 **Effective Date:** 01 December 2025
 **Last Updated:** 01 December 2025
 
-This Privacy Policy explains how Julio Labs (OPC) Pvt. Ltd. ("Company", "we", "us", "our") collects, uses, discloses, and protects your information when you use StartupForStartups (the "Service"), available at https://startupforstartups.com.
+This Privacy Policy explains how Julio Labs (OPC) Pvt. Ltd. ("Company", "we", "us", "our") collects, uses, discloses, and protects your information when you use PresenceWave (the "Service"), available at https://presencewave.com.
 
 By accessing or using the Service, you consent to the collection and use of your information as described in this Privacy Policy.
 If you do not agree, please discontinue use of the Service.
@@ -150,7 +150,7 @@ Depending on applicable laws, you may have the right to:
 
 - Object to certain forms of processing
 
-Requests can be sent to [sushrut@startupforstartups.com](mailto:sushrut@startupforstartups.com).
+Requests can be sent to [sushrut@presencewave.com](mailto:sushrut@presencewave.com).
 We may need to verify your identity before processing requests.
 
 ## 9. International Data Transfers
@@ -177,4 +177,4 @@ If you have any questions or requests regarding privacy, please contact:
 **Julio Labs (OPC) Pvt. Ltd.**
 4A, Ruchita Heights, Savarkar Nagar,
 Nashik, 422013, India
-📧 [sushrut@startupforstartups.com](mailto:sushrut@startupforstartups.com)
+📧 [sushrut@presencewave.com](mailto:sushrut@presencewave.com)
