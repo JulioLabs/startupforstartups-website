@@ -1,10 +1,10 @@
 ---
-title: "Launch Page Builder | Create Professional Coming Soon Pages | StartupForStartups"
+title: "Launch Page Builder | Create Professional Coming Soon Pages | PresenceWave"
 description: "Build stunning launch pages with countdown timers & email capture in minutes. Free templates, unlimited customization, perfect for startups. Start your pre-launch campaign today!"
 date: 2025-11-15
 draft: false
 layout: "feature"
-canonical: "https://startupforstartups.com/launchpages"
+canonical: "https://presencewave.com/launchpages"
 keywords: ["launch page builder", "coming soon pages", "landing page creator", "product launch pages", "pre-launch website", "startup launch page template", "countdown timer landing page", "email capture page"]
 image: /assets/images/launchpages-hero.png
 ---
@@ -12,7 +12,7 @@ image: /assets/images/launchpages-hero.png
 <!-- Hero Section -->
 <section class="hr-hero" id="hr-hero">
 <div class="hr-hero-inner">
-<div class="hr-brand-badge">Startup For Startups</div>
+<div class="hr-brand-badge">PresenceWave</div>
 <h1 class="hr-headline">Create Professional<br><span class="gradient-text">Coming Soon Pages</span><br>That Convert</h1>
 <p class="hr-subheadline">
 Build stunning pre-launch websites with countdown timers, email capture, and beautiful templates in minutes. No coding required.
@@ -438,7 +438,7 @@ Build stunning pre-launch websites with countdown timers, email capture, and bea
   "@type": "SoftwareApplication",
   "name": "Launch Page Builder",
   "description": "Create professional coming soon pages with countdown timers and email capture for startups and product launches",
-  "url": "https://startupforstartups.com/launchpages",
+  "url": "https://presencewave.com/launchpages",
   "applicationCategory": "WebApplication",
   "operatingSystem": "Web Browser",
   "offers": {
@@ -448,7 +448,7 @@ Build stunning pre-launch websites with countdown timers, email capture, and bea
   },
   "creator": {
     "@type": "Organization",
-    "name": "StartupForStartups"
+    "name": "PresenceWave"
   },
   "featureList": [
     "Countdown timer templates",

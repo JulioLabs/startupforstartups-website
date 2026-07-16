@@ -1,10 +1,10 @@
 ---
-title: "Email Marketing Platform | Professional Mailing Lists & Campaigns | StartupForStartups"
+title: "Email Marketing Platform | Professional Mailing Lists & Campaigns | PresenceWave"
 description: "Create professional email campaigns with our integrated mailing list platform. Rich text editor, subscriber management, automated workflows, and seamless platform integration. GDPR compliant with AWS delivery."
 date: 2025-11-27
 draft: false
 layout: "feature"
-canonical: "https://startupforstartups.com/mailing-lists"
+canonical: "https://presencewave.com/mailing-lists"
 keywords: ["email marketing platform", "mailing lists", "email campaigns", "newsletter marketing", "subscriber management", "email automation", "professional email marketing", "startup email marketing", "bulk email sending", "email templates", "GDPR compliant email", "AWS email delivery"]
 image: /assets/images/mailing-lists-hero-placeholder.png
 ---
@@ -12,7 +12,7 @@ image: /assets/images/mailing-lists-hero-placeholder.png
 <!-- Hero Section -->
 <section class="hr-hero" id="hr-hero">
 <div class="hr-hero-inner">
-<div class="hr-brand-badge">Startup For Startups</div>
+<div class="hr-brand-badge">PresenceWave</div>
 <h1 class="hr-headline">Email Marketing That<br>Actually Delivers</h1>
 <p class="hr-subheadline">Professional mailing list platform with rich text editor, subscriber management, GDPR compliance, and AWS-powered delivery.</p>
 <div class="hr-cta-group">
@@ -380,7 +380,7 @@ Common questions about our mailing list platform and email campaign tools
 "@type": "SoftwareApplication",
 "name": "Email Marketing & Mailing Lists",
 "description": "Create professional email campaigns with our integrated mailing list platform. Rich text editor, subscriber management, GDPR compliance, and AWS-powered delivery.",
-"url": "https://startupforstartups.com/mailing-lists",
+"url": "https://presencewave.com/mailing-lists",
 "applicationCategory": "WebApplication",
 "operatingSystem": "Web Browser",
 "offers": {
@@ -390,7 +390,7 @@ Common questions about our mailing list platform and email campaign tools
 },
 "creator": {
 "@type": "Organization",
-"name": "StartupForStartups"
+"name": "PresenceWave"
 },
 "featureList": [
 "Professional email campaigns",

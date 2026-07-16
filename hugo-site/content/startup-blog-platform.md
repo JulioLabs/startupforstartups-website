@@ -1,17 +1,17 @@
 ---
-title: "Startup Blog Platform | WordPress Alternative with Built-in Lead Capture | StartupForStartups"
+title: "Startup Blog Platform | WordPress Alternative with Built-in Lead Capture | PresenceWave"
 description: "Launch a clean, fast blog with built-in lead capture, made for startups. A simple blog platform and WordPress alternative for busy founders. Turn readers into leads with built-in forms, CTAs and email capture."
 date: 2025-12-01
 draft: false
 layout: "feature"
-canonical: "https://startupforstartups.com/startup-blog-platform"
+canonical: "https://presencewave.com/startup-blog-platform"
 keywords: ["startup blog platform", "simple blog for business", "wordpress alternative", "SEO friendly blog tool", "blog with lead forms", "no-code blogging", "blog for SaaS startups", "fast minimal blog", "turn readers to leads"]
 ---
 
 <!-- Hero Section -->
 <section class="hr-hero" id="hr-hero">
 <div class="hr-hero-inner">
-<div class="hr-brand-badge">Startup For Startups</div>
+<div class="hr-brand-badge">PresenceWave</div>
 <h1 class="hr-headline">Launch Your Startup Blog<br>Without the Complexity</h1>
 <p class="hr-subheadline">A clean, fast blog for busy founders. Built-in lead capture, SEO optimization, and zero maintenance. Turn content into customers without plugins.</p>
 <div class="hr-cta-group">
@@ -500,7 +500,7 @@ Common questions about our WordPress alternative and blog platform for startups
 "@type": "SoftwareApplication",
 "name": "Startup Blog Platform",
 "description": "Launch a clean, fast blog with built-in lead capture, made for startups. A simple blog platform and WordPress alternative for busy founders.",
-"url": "https://startupforstartups.com/startup-blog-platform",
+"url": "https://presencewave.com/startup-blog-platform",
 "applicationCategory": "WebApplication",
 "operatingSystem": "Web Browser",
 "offers": {
@@ -510,7 +510,7 @@ Common questions about our WordPress alternative and blog platform for startups
 },
 "creator": {
 "@type": "Organization",
-"name": "StartupForStartups"
+"name": "PresenceWave"
 },
 "featureList": [
 "WordPress alternative",

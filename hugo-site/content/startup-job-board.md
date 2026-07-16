@@ -1,10 +1,10 @@
 ---
-title: "Startup Job Board | Create Careers Page Fast | Hiring Tools | StartupForStartups"
+title: "Startup Job Board | Create Careers Page Fast | Hiring Tools | PresenceWave"
 description: "Create a hosted job board or careers page and embed it on your site. Post roles, share a careers page and manage applicants in one place. Add a job board to your startup site without engineers or plugins."
 date: 2025-12-01
 draft: false
 layout: "feature"
-canonical: "https://startupforstartups.com/startup-job-board"
+canonical: "https://presencewave.com/startup-job-board"
 keywords: ["create a job board fast", "hiring tools for startups", "embed job listings", "simple hiring platform", "careers page builder", "post jobs with no code", "manage applicants online", "job board for small teams", "startup hiring tools", "launch careers page fast"]
 image: /assets/images/jobboard-hero-modern.png
 ---
@@ -12,7 +12,7 @@ image: /assets/images/jobboard-hero-modern.png
 <!-- Hero Section -->
 <section class="hr-hero" id="hr-hero">
 <div class="hr-hero-inner">
-<div class="hr-brand-badge">Startup For Startups</div>
+<div class="hr-brand-badge">PresenceWave</div>
 <h1 class="hr-headline">Create Your Job Board<br>in Minutes, Not Weeks</h1>
 <p class="hr-subheadline">Launch a professional careers page, post jobs, and manage applicants without developers or plugins. Built for startups who need to hire fast.</p>
 <div class="hr-cta-group">
@@ -489,7 +489,7 @@ Common questions about creating job boards and hiring tools for startups
 "@type": "SoftwareApplication",
 "name": "Startup Job Board & Hiring Tools",
 "description": "Create a hosted job board or careers page and embed it on your site. Post roles, share a careers page and manage applicants in one place.",
-"url": "https://startupforstartups.com/startup-job-board",
+"url": "https://presencewave.com/startup-job-board",
 "applicationCategory": "WebApplication",
 "operatingSystem": "Web Browser",
 "offers": {
@@ -499,7 +499,7 @@ Common questions about creating job boards and hiring tools for startups
 },
 "creator": {
 "@type": "Organization",
-"name": "StartupForStartups"
+"name": "PresenceWave"
 },
 "featureList": [
 "Job board creation",

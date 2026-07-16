@@ -1,10 +1,10 @@
 ---
-title: "Embeddable Widgets | Contact Forms & Surveys for Any Website | StartupForStartups"
+title: "Embeddable Widgets | Contact Forms & Surveys for Any Website | PresenceWave"
 description: "Create professional embeddable widgets in minutes - contact forms, surveys, banners & more. Simple embed codes, unlimited customization, real-time analytics. No coding required!"
 date: 2025-11-20
 draft: false
 layout: "feature"
-canonical: "https://startupforstartups.com/widgets"
+canonical: "https://presencewave.com/widgets"
 keywords: ["embeddable widgets", "contact form widget", "survey widget", "website widgets", "embed code generator", "html widgets", "iframe widgets", "contact form embed", "survey embed", "banner widgets"]
 image: /assets/images/widgets-hero.png
 ---
@@ -12,7 +12,7 @@ image: /assets/images/widgets-hero.png
 <!-- Hero Section -->
 <section class="hr-hero" id="hr-hero">
 <div class="hr-hero-inner">
-<div class="hr-brand-badge">Startup For Startups</div>
+<div class="hr-brand-badge">PresenceWave</div>
 <h1 class="hr-headline">Embeddable Widgets<br>For Any Website</h1>
 <p class="hr-subheadline">Build contact forms, surveys, banners, and lead capture widgets with a simple embed code. No coding needed — works on any website.</p>
 <div class="hr-cta-group">
@@ -438,7 +438,7 @@ Common questions about contact form widgets, survey embeds, and website integrat
 "@type": "SoftwareApplication",
 "name": "Embeddable Widget Builder",
 "description": "Create professional embeddable widgets including contact forms, surveys, and banners for any website with simple HTML embed codes",
-"url": "https://startupforstartups.com/widgets",
+"url": "https://presencewave.com/widgets",
 "applicationCategory": "WebApplication",
 "operatingSystem": "Web Browser",
 "offers": {
@@ -448,7 +448,7 @@ Common questions about contact form widgets, survey embeds, and website integrat
 },
 "creator": {
 "@type": "Organization",
-"name": "StartupForStartups"
+"name": "PresenceWave"
 },
 "featureList": [
 "Contact form widgets",

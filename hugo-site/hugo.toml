@@ -1,6 +1,6 @@
-baseURL = 'https://startupforstartups.com'
+baseURL = 'https://presencewave.com'
 languageCode = 'en-us'
-title = 'Startup For Startups - Digital Presence Platform for Businesses'
+title = 'PresenceWave - Digital Presence Platform for Businesses'
 theme = 'startup-theme'
 
 # Enable unsafe HTML in markdown (needed for custom HTML in content)
@@ -36,12 +36,12 @@ theme = 'startup-theme'
 
   # Footer configuration
   [params.footer]
-    copyright = "Startup For Startups. All rights reserved."
+    copyright = "Julio Labs (OPC) Pvt. Ltd. All rights reserved."
 
   # Social links
   [params.social]
     twitter = "https://twitter.com/get_s4s"
-    blog = "https://blog.startupforstartups.com"
+    blog = "https://blog.presencewave.com"
 
 # Output formats for different content types
 [outputs]
@@ -50,6 +50,6 @@ theme = 'startup-theme'
 
 # SEO and meta configuration
 [params.seo]
-  title = "Startup For Startups - Digital Presence Platform for Businesses"
+  title = "PresenceWave - Digital Presence Platform for Businesses"
   description = "The complete digital presence solution for businesses. Job boards, blogs, widgets, analytics and more - all the tools you need in one unified platform."
   image = "/assets/images/heroimage.png"

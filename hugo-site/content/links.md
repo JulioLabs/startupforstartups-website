@@ -1,10 +1,10 @@
 ---
-title: "Link in Bio Pages | Professional Bio Link Tool | StartupForStartups"
+title: "Link in Bio Pages | Professional Bio Link Tool | PresenceWave"
 description: "Create professional link-in-bio pages with unlimited links, custom branding & analytics. Best bio link solution for businesses, influencers & teams. No limits, full control!"
 date: 2025-11-20
 draft: false
 layout: "feature"
-canonical: "https://startupforstartups.com/links"
+canonical: "https://presencewave.com/links"
 keywords: ["link in bio", "linktree alternative", "bio link page", "link page creator", "social media links", "bio links tool", "link in bio generator", "custom bio page", "link tree free", "social media optimization"]
 image: /assets/images/links-hero-placeholder.png
 ---
@@ -12,7 +12,7 @@ image: /assets/images/links-hero-placeholder.png
 <!-- Hero Section -->
 <section class="hr-hero" id="hr-hero">
 <div class="hr-hero-inner">
-<div class="hr-brand-badge">Startup For Startups</div>
+<div class="hr-brand-badge">PresenceWave</div>
 <h1 class="hr-headline">Professional Bio Link Pages<br>With Unlimited Links</h1>
 <p class="hr-subheadline">Create stunning link-in-bio pages with unlimited links, custom branding, and full analytics. Works with every social platform.</p>
 <div class="hr-cta-group">
@@ -429,7 +429,7 @@ Common questions about link-in-bio pages and bio link tools
 "@type": "SoftwareApplication",
 "name": "Link in Bio Page Creator",
 "description": "Professional bio link tool for creating custom link-in-bio pages with unlimited links, custom branding, and analytics",
-"url": "https://startupforstartups.com/links",
+"url": "https://presencewave.com/links",
 "applicationCategory": "WebApplication",
 "operatingSystem": "Web Browser",
 "offers": {
@@ -439,7 +439,7 @@ Common questions about link-in-bio pages and bio link tools
 },
 "creator": {
 "@type": "Organization",
-"name": "StartupForStartups"
+"name": "PresenceWave"
 },
 "featureList": [
 "Unlimited bio links",

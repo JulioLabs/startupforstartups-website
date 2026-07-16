@@ -42,22 +42,22 @@
   "organicSeo": {
     "priorityPages": [
       {
-        "title": "Job Boards - Startup For Startups",
+        "title": "Job Boards - PresenceWave",
         "url": "/job-boards",
         "priority": "high"
       },
       {
-        "title": "URL Shortener - Startup For Startups",
+        "title": "URL Shortener - PresenceWave",
         "url": "/url-shortener",
         "priority": "high"
       },
       {
-        "title": "Email Marketing - Startup For Startups",
+        "title": "Email Marketing - PresenceWave",
         "url": "/email-marketing",
         "priority": "medium"
       },
       {
-        "title": "Analytics - Startup For Startups",
+        "title": "Analytics - PresenceWave",
         "url": "/analytics",
         "priority": "medium"
       }
