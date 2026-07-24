@@ -1886,6 +1886,17 @@ p {
     font-weight: 650;
 }
 
+/* Light variant of the setup section (used on industry landing pages, e.g.
+   /cleaning/, where the dark treatment is reserved for the section below it) */
+.rp-setup {
+    padding: var(--spacing-4xl) 0;
+    background: var(--bg-secondary);
+}
+
+.rp-setup .rp-setup-card {
+    border: 1px solid var(--border-color);
+}
+
 /* === OUTCOMES === */
 .rp-outcomes {
     padding: var(--spacing-4xl) 0;
@@ -1918,6 +1929,48 @@ p {
 
 .rp-outcome p {
     color: var(--text-muted);
+    margin: 0;
+}
+
+/* === EXAMPLE KIT (industry landing pages, e.g. /cleaning/) === */
+.rp-kit {
+    padding: var(--spacing-4xl) 0;
+    background: #0F172A;
+    color: white;
+}
+
+.rp-kit .rp-eyebrow {
+    color: var(--accent-primary);
+}
+
+.rp-kit .rp-h2 {
+    color: white;
+}
+
+.rp-kit .rp-lead {
+    color: #a0a0a0;
+}
+
+.rp-kit-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-top: 44px;
+}
+
+.rp-kit-card {
+    padding: 26px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+}
+
+.rp-kit-card h3 {
+    font-size: var(--font-size-lg);
+    margin-bottom: 8px;
+}
+
+.rp-kit-card p {
+    color: #a0a0a0;
     margin: 0;
 }
 
@@ -2016,6 +2069,7 @@ p {
     .rp-examples-grid,
     .rp-outcomes-grid,
     .rp-tool-list,
+    .rp-kit-grid,
     .rp-onboarding-layout {
         grid-template-columns: 1fr;
     }
@@ -2035,6 +2089,8 @@ p {
     .rp-journey,
     .rp-examples,
     .rp-onboarding,
+    .rp-setup,
+    .rp-kit,
     .rp-outcomes,
     .rp-tools,
     .rp-industries,
