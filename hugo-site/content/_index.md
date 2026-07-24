@@ -1,10 +1,10 @@
 ---
-title: "PresenceWave - Digital Presence Solution for Businesses | All-in-One Platform"
-description: "The complete digital presence solution for businesses. Get job boards, blogs, launch pages, widgets, analytics & more in one unified platform. No-code setup, launch in minutes."
+title: "PresenceWave - Grow Your Local Service Business Online"
+description: "PresenceWave helps local service businesses - cleaning, landscaping, electricians, dentists and more - capture more leads, understand their customers and bring them back, all from one platform."
 date: 2025-11-27
 draft: false
 canonical: "https://presencewave.com/"
-keywords: ["digital presence platform", "business website tools", "online presence solution", "no-code business platform", "all-in-one business tools", "business platform", "digital presence builder", "website widgets", "business SaaS", "business launch platform", "entrepreneur tools", "business builder", "small business tools", "online business platform", "digital business solution"]
+keywords: ["service business website", "cleaning business marketing", "landscaping business website", "electrician marketing tools", "dental practice website", "local business lead generation", "small business tools", "quote form for service business", "customer feedback tools", "local business marketing platform"]
 ---
 
 <!-- Homepage content is handled by the index.html layout -->

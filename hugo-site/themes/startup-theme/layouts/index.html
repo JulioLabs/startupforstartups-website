@@ -1,239 +1,276 @@
-{{ define "header" }}
-<header class="header hr-header-hidden" id="hr-site-header">
-    <nav class="nav container">
-        <div class="nav-brand">
-            <a href="/" class="logo">
-                <svg width="200" height="54" viewBox="0 0 280 70" xmlns="http://www.w3.org/2000/svg">
-                    <g transform="translate(2, 3) scale(0.64)">
-                        <circle cx="50" cy="50" r="48" fill="#369969"/>
-                        <path d="M 14.00,55.20 L 14.21,55.21 L 14.43,55.21 L 14.64,55.22 L 14.85,55.22 L 15.07,55.22 L 15.28,55.22 L 15.49,55.21 L 15.71,55.20 L 15.92,55.19 L 16.13,55.18 L 16.35,55.16 L 16.56,55.14 L 16.77,55.12 L 16.99,55.09 L 17.20,55.06 L 17.41,55.03 L 17.63,54.99 L 17.84,54.95 L 18.05,54.91 L 18.27,54.86 L 18.48,54.81 L 18.69,54.76 L 18.91,54.70 L 19.12,54.64 L 19.33,54.58 L 19.55,54.51 L 19.76,54.44 L 19.97,54.37 L 20.19,54.29 L 20.40,54.22 L 20.61,54.14 L 20.83,54.05 L 21.04,53.97 L 21.25,53.88 L 21.47,53.79 L 21.68,53.69 L 21.89,53.60 L 22.11,53.50 L 22.32,53.41 L 22.53,53.31 L 22.75,53.21 L 22.96,53.11 L 23.17,53.01 L 23.39,52.91 L 23.60,52.81 L 23.81,52.71 L 24.03,52.61 L 24.24,52.51 L 24.45,52.41 L 24.67,52.31 L 24.88,52.22 L 25.09,52.12 L 25.31,52.03 L 25.52,51.94 L 25.73,51.86 L 25.95,51.77 L 26.16,51.70 L 26.37,51.62 L 26.59,51.55 L 26.80,51.48 L 27.01,51.42 L 27.23,51.36 L 27.44,51.31 L 27.65,51.27 L 27.87,51.23 L 28.08,51.19 L 28.29,51.16 L 28.51,51.14 L 28.72,51.13 L 28.93,51.12 L 29.15,51.12 L 29.36,51.13 L 29.57,51.14 L 29.79,51.16 L 30.00,51.19 L 30.21,51.23 L 30.43,51.28 L 30.64,51.33 L 30.85,51.39 L 31.07,51.46 L 31.28,51.54 L 31.49,51.63 L 31.71,51.72 L 31.92,51.83 L 32.13,51.94 L 32.35,52.06 L 32.56,52.18 L 32.77,52.32 L 32.99,52.46 L 33.20,52.61 L 33.41,52.76 L 33.63,52.93 L 33.84,53.10 L 34.05,53.27 L 34.27,53.46 L 34.48,53.64 L 34.69,53.84 L 34.91,54.03 L 35.12,54.24 L 35.33,54.44 L 35.55,54.65 L 35.76,54.87 L 35.97,55.08 L 36.19,55.30 L 36.40,55.52 L 36.61,55.74 L 36.83,55.97 L 37.04,56.19 L 37.25,56.41 L 37.47,56.63 L 37.68,56.85 L 37.89,57.06 L 38.11,57.28 L 38.32,57.49 L 38.53,57.69 L 38.75,57.89 L 38.96,58.09 L 39.17,58.28 L 39.39,58.46 L 39.60,58.64 L 39.81,58.80 L 40.03,58.96 L 40.24,59.11 L 40.45,59.25 L 40.67,59.39 L 40.88,59.51 L 41.09,59.61 L 41.31,59.71 L 41.52,59.80 L 41.73,59.87 L 41.95,59.93 L 42.16,59.97 L 42.37,60.00 L 42.59,60.02 L 42.80,60.02 L 43.01,60.01 L 43.23,59.98 L 43.44,59.94 L 43.65,59.88 L 43.87,59.81 L 44.08,59.72 L 44.29,59.61 L 44.51,59.49 L 44.72,59.35 L 44.93,59.20 L 45.15,59.03 L 45.36,58.84 L 45.57,58.64 L 45.79,58.43 L 46.00,58.20 L 46.21,57.95 L 46.43,57.69 L 46.64,57.42 L 46.85,57.13 L 47.07,56.83 L 47.28,56.51 L 47.49,56.19 L 47.71,55.85 L 47.92,55.50 L 48.13,55.14 L 48.35,54.78 L 48.56,54.40 L 48.77,54.02 L 48.99,53.63 L 49.20,53.23 L 49.41,52.83 L 49.63,52.42 L 49.84,52.01 L 50.05,51.60 L 50.27,51.18 L 50.48,50.77 L 50.69,50.35 L 50.91,49.94 L 51.12,49.53 L 51.33,49.13 L 51.55,48.72 L 51.76,48.33 L 51.97,47.94 L 52.19,47.56 L 52.40,47.19 L 52.61,46.83 L 52.83,46.48 L 53.04,46.14 L 53.25,45.82 L 53.47,45.51 L 53.68,45.22 L 53.89,44.94 L 54.11,44.68 L 54.32,44.44 L 54.53,44.22 L 54.75,44.01 L 54.96,43.83 L 55.17,43.67 L 55.39,43.54 L 55.60,43.42 L 55.81,43.33 L 56.03,43.27 L 56.24,43.23 L 56.45,43.21 L 56.67,43.22 L 56.88,43.26 L 57.09,43.33 L 57.31,43.42 L 57.52,43.54 L 57.73,43.68 L 57.95,43.85 L 58.16,44.05 L 58.37,44.28 L 58.59,44.54 L 58.80,44.82 L 59.01,45.13 L 59.23,45.46 L 59.44,45.82 L 59.65,46.21 L 59.87,46.62 L 60.08,47.05 L 60.29,47.51 L 60.51,47.99 L 60.72,48.49 L 60.93,49.02 L 61.15,49.56 L 61.36,50.12 L 61.57,50.70 L 61.79,51.30 L 62.00,51.91 L 62.21,52.54 L 62.43,53.18 L 62.64,53.83 L 62.85,54.49 L 63.07,55.16 L 63.28,55.83 L 63.49,56.52 L 63.71,57.20 L 63.92,57.89 L 64.13,58.58 L 64.35,59.27 L 64.56,59.95 L 64.77,60.63 L 64.99,61.30 L 65.20,61.97 L 65.41,62.63 L 65.63,63.27 L 65.84,63.90 L 66.05,64.52 L 66.27,65.12 L 66.48,65.70 L 66.69,66.26 L 66.91,66.80 L 67.12,67.32 L 67.33,67.81 L 67.55,68.28 L 67.76,68.71 L 67.97,69.12 L 68.19,69.50 L 68.40,69.85 L 68.61,70.16 L 68.83,70.44 L 69.04,70.68 L 69.25,70.88 L 69.47,71.05 L 69.68,71.18 L 69.89,71.27 L 70.11,71.32 L 70.32,71.33 L 70.53,71.29 L 70.75,71.22 L 70.96,71.10 L 71.17,70.94 L 71.39,70.74 L 71.60,70.50 L 71.81,70.21 L 72.03,69.88 L 72.24,69.50 L 72.45,69.09 L 72.67,68.63 L 72.88,68.14 L 73.09,67.60 L 73.31,67.02 L 73.52,66.41 L 73.73,65.75 L 73.95,65.06 L 74.16,64.34 L 74.37,63.58 L 74.59,62.79 L 74.80,61.97 L 75.01,61.12 L 75.23,60.24 L 75.44,59.33 L 75.65,58.40 L 75.87,57.45 L 76.08,56.48 L 76.29,55.49 L 76.51,54.49 L 76.72,53.47 L 76.93,52.44 L 77.15,51.40 L 77.36,50.35 L 77.57,49.30 L 77.79,48.25 L 78.00,47.20 L 80.01,37.41" fill="none" stroke="#FFFFFF" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M 86.38,38.71 L 81.01,32.51 L 73.64,36.10 Z" fill="#FFFFFF"/>
-                    </g>
-                    <text x="75" y="44" font-family="'Outfit', Arial, sans-serif" font-size="26" font-weight="700" fill="#F1F5F9">Presence<tspan fill="#369969">Wave</tspan></text>
-                </svg>
-            </a>
-        </div>
-        <div class="nav-menu">
-            {{ range .Site.Menus.main }}
-            <a href="{{ .URL }}" class="nav-link">{{ .Name }}</a>
-            {{ end }}
-        </div>
-        <button class="nav-toggle" id="nav-toggle">
-            <i class="fas fa-bars"></i>
-        </button>
-    </nav>
-</header>
-{{ end }}
-
 {{ define "main" }}
-<!-- Hero Section -->
-<section class="hr-hero" id="hr-hero">
-<div class="hr-hero-inner">
+<!-- Hero -->
+<section class="rp-hero">
+<div class="container">
 
-<div class="hr-brand-badge">PresenceWave — Streamline Your Presence</div>
-<h1 class="hr-headline">Replace 10 tools with<br>one platform.</h1>
+<div class="rp-eyebrow">For local service businesses</div>
+<h1 class="rp-h1">Turn your website<br>into a growth engine.</h1>
 
-<p class="hr-subheadline">
-Launch, hire, capture leads, and grow — all under your domain. Start with proven templates. Customize everything in seconds.
+<p class="rp-lead">
+Capture more leads, understand your customers and bring them back — without juggling a dozen different marketing tools.
 </p>
 
-<div class="hr-feature-strip">
-<span class="hr-feature-label">Built for</span>
-<div class="hr-feature-rotating" id="hr-rotator">
-<span class="hr-feature-item" data-index="0">Launch Pages</span>
-<span class="hr-feature-item" data-index="1">Job Boards</span>
-<span class="hr-feature-item" data-index="2">Blog & Content</span>
-<span class="hr-feature-item" data-index="3">Email Marketing</span>
-<span class="hr-feature-item" data-index="4">Widgets</span>
-<span class="hr-feature-item" data-index="5">Web Analytics</span>
-<span class="hr-feature-item" data-index="6">URL Shortener</span>
-<span class="hr-feature-item" data-index="7">Lead Generation</span>
-<span class="hr-feature-item" data-index="8">Bio-in-Links</span>
-<span class="hr-feature-item" data-index="9">Surveys & Questionnaires</span>
+<div class="rp-hero-actions">
+<a href="https://app.startupforstartups.com" class="rp-btn rp-btn-primary">Set up my business</a>
+<a href="#how" class="rp-btn rp-btn-secondary">See how it works</a>
+</div>
+
+<div class="rp-small-note">Tell us what kind of business you run. PresenceWave helps set up what you need.</div>
+
+<!-- Product preview mock -->
+<div class="rp-preview">
+<div class="rp-preview-browser">
+<div class="rp-preview-bar">● ● ● &nbsp;&nbsp; brightclean.co.uk</div>
+<div class="rp-preview-promo">Special offer — Book this week and save 15%</div>
+<div class="rp-preview-body">
+<h3>Professional service. Local team.</h3>
+<p>Trusted by customers across your area.</p>
+<div class="rp-preview-form">
+<strong>Get a free quote</strong>
+<div class="rp-preview-field"></div>
+<div class="rp-preview-field"></div>
+<div class="rp-preview-field"></div>
+<div class="rp-btn rp-btn-primary">Request quote</div>
+</div>
+</div>
 </div>
 </div>
 
-<div class="hr-cta-group">
-<a href="https://app.startupforstartups.com" class="hr-cta-btn">
-<span><i class="fas fa-rocket"></i> Start Building</span>
-<span class="hr-cta-note">No credit card required</span>
-</a>
 </div>
-
-</div>
-<div class="hr-scroll-hint"><i class="fas fa-chevron-down"></i></div>
 </section>
 
-<!-- Everything below the hero stays on the light theme -->
-
-<!-- Invisible Tax Section -->
-<section class="invisible-tax">
+<!-- Audience -->
+<section class="rp-audience">
 <div class="container">
-<div class="invisible-tax-grid">
-<div class="invisible-tax-content">
-<h2 class="invisible-tax-title">The invisible tax of modern software</h2>
-<p class="invisible-tax-description">
-Tools today don't just cost money. They cost time, coordination, and domain understanding — none of which early teams can spare.
-</p>
-</div>
-<div class="invisible-tax-list">
-<ul>
-<li>Managing users, roles, and permissions</li>
-<li>Multiple invoices, renewals, and contracts</li>
-<li>Learning each tool's mental model</li>
-<li>Wiring tools together (or living with silos)</li>
-</ul>
-</div>
+<p>Built for businesses that serve customers every day</p>
+<div class="rp-audience-list">
+<span>Cleaning</span>
+<span>Landscaping</span>
+<span>Electricians</span>
+<span>Dentists</span>
+<span>Pest Control</span>
+<span>Home Services</span>
+<span>Salons</span>
 </div>
 </div>
 </section>
 
-<!-- Built for Teams Section -->
-<section class="built-for-teams">
+<!-- Customer journey -->
+<section class="rp-journey" id="how">
 <div class="container">
-<div class="built-for-teams-grid">
-<div class="built-for-teams-content">
-<h2 class="built-for-teams-title">Most tools are built for organizations, not teams.</h2>
-<p class="built-for-teams-text">
-Best-in-class products assume ops muscle — people whose job is to evaluate tools, configure them, maintain them, and renegotiate them.
-</p>
-<p class="built-for-teams-text">
-If you're a small team, that "invisible work" quietly falls on founders. And that's a terrible use of founder time.
-</p>
+
+<div class="rp-eyebrow">One customer. One journey.</div>
+<h2 class="rp-h2">From first visit<br>to repeat customer.</h2>
+<p class="rp-lead">PresenceWave gives you simple tools to engage customers throughout their relationship with your business.</p>
+
+<div class="rp-journey-grid">
+
+<div class="rp-journey-card">
+<div class="rp-step">01</div>
+<h3>Attract</h3>
+<p>Promote offers, discounts and important messages to people visiting your website.</p>
 </div>
-<div class="built-for-teams-cta">
-<a href="https://app.startupforstartups.com" class="btn btn-primary btn-lg hero-cta-btn">
-<span class="hero-cta-main"><i class="fas fa-rocket"></i> Get Started</span>
-<span class="hero-cta-note">No credit card required</span>
-</a>
+
+<div class="rp-journey-card">
+<div class="rp-step">02</div>
+<h3>Convert</h3>
+<p>Turn visitors into enquiries with quote, contact and lead capture forms.</p>
 </div>
+
+<div class="rp-journey-card">
+<div class="rp-step">03</div>
+<h3>Understand</h3>
+<p>Collect feedback and understand how customers interact with your business.</p>
+</div>
+
+<div class="rp-journey-card">
+<div class="rp-step">04</div>
+<h3>Retain</h3>
+<p>Stay in touch and turn previous customers into repeat customers.</p>
+</div>
+
 </div>
 </div>
 </section>
 
-<!-- Platform Section -->
-<section id="platform" class="platform">
+<!-- Industry examples -->
+<section class="rp-examples" id="solutions">
 <div class="container">
-<div class="section-header">
-<h2 class="section-title">Built for <span class="gradient-text">Speed & Simplicity</span></h2>
-<p class="section-description">No technical skills required. Launch in minutes, not months.</p>
-</div>
-<div class="platform-features">
-<div class="platform-feature">
-<div class="feature-icon"><i class="fas fa-bolt"></i></div>
-<div class="feature-content">
-<h3>Launch in Minutes</h3>
-<p>Pre-configured templates and automated setup get you online instantly. No complex configurations or technical setup required.</p>
-</div>
-</div>
-<div class="platform-feature">
-<div class="feature-icon"><i class="fas fa-paint-brush"></i></div>
-<div class="feature-content">
-<h3>Beautiful by Default</h3>
-<p>Modern, professional designs that adapt to your brand. Completely customizable styling system.</p>
+
+<div class="rp-eyebrow">Built around real businesses</div>
+<h2 class="rp-h2">Same goal.<br>Different businesses.</h2>
+<p class="rp-lead">PresenceWave adapts its tools and templates to the way your business works.</p>
+
+<div class="rp-examples-grid">
+
+<div class="rp-example">
+<div class="rp-example-business">Cleaning company</div>
+<h3>Turn visitors into cleaning enquiries.</h3>
+<p>Promote an introductory offer and give customers an easy way to request a quote.</p>
+<div class="rp-example-ui">
+<strong>Get a cleaning quote</strong>
+<p>Property type · Bedrooms · Postcode · Preferred date</p>
+<span class="rp-btn rp-btn-primary rp-btn-sm">Request quote</span>
 </div>
 </div>
-<div class="platform-feature">
-<div class="feature-icon"><i class="fas fa-sync"></i></div>
-<div class="feature-content">
-<h3>Unified Data</h3>
-<p>All your data in one place. See how your website, hiring, and marketing efforts work together to grow your business.</p>
+
+<div class="rp-example">
+<div class="rp-example-business">Landscaping company</div>
+<h3>Capture better project leads.</h3>
+<p>Ask prospective customers about their garden, project and budget before you call them.</p>
+<div class="rp-example-ui">
+<strong>Tell us about your project</strong>
+<p>Service · Garden size · Budget · Location</p>
+<span class="rp-btn rp-btn-primary rp-btn-sm">Get a quote</span>
 </div>
 </div>
-<div class="platform-feature">
-<div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
-<div class="feature-content">
-<h3>Enterprise Ready</h3>
-<p>Multi-tenant architecture, role-based permissions, and activity logging. Scale from startup to enterprise without switching platforms.</p>
+
+<div class="rp-example">
+<div class="rp-example-business">Electrician</div>
+<h3>Get more callout requests.</h3>
+<p>Let customers describe the job and share urgency and location before they call.</p>
+<div class="rp-example-ui">
+<strong>Request a callout</strong>
+<p>Job type · Property type · Urgency · Location</p>
+<span class="rp-btn rp-btn-primary rp-btn-sm">Request callout</span>
 </div>
 </div>
-<div class="platform-feature">
-<div class="feature-icon"><i class="fas fa-mouse-pointer"></i></div>
-<div class="feature-content">
-<h3>No-Code Setup</h3>
-<p>Visual editors, and smart templates. Build professional digital presence and tools without writing a single line of code.</p>
+
+<div class="rp-example">
+<div class="rp-example-business">Dental practice</div>
+<h3>Fill your appointment book.</h3>
+<p>Make it effortless for new and existing patients to request an appointment online.</p>
+<div class="rp-example-ui">
+<strong>Book an appointment</strong>
+<p>Reason for visit · Preferred day · New or existing patient</p>
+<span class="rp-btn rp-btn-primary rp-btn-sm">Book appointment</span>
 </div>
 </div>
-<div class="platform-feature">
-<div class="feature-icon"><i class="fas fa-rocket"></i></div>
-<div class="feature-content">
-<h3>Zero Overhead</h3>
-<p>Instant publishing, no infrastructure to manage.</p>
-</div>
-</div>
+
 </div>
 </div>
 </section>
 
-<!-- Features Section -->
-<section id="features" class="features">
+<!-- Personalized setup -->
+<section class="rp-onboarding">
 <div class="container">
-<div class="section-header">
-<h2 class="section-title">All the Tools You Need</h2>
-<p class="section-description">All the tools you need to manage digital presence for your business</p>
+<div class="rp-onboarding-layout">
+
+<div>
+<div class="rp-eyebrow">Less setup. More doing.</div>
+<h2 class="rp-h2">Tell us what you do.<br>We'll help with the rest.</h2>
+<p class="rp-lead">You shouldn't need to understand marketing software to market your business.</p>
+<p class="rp-lead">Choose your type of business and PresenceWave recommends ready-made tools and templates to get you started.</p>
 </div>
-<div class="features-grid">
-<div class="feature-category">
-<div class="category-header">
-<i class="fas fa-globe category-icon"></i>
-<h3>Build & Launch</h3>
+
+<div class="rp-setup-card">
+<strong>What kind of business do you run?</strong>
+<div class="rp-choice rp-choice-active">✓ Cleaning service</div>
+<div class="rp-choice">Landscaping</div>
+<div class="rp-choice">Electrician</div>
+<div class="rp-choice">Dental practice</div>
+<div class="rp-choice">Pest control</div>
+<div class="rp-choice">Other service business</div>
 </div>
-<div class="feature-list">
-<div class="feature-item"><i class="fas fa-check"></i><span>Launch Pages</span></div>
-<div class="feature-item"><i class="fas fa-check"></i><span>Link-in-Bio Pages</span></div>
-<div class="feature-item"><i class="fas fa-check"></i><span>Custom Domains</span></div>
-<div class="feature-item"><i class="fas fa-check"></i><span>Blog & Content</span></div>
-<div class="feature-item"><i class="fas fa-check"></i><span>Embeddable Widgets</span></div>
-<div class="feature-item"><i class="fas fa-check"></i><span>Analytics & Tracking</span></div>
-</div>
-</div>
-<div class="feature-category">
-<div class="category-header">
-<i class="fas fa-users category-icon"></i>
-<h3>Hire & Grow</h3>
-</div>
-<div class="feature-list">
-<div class="feature-item"><i class="fas fa-check"></i><span>Job Boards</span></div>
-<div class="feature-item"><i class="fas fa-check"></i><span>ATS System</span></div>
-<div class="feature-item"><i class="fas fa-check"></i><span>Email Marketing</span></div>
-<div class="feature-item"><i class="fas fa-check"></i><span>Lead Generation</span></div>
-</div>
-</div>
-<div class="feature-category">
-<div class="category-header">
-<i class="fas fa-chart-line category-icon"></i>
-<h3>Analyze & Scale</h3>
-</div>
-<div class="feature-list">
-<div class="feature-item"><i class="fas fa-check"></i><span>Web Analytics</span></div>
-<div class="feature-item"><i class="fas fa-check"></i><span>URL Shortener</span></div>
-<div class="feature-item"><i class="fas fa-check"></i><span>Surveys & Questionnaires</span></div>
-<div class="feature-item"><i class="fas fa-check"></i><span>Status Pages</span></div>
-<div class="feature-item"><i class="fas fa-check"></i><span>API & CLI Tools</span></div>
-</div>
-</div>
+
 </div>
 </div>
 </section>
 
-<!-- CTA Section -->
-<section class="cta">
+<!-- Outcomes -->
+<section class="rp-outcomes">
 <div class="container">
-<div class="cta-content">
-<h2>Stop Piecing It Together.</h2>
-<p>Build and manage your entire digital presence on a single, structured system.</p>
-<div class="cta-actions">
-<a href="https://app.startupforstartups.com" class="btn btn-primary btn-lg">
-<i class="fas fa-rocket"></i>
-Launch your digital presence.
-</a>
+
+<div class="rp-eyebrow">Everything working together</div>
+<h2 class="rp-h2">Grow your customer relationships,<br>not your software stack.</h2>
+
+<div class="rp-outcomes-grid">
+
+<div class="rp-outcome">
+<div class="rp-outcome-icon"><i class="fas fa-arrow-trend-up"></i></div>
+<h3>Get more enquiries</h3>
+<p>Capture interested visitors with quote forms, contact forms and targeted website messages.</p>
 </div>
-<div class="cta-guarantee">
-<i class="fas fa-shield-alt"></i>
-<span>Start building, no credit card required.</span>
+
+<div class="rp-outcome">
+<div class="rp-outcome-icon"><i class="fas fa-magnifying-glass-chart"></i></div>
+<h3>Know what's working</h3>
+<p>Understand where visitors come from and what turns them into enquiries.</p>
+</div>
+
+<div class="rp-outcome">
+<div class="rp-outcome-icon"><i class="fas fa-star"></i></div>
+<h3>Build your reputation</h3>
+<p>Collect customer feedback and encourage happy customers to share their experience.</p>
+</div>
+
+<div class="rp-outcome">
+<div class="rp-outcome-icon"><i class="fas fa-rotate"></i></div>
+<h3>Bring customers back</h3>
+<p>Build your customer list and run campaigns that turn previous customers into repeat business.</p>
+</div>
+
 </div>
 </div>
+</section>
+
+<!-- Tools -->
+<section class="rp-tools" id="tools">
+<div class="container">
+
+<div class="rp-eyebrow">One platform</div>
+<h2 class="rp-h2">The tools are there<br>when you need them.</h2>
+<p class="rp-lead">Instead of adding another subscription every time your business needs something new, PresenceWave keeps the essentials together.</p>
+
+<div class="rp-tool-list">
+<div class="rp-tool"><h3>Quote &amp; Contact Forms</h3><p>Capture enquiries directly from your website.</p></div>
+<div class="rp-tool"><h3>Website Widgets</h3><p>Offers, announcements, banners and customer messages.</p></div>
+<div class="rp-tool"><h3>Campaign Pages</h3><p>Focused pages for offers and promotions.</p></div>
+<div class="rp-tool"><h3>Email Campaigns</h3><p>Stay in touch and bring previous customers back.</p></div>
+<div class="rp-tool"><h3>Customer Surveys</h3><p>Collect feedback and measure satisfaction.</p></div>
+<div class="rp-tool"><h3>Cookie Consent</h3><p>Simple website consent tools when you need them.</p></div>
+<div class="rp-tool"><h3>Web Analytics</h3><p>Understand visitors, campaigns and enquiries.</p></div>
+<div class="rp-tool"><h3>Blog</h3><p>Publish useful content for customers and search engines.</p></div>
+<div class="rp-tool"><h3>Job Postings</h3><p>Advertise vacancies and collect applications.</p></div>
+</div>
+
+</div>
+</section>
+
+<!-- Industries -->
+<section class="rp-industries" id="industries">
+<div class="container">
+
+<div class="rp-eyebrow">PresenceWave for your business</div>
+<h2 class="rp-h2">Start with tools built<br>for the way you work.</h2>
+<p class="rp-lead">Choose your industry to see how PresenceWave can work for your business.</p>
+
+<div class="rp-industry-list">
+<span class="rp-industry">Cleaning</span>
+<span class="rp-industry">Landscaping</span>
+<span class="rp-industry">Electricians</span>
+<span class="rp-industry">Dentists</span>
+<span class="rp-industry">Pest Control</span>
+<span class="rp-industry">Home Services</span>
+<span class="rp-industry">Salons</span>
+<span class="rp-industry">Moving Companies</span>
+<span class="rp-industry">Other Services</span>
+</div>
+
+</div>
+</section>
+
+<!-- Final CTA -->
+<section class="rp-final-cta">
+<div class="container">
+
+<h2 class="rp-h2">Your website is already there.<br>Make it work harder.</h2>
+<p class="rp-lead">Start with ready-made tools designed around your business and customize them as you grow.</p>
+
+<a href="https://app.startupforstartups.com" class="rp-btn rp-btn-primary">Set up my business</a>
+
+<div class="rp-small-note">Get started in minutes. No credit card required.</div>
+
 </div>
 </section>
 {{ end }}
-
