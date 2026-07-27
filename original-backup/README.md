@@ -80,11 +80,11 @@ This website is automatically deployed using GitHub Pages with GitHub Actions:
 3. **Solution Overview** - Platform benefits and journey
 4. **Features** - Detailed feature breakdown
 5. **Platform Benefits** - Speed and simplicity focus
-6. **Call to Action** - Drive users to app.startupforstartups.com
+6. **Call to Action** - Drive users to app.presencewave.com
 
 ## 🔗 Important Links
 
-- **Main Application**: [app.startupforstartups.com](https://app.startupforstartups.com)
+- **Main Application**: [app.presencewave.com](https://app.presencewave.com)
 - **Blog**: [blog.startupforstartups.com](https://blog.startupforstartups.com)
 - **Twitter**: [@get_s4s](https://twitter.com/get_s4s)
 

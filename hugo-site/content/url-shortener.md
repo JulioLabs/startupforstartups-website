@@ -16,7 +16,7 @@ image: /assets/images/url-hero.png
 <h1 class="hr-headline">Branded Short Links<br>With Real-Time Analytics</h1>
 <p class="hr-subheadline">Create custom short URLs with your own domain, click tracking, and detailed analytics. The Bitly alternative built for teams.</p>
 <div class="hr-cta-group">
-<a href="https://app.startupforstartups.com" class="hr-cta-btn">
+<a href="https://app.presencewave.com" class="hr-cta-btn">
 <span><i class="fas fa-rocket"></i> Start Shortening</span>
 <span class="hr-cta-note">No credit card required</span>
 </a>
@@ -256,7 +256,7 @@ Enterprise-grade URL shortening with powerful analytics and seamless integration
 <h2>Ready to Shorten and Track Your URLs?</h2>
 <p>Join hundreds of startups using professional URL shortening with branded domains and comprehensive analytics.</p>
 <div class="cta-actions">
-<a href="https://app.startupforstartups.com" class="btn btn-primary btn-lg">
+<a href="https://app.presencewave.com" class="btn btn-primary btn-lg">
 <i class="fas fa-link"></i>
 Start Shortening Now
 </a>

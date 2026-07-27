@@ -15,7 +15,7 @@ keywords: ["all-in-one business platform", "digital presence solution", "forms b
 <h1 class="hr-headline">Run Your Startup From<br>One Simple Platform</h1>
 <p class="hr-subheadline">Stop juggling 15+ tools. Blog, lead capture, hiring, analytics, and more — all from one unified dashboard built for founders.</p>
 <div class="hr-cta-group">
-<a href="https://app.startupforstartups.com" class="hr-cta-btn">
+<a href="https://app.presencewave.com" class="hr-cta-btn">
 <span><i class="fas fa-rocket"></i> Start Building</span>
 <span class="hr-cta-note">No credit card required</span>
 </a>
@@ -99,7 +99,7 @@ Four powerful modules that work together seamlessly to power your entire online 
 </div>
 </div>
 <div class="solution-cta">
-<a href="https://app.startupforstartups.com" class="btn btn-primary">
+<a href="https://app.presencewave.com" class="btn btn-primary">
 <i class="fas fa-eye"></i>
 See How It Works
 </a>
@@ -245,7 +245,7 @@ Everything integrated, everything simple.
 </div>
 <div class="demo-cta">
 <p><strong>This is what managing your startup looks like when everything works together.</strong></p>
-<a href="https://app.startupforstartups.com" class="btn btn-primary">
+<a href="https://app.presencewave.com" class="btn btn-primary">
 Try It Free
 </a>
 </div>
@@ -258,7 +258,7 @@ Try It Free
 <div class="mid-cta-content">
 <h3>One Platform, Unlimited Possibilities</h3>
 <p>Blog • Forms • Jobs • Analytics • All integrated • Zero complexity</p>
-<a href="https://app.startupforstartups.com" class="btn btn-primary">
+<a href="https://app.presencewave.com" class="btn btn-primary">
 <i class="fas fa-rocket"></i>
 Start Building Now
 </a>
@@ -481,7 +481,7 @@ From zero to fully operational startup platform in minutes, not months
 <h2>Ready to Simplify Your Startup?</h2>
 <p>Join hundreds of founders who've replaced their complex tool stack with our all-in-one platform. Launch faster, manage easier, grow better.</p>
 <div class="cta-actions">
-<a href="https://app.startupforstartups.com" class="btn btn-primary btn-lg">
+<a href="https://app.presencewave.com" class="btn btn-primary btn-lg">
 <i class="fas fa-rocket"></i>
 Start Building Your Startup
 </a>

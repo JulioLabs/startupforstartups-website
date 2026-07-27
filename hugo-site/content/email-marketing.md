@@ -15,7 +15,7 @@ keywords: ["email marketing", "newsletter builder", "email campaigns", "marketin
 <h1 class="hr-headline">Build Email Campaigns<br>That Convert and Grow</h1>
 <p class="hr-subheadline">Drag-and-drop email builder with automation, analytics, and seamless platform integration. Launch your first campaign in minutes.</p>
 <div class="hr-cta-group">
-<a href="https://app.startupforstartups.com" class="hr-cta-btn">
+<a href="https://app.presencewave.com" class="hr-cta-btn">
 <span><i class="fas fa-envelope"></i> Start Email Marketing</span>
 <span class="hr-cta-note">No credit card required</span>
 </a>
@@ -30,7 +30,7 @@ keywords: ["email marketing", "newsletter builder", "email campaigns", "marketin
 <div class="mid-cta-content">
 <h3><i class="fas fa-rocket"></i> Coming Soon</h3>
 <p>Our comprehensive email marketing platform is under development. Join the early access list to be first when it launches.</p>
-<a href="https://app.startupforstartups.com" class="btn btn-primary">
+<a href="https://app.presencewave.com" class="btn btn-primary">
 <i class="fas fa-bell"></i>
 Get Early Access
 </a>
@@ -199,7 +199,7 @@ Email marketing that works seamlessly with all your other business tools
 <h2>Ready to Supercharge Your Email Marketing?</h2>
 <p>Be among the first to access our integrated email marketing platform when it launches.</p>
 <div class="cta-actions">
-<a href="https://app.startupforstartups.com" class="btn btn-primary btn-lg">
+<a href="https://app.presencewave.com" class="btn btn-primary btn-lg">
 <i class="fas fa-bell"></i>
 Join Early Access List
 </a>

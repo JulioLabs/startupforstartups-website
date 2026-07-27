@@ -1,6 +1,6 @@
 baseURL = 'https://presencewave.com'
 languageCode = 'en-us'
-title = 'PresenceWave - Digital Presence Platform for Businesses'
+title = 'PresenceWave - Grow Your Local Service Business Online'
 theme = 'startup-theme'
 
 # Enable unsafe HTML in markdown (needed for custom HTML in content)
@@ -16,23 +16,28 @@ theme = 'startup-theme'
 # Configure menus for navigation
 [menu]
   [[menu.main]]
-    name = "Features"
-    url = "/#features"
+    name = "How it Works"
+    url = "/#how"
     weight = 10
 
   [[menu.main]]
-    name = "Platform"
-    url = "/#platform"
+    name = "Tools"
+    url = "/#tools"
     weight = 20
 
   [[menu.main]]
+    name = "Industries"
+    url = "/#industries"
+    weight = 25
+
+  [[menu.main]]
     name = "Get Started"
-    url = "https://app.startupforstartups.com"
+    url = "https://app.presencewave.com"
     weight = 30
 
 # Site parameters
 [params]
-  description = "The complete digital presence solution for businesses. Job boards, blogs, widgets, analytics and more - all the tools you need in one unified platform."
+  description = "PresenceWave helps local service businesses - cleaning, landscaping, electricians, dentists and more - capture more leads, understand their customers and bring them back, all from one platform."
 
   # Footer configuration
   [params.footer]
@@ -50,6 +55,6 @@ theme = 'startup-theme'
 
 # SEO and meta configuration
 [params.seo]
-  title = "PresenceWave - Digital Presence Platform for Businesses"
-  description = "The complete digital presence solution for businesses. Job boards, blogs, widgets, analytics and more - all the tools you need in one unified platform."
+  title = "PresenceWave - Grow Your Local Service Business Online"
+  description = "PresenceWave helps local service businesses - cleaning, landscaping, electricians, dentists and more - capture more leads, understand their customers and bring them back, all from one platform."
   image = "/assets/images/heroimage.png"

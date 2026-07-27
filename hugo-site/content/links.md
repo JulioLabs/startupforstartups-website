@@ -16,7 +16,7 @@ image: /assets/images/links-hero-placeholder.png
 <h1 class="hr-headline">Professional Bio Link Pages<br>With Unlimited Links</h1>
 <p class="hr-subheadline">Create stunning link-in-bio pages with unlimited links, custom branding, and full analytics. Works with every social platform.</p>
 <div class="hr-cta-group">
-<a href="https://app.startupforstartups.com" class="hr-cta-btn">
+<a href="https://app.presencewave.com" class="hr-cta-btn">
 <span><i class="fas fa-link"></i> Start Building</span>
 <span class="hr-cta-note">No credit card required</span>
 </a>
@@ -148,7 +148,7 @@ Professional link-in-bio pages with all the features startups and businesses nee
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
 <img src="/assets/images/links-themes/basic.png" alt="Basic theme" loading="lazy">
-<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Basic theme">
+<a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Basic theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
 </div>
@@ -160,7 +160,7 @@ Professional link-in-bio pages with all the features startups and businesses nee
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
 <img src="/assets/images/links-themes/splitscreen.png" alt="Split Screen theme" loading="lazy">
-<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Split Screen theme">
+<a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Split Screen theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
 </div>
@@ -172,7 +172,7 @@ Professional link-in-bio pages with all the features startups and businesses nee
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
 <img src="/assets/images/links-themes/aurora.png" alt="Aurora Gradient theme" loading="lazy">
-<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Aurora Gradient theme">
+<a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Aurora Gradient theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
 </div>
@@ -184,7 +184,7 @@ Professional link-in-bio pages with all the features startups and businesses nee
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
 <img src="/assets/images/links-themes/creator-grid.png" alt="Creator Grid theme" loading="lazy">
-<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Creator Grid theme">
+<a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Creator Grid theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
 </div>
@@ -196,7 +196,7 @@ Professional link-in-bio pages with all the features startups and businesses nee
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
 <img src="/assets/images/links-themes/minimal.png" alt="Minimal Mono theme" loading="lazy">
-<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Minimal Mono theme">
+<a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Minimal Mono theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
 </div>
@@ -208,7 +208,7 @@ Professional link-in-bio pages with all the features startups and businesses nee
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
 <img src="/assets/images/links-themes/bento.png" alt="Bento Blocks theme" loading="lazy">
-<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Bento Blocks theme">
+<a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Bento Blocks theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
 </div>
@@ -219,7 +219,7 @@ Professional link-in-bio pages with all the features startups and businesses nee
 </div>
 </div>
 <div class="lp-themes-cta">
-<a href="https://app.startupforstartups.com" class="btn btn-primary btn-lg">
+<a href="https://app.presencewave.com" class="btn btn-primary btn-lg">
 <i class="fas fa-rocket"></i> Get Started — Free
 </a>
 </div>
@@ -363,7 +363,7 @@ Link pages designed specifically for startups, teams, and modern businesses
 <h2>Ready to Create Your Professional Link Page?</h2>
 <p>Join hundreds of startups creating branded link pages that showcase their resources professionally.</p>
 <div class="cta-actions">
-<a href="https://app.startupforstartups.com" class="btn btn-primary btn-lg">
+<a href="https://app.presencewave.com" class="btn btn-primary btn-lg">
 <i class="fas fa-link"></i>
 Start Building Now
 </a>

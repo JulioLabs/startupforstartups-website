@@ -16,7 +16,7 @@ image: /assets/images/widgets-hero.png
 <h1 class="hr-headline">Embeddable Widgets<br>For Any Website</h1>
 <p class="hr-subheadline">Build contact forms, surveys, banners, and lead capture widgets with a simple embed code. No coding needed — works on any website.</p>
 <div class="hr-cta-group">
-<a href="https://app.startupforstartups.com" class="hr-cta-btn">
+<a href="https://app.presencewave.com" class="hr-cta-btn">
 <span><i class="fas fa-puzzle-piece"></i> Start Building Widgets</span>
 <span class="hr-cta-note">No credit card required</span>
 </a>
@@ -372,7 +372,7 @@ Professional widget system with security, compliance, and performance at its cor
 <h2>Ready to Embed Professional Widgets?</h2>
 <p>Join hundreds of businesses using our widget system to capture leads, gather feedback, and engage users across any website.</p>
 <div class="cta-actions">
-<a href="https://app.startupforstartups.com" class="btn btn-primary btn-lg">
+<a href="https://app.presencewave.com" class="btn btn-primary btn-lg">
 <i class="fas fa-puzzle-piece"></i>
 Start Creating Widgets
 </a>

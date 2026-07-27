@@ -7,7 +7,7 @@ Allow: /
 Allow: https://blog.presencewave.com/
 
 # Block access to app subdomain
-Disallow: https://app.startupforstartups.com/
+Disallow: https://app.presencewave.com/
 
 # Standard exclusions for better SEO
 Disallow: /assets/

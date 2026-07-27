@@ -18,7 +18,7 @@ image: /assets/images/launchpages-hero.png
 Build stunning pre-launch websites with countdown timers, email capture, and beautiful templates in minutes. No coding required.
 </p>
 <div class="hr-cta-group">
-<a href="https://app.startupforstartups.com" class="hr-cta-btn">
+<a href="https://app.presencewave.com" class="hr-cta-btn">
 <span><i class="fas fa-rocket"></i> Start Building</span>
 <span class="hr-cta-note">No credit card required</span>
 </a>
@@ -151,7 +151,7 @@ Build stunning pre-launch websites with countdown timers, email capture, and bea
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
 <img src="/assets/images/launchpage-themes/launchpage-fullscreen.png" alt="Full Screen launch page theme" loading="lazy">
-<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Full Screen theme">
+<a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Full Screen theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
 </div>
@@ -164,7 +164,7 @@ Build stunning pre-launch websites with countdown timers, email capture, and bea
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
 <img src="/assets/images/launchpage-themes/launchpage-splitscreen.png" alt="Split Screen launch page theme" loading="lazy">
-<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Split Screen theme">
+<a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Split Screen theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
 </div>
@@ -177,7 +177,7 @@ Build stunning pre-launch websites with countdown timers, email capture, and bea
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
 <img src="/assets/images/launchpage-themes/launchpage-fullscreen-countdown.png" alt="Full Screen Countdown launch page theme" loading="lazy">
-<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Full Screen Countdown theme">
+<a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Full Screen Countdown theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
 </div>
@@ -190,7 +190,7 @@ Build stunning pre-launch websites with countdown timers, email capture, and bea
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
 <img src="/assets/images/launchpage-themes/launchpage-splitscreen-countdown.png" alt="Split Screen Countdown launch page theme" loading="lazy">
-<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Split Screen Countdown theme">
+<a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Split Screen Countdown theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
 </div>
@@ -203,7 +203,7 @@ Build stunning pre-launch websites with countdown timers, email capture, and bea
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
 <img src="/assets/images/launchpage-themes/launchpage-founder-letter.png" alt="Founder Letter launch page theme" loading="lazy">
-<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Founder Letter theme">
+<a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Founder Letter theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
 </div>
@@ -216,7 +216,7 @@ Build stunning pre-launch websites with countdown timers, email capture, and bea
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
 <img src="/assets/images/launchpage-themes/launchpage-momentum.png" alt="Social Proof Momentum launch page theme" loading="lazy">
-<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Momentum theme">
+<a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Momentum theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
 </div>
@@ -228,7 +228,7 @@ Build stunning pre-launch websites with countdown timers, email capture, and bea
 
 </div>
 <div class="lp-themes-cta">
-<a href="https://app.startupforstartups.com" class="btn btn-primary btn-lg">
+<a href="https://app.presencewave.com" class="btn btn-primary btn-lg">
 <i class="fas fa-rocket"></i> Start Building — Free
 </a>
 </div>
@@ -372,7 +372,7 @@ Build stunning pre-launch websites with countdown timers, email capture, and bea
             <h2>Ready to Launch Your First Campaign?</h2>
             <p>Join hundreds of startups creating professional launch pages that convert visitors into customers.</p>
             <div class="cta-actions">
-                <a href="https://app.startupforstartups.com" class="btn btn-primary btn-lg">
+                <a href="https://app.presencewave.com" class="btn btn-primary btn-lg">
                     <i class="fas fa-rocket"></i>
                     Start Building Now
                 </a>
