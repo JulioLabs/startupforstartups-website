@@ -20,7 +20,7 @@ Capture more enquiries, promote your offers, understand your customers and bring
 </p>
 
 <div class="rp-hero-actions">
-<a href="https://app.startupforstartups.com" class="rp-btn rp-btn-primary">Set up my business</a>
+<a href="https://app.presencewave.com" class="rp-btn rp-btn-primary">Set up my business</a>
 <a href="#how" class="rp-btn rp-btn-secondary">See how it works</a>
 </div>
 
@@ -240,7 +240,7 @@ Capture more enquiries, promote your offers, understand your customers and bring
 <h2 class="rp-h2">Your website is already there.<br>Make it work harder.</h2>
 <p class="rp-lead">Tell PresenceWave what kind of business you run and we'll help you set up the tools you need to attract, understand and retain customers.</p>
 
-<a href="https://app.startupforstartups.com" class="rp-btn rp-btn-primary">Set up my business</a>
+<a href="https://app.presencewave.com" class="rp-btn rp-btn-primary">Set up my business</a>
 
 <div class="rp-small-note">Get started in minutes.</div>
 

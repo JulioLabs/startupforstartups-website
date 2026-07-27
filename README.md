@@ -168,7 +168,7 @@ Update `hugo.toml` to add menu items:
 
 ## 🔗 Important Links
 
-- **Main Application**: [app.startupforstartups.com](https://app.startupforstartups.com)
+- **Main Application**: [app.presencewave.com](https://app.presencewave.com)
 - **Blog**: [blog.presencewave.com](https://blog.presencewave.com)
 - **Twitter**: [@get_s4s](https://twitter.com/get_s4s)
 

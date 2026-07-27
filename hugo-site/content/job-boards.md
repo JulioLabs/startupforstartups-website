@@ -16,7 +16,7 @@ image: /assets/images/jobboard-hero-modern.png
 <h1 class="hr-headline">Create Professional<br>Career Pages That Attract<br>Top Talent</h1>
 <p class="hr-subheadline">Custom job boards with advanced filtering, application management, and branded design. Professional recruitment software for companies and startups.</p>
 <div class="hr-cta-group">
-<a href="https://app.startupforstartups.com" class="hr-cta-btn">
+<a href="https://app.presencewave.com" class="hr-cta-btn">
 <span><i class="fas fa-briefcase"></i> Start Hiring</span>
 <span class="hr-cta-note">No credit card required</span>
 </a>
@@ -148,7 +148,7 @@ Complete job board platform with advanced features for modern hiring
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
 <img src="/assets/images/jobboard-themes/basic-1.png" alt="Default theme" loading="lazy">
-<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Default theme">
+<a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Default theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
 </div>
@@ -160,7 +160,7 @@ Complete job board platform with advanced features for modern hiring
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
 <img src="/assets/images/jobboard-themes/modern-1.png" alt="Modern theme" loading="lazy">
-<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Modern theme">
+<a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Modern theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
 </div>
@@ -172,7 +172,7 @@ Complete job board platform with advanced features for modern hiring
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
 <img src="/assets/images/jobboard-themes/minimal-1.png" alt="Minimal theme" loading="lazy">
-<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Minimal theme">
+<a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Minimal theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
 </div>
@@ -184,7 +184,7 @@ Complete job board platform with advanced features for modern hiring
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
 <img src="/assets/images/jobboard-themes/minimal-clean-1.png" alt="Minimal Clean theme" loading="lazy">
-<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Minimal Clean theme">
+<a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Minimal Clean theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
 </div>
@@ -196,7 +196,7 @@ Complete job board platform with advanced features for modern hiring
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
 <img src="/assets/images/jobboard-themes/brutalist-1.png" alt="Brutalist theme" loading="lazy">
-<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Brutalist theme">
+<a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Brutalist theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
 </div>
@@ -208,7 +208,7 @@ Complete job board platform with advanced features for modern hiring
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
 <img src="/assets/images/jobboard-themes/elegant-1.png" alt="Elegant theme" loading="lazy">
-<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Elegant theme">
+<a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Elegant theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
 </div>
@@ -219,7 +219,7 @@ Complete job board platform with advanced features for modern hiring
 </div>
 </div>
 <div class="lp-themes-cta">
-<a href="https://app.startupforstartups.com" class="btn btn-primary btn-lg">
+<a href="https://app.presencewave.com" class="btn btn-primary btn-lg">
 <i class="fas fa-rocket"></i> Get Started — Free
 </a>
 </div>
@@ -363,7 +363,7 @@ Job boards designed for companies that want to attract top talent
 <h2>Ready to Build Your Professional Career Page?</h2>
 <p>Join companies worldwide using our job board platform to attract and hire top talent with professional, branded career pages.</p>
 <div class="cta-actions">
-<a href="https://app.startupforstartups.com" class="btn btn-primary btn-lg">
+<a href="https://app.presencewave.com" class="btn btn-primary btn-lg">
 <i class="fas fa-briefcase"></i>
 Start Building Now
 </a>

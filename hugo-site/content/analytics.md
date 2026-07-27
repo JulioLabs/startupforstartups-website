@@ -15,7 +15,7 @@ keywords: ["privacy analytics", "privacy first analytics", "web analytics tool",
 <h1 class="hr-headline">Privacy-First Analytics<br>No Cookies. Full Insights.</h1>
 <p class="hr-subheadline">Real-time web analytics with custom dashboards and goal tracking — all without cookies. A privacy-first alternative to Google Analytics.</p>
 <div class="hr-cta-group">
-<a href="https://app.startupforstartups.com" class="hr-cta-btn">
+<a href="https://app.presencewave.com" class="hr-cta-btn">
 <span><i class="fas fa-chart-line"></i> Start Tracking</span>
 <span class="hr-cta-note">No credit card required</span>
 </a>
@@ -347,7 +347,7 @@ Modern analytics platform that respects user privacy while delivering comprehens
 <h2>Ready to Understand Your Users Better?</h2>
 <p>Join hundreds of businesses using privacy-compliant analytics to make data-driven decisions and optimize their websites.</p>
 <div class="cta-actions">
-<a href="https://app.startupforstartups.com" class="btn btn-primary btn-lg">
+<a href="https://app.presencewave.com" class="btn btn-primary btn-lg">
 <i class="fas fa-chart-line"></i>
 Start Tracking Now
 </a>

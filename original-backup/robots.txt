@@ -10,7 +10,7 @@ Allow: https://blog.startupforstartups.com/
 Allow: https://jobs.startupforstartups.com/
 
 # Block access to app subdomain
-Disallow: https://app.startupforstartups.com/
+Disallow: https://app.presencewave.com/
 
 # Standard exclusions for better SEO
 Disallow: /assets/

@@ -16,7 +16,7 @@ image: /assets/images/lead-generation-form-hero.png
 <h1 class="hr-headline">Create High-Converting<br>Lead Forms in Minutes</h1>
 <p class="hr-subheadline">Build and embed powerful lead forms, popups, and widgets without code. Capture more leads from any website.</p>
 <div class="hr-cta-group">
-<a href="https://app.startupforstartups.com" class="hr-cta-btn">
+<a href="https://app.presencewave.com" class="hr-cta-btn">
 <span><i class="fas fa-plus"></i> Start Building Forms</span>
 <span class="hr-cta-note">No credit card required</span>
 </a>
@@ -67,7 +67,7 @@ Try them out to experience the user experience your leads will have.
 </div>
 <div class="demo-cta">
 <p><strong>These forms were created without writing a single line of code.</strong></p>
-<a href="https://app.startupforstartups.com" class="btn btn-outline">
+<a href="https://app.presencewave.com" class="btn btn-outline">
 Create Your Own Forms
 </a>
 </div>
@@ -139,7 +139,7 @@ One form builder, endless lead capture possibilities for startups, creators, and
 <div class="mid-cta-content">
 <h3>Ready to Start Capturing Leads?</h3>
 <p>No setup fees • Unlimited forms • Works on any website</p>
-<a href="https://app.startupforstartups.com" class="btn btn-primary">
+<a href="https://app.presencewave.com" class="btn btn-primary">
 <i class="fas fa-rocket"></i>
 Start Building Forms
 </a>
@@ -334,7 +334,7 @@ Professional form builder designed specifically for startups and small teams who
 <h2>Ready to Start Capturing More Leads?</h2>
 <p>Join hundreds of startups and small businesses using our form builder to convert visitors into customers. Build your first lead form in under 5 minutes.</p>
 <div class="cta-actions">
-<a href="https://app.startupforstartups.com" class="btn btn-primary btn-lg">
+<a href="https://app.presencewave.com" class="btn btn-primary btn-lg">
 <i class="fas fa-plus"></i>
 Create Your First Form
 </a>

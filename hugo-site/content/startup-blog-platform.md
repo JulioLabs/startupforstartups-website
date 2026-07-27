@@ -15,7 +15,7 @@ keywords: ["startup blog platform", "simple blog for business", "wordpress alter
 <h1 class="hr-headline">Launch Your Startup Blog<br>Without the Complexity</h1>
 <p class="hr-subheadline">A clean, fast blog for busy founders. Built-in lead capture, SEO optimization, and zero maintenance. Turn content into customers without plugins.</p>
 <div class="hr-cta-group">
-<a href="https://app.startupforstartups.com" class="hr-cta-btn">
+<a href="https://app.presencewave.com" class="hr-cta-btn">
 <span><i class="fas fa-rocket"></i> Start Your Blog</span>
 <span class="hr-cta-note">No credit card required</span>
 </a>
@@ -66,7 +66,7 @@ no plugins to manage - just beautiful content that converts.
 </div>
 <div class="demo-cta">
 <p><strong>These blog pages were created without touching a line of code.</strong></p>
-<a href="https://app.startupforstartups.com" class="btn btn-outline">
+<a href="https://app.presencewave.com" class="btn btn-outline">
 Start Your Blog
 </a>
 </div>
@@ -138,7 +138,7 @@ One blog platform that grows with you - from first post to scaling content marke
 <div class="mid-cta-content">
 <h3>Ready to Ditch WordPress Complexity?</h3>
 <p>No plugins • No updates • No security headaches • Built-in lead capture</p>
-<a href="https://app.startupforstartups.com" class="btn btn-primary">
+<a href="https://app.presencewave.com" class="btn btn-primary">
 <i class="fas fa-edit"></i>
 Launch Your Blog
 </a>
@@ -269,7 +269,7 @@ Built-in features that would require dozens of WordPress plugins - all working t
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
 <img src="/assets/images/blog-themes/blog-basic.png" alt="Basic theme" loading="lazy">
-<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Basic theme">
+<a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Basic theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
 </div>
@@ -281,7 +281,7 @@ Built-in features that would require dozens of WordPress plugins - all working t
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
 <img src="/assets/images/blog-themes/blog-minimal.png" alt="Minimal theme" loading="lazy">
-<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Minimal theme">
+<a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Minimal theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
 </div>
@@ -293,7 +293,7 @@ Built-in features that would require dozens of WordPress plugins - all working t
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
 <img src="/assets/images/blog-themes/blog-magazine.png" alt="Magazine theme" loading="lazy">
-<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Magazine theme">
+<a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Magazine theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
 </div>
@@ -305,7 +305,7 @@ Built-in features that would require dozens of WordPress plugins - all working t
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
 <img src="/assets/images/blog-themes/blog-elegant.png" alt="Elegant theme" loading="lazy">
-<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Elegant theme">
+<a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Elegant theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
 </div>
@@ -317,7 +317,7 @@ Built-in features that would require dozens of WordPress plugins - all working t
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
 <img src="/assets/images/blog-themes/blog-brutalist.png" alt="Brutalist theme" loading="lazy">
-<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Brutalist theme">
+<a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Brutalist theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
 </div>
@@ -329,7 +329,7 @@ Built-in features that would require dozens of WordPress plugins - all working t
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
 <img src="/assets/images/blog-themes/blog-modern.png" alt="Modern theme" loading="lazy">
-<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Modern theme">
+<a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Modern theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
 </div>
@@ -341,7 +341,7 @@ Built-in features that would require dozens of WordPress plugins - all working t
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
 <img src="/assets/images/blog-themes/blog-nightfall.png" alt="Nightfall theme" loading="lazy">
-<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Nightfall theme">
+<a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Nightfall theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
 </div>
@@ -352,7 +352,7 @@ Built-in features that would require dozens of WordPress plugins - all working t
 </div>
 </div>
 <div class="lp-themes-cta">
-<a href="https://app.startupforstartups.com" class="btn btn-primary btn-lg">
+<a href="https://app.presencewave.com" class="btn btn-primary btn-lg">
 <i class="fas fa-rocket"></i> Get Started — Free
 </a>
 </div>
@@ -434,7 +434,7 @@ All the power of WordPress without the complexity, maintenance, and security hea
 <h2>Start Publishing Content That Converts</h2>
 <p>Join hundreds of startups using our blog platform to attract customers, build authority, and grow their business through content marketing.</p>
 <div class="cta-actions">
-<a href="https://app.startupforstartups.com" class="btn btn-primary btn-lg">
+<a href="https://app.presencewave.com" class="btn btn-primary btn-lg">
 <i class="fas fa-edit"></i>
 Launch Your Blog Now
 </a>

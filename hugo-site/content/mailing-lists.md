@@ -16,7 +16,7 @@ image: /assets/images/mailing-lists-hero-placeholder.png
 <h1 class="hr-headline">Email Marketing That<br>Actually Delivers</h1>
 <p class="hr-subheadline">Professional mailing list platform with rich text editor, subscriber management, GDPR compliance, and AWS-powered delivery.</p>
 <div class="hr-cta-group">
-<a href="https://app.startupforstartups.com" class="hr-cta-btn">
+<a href="https://app.presencewave.com" class="hr-cta-btn">
 <span><i class="fas fa-envelope-open"></i> Start Email Marketing</span>
 <span class="hr-cta-note">No credit card required</span>
 </a>
@@ -322,7 +322,7 @@ Email marketing that works perfectly with all your other startup tools and workf
 <h2>Ready to Transform Your Email Marketing?</h2>
 <p>Join thousands of businesses using our integrated email marketing platform to grow their audience and drive results with professional campaigns.</p>
 <div class="cta-actions">
-<a href="https://app.startupforstartups.com" class="btn btn-primary btn-lg">
+<a href="https://app.presencewave.com" class="btn btn-primary btn-lg">
 <i class="fas fa-envelope-open"></i>
 Start Email Marketing
 </a>

@@ -18,7 +18,7 @@ image: /assets/images/questionnaire-form.png
 Create multi-page surveys with beautiful themes, collect structured feedback, and analyze responses — all in minutes. No coding required.
 </p>
 <div class="hr-cta-group">
-<a href="https://app.startupforstartups.com" class="hr-cta-btn">
+<a href="https://app.presencewave.com" class="hr-cta-btn">
 <span><i class="fas fa-rocket"></i> Start Building</span>
 <span class="hr-cta-note">No credit card required</span>
 </a>
@@ -151,7 +151,7 @@ Everything you need to build, publish, and analyze surveys — from multi-page q
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
 <img src="/assets/images/questionnaire-themes/basic-form.png" alt="Basic survey theme" loading="lazy">
-<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Basic Survey theme">
+<a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Basic Survey theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
 </div>
@@ -164,7 +164,7 @@ Everything you need to build, publish, and analyze surveys — from multi-page q
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
 <img src="/assets/images/questionnaire-themes/focus-form.png" alt="Focus Mode survey theme" loading="lazy">
-<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Focus Mode theme">
+<a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Focus Mode theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
 </div>
@@ -177,7 +177,7 @@ Everything you need to build, publish, and analyze surveys — from multi-page q
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
 <img src="/assets/images/questionnaire-themes/structured-form.png" alt="Structured survey theme" loading="lazy">
-<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Structured theme">
+<a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Structured theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
 </div>
@@ -190,7 +190,7 @@ Everything you need to build, publish, and analyze surveys — from multi-page q
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
 <img src="/assets/images/questionnaire-themes/compact-form.png" alt="Compact survey theme" loading="lazy">
-<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Compact theme">
+<a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Compact theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
 </div>
@@ -202,7 +202,7 @@ Everything you need to build, publish, and analyze surveys — from multi-page q
 
 </div>
 <div class="lp-themes-cta">
-<a href="https://app.startupforstartups.com" class="btn btn-primary btn-lg">
+<a href="https://app.presencewave.com" class="btn btn-primary btn-lg">
 <i class="fas fa-rocket"></i> Start Building — Free
 </a>
 </div>
@@ -337,7 +337,7 @@ Purpose-built survey tools for startups and growing businesses that need real an
 <h2>Ready to Start Collecting Better Feedback?</h2>
 <p>Join startups and teams using our survey builder to understand their users, validate ideas, and make faster decisions.</p>
 <div class="cta-actions">
-<a href="https://app.startupforstartups.com" class="btn btn-primary btn-lg">
+<a href="https://app.presencewave.com" class="btn btn-primary btn-lg">
 <i class="fas fa-rocket"></i>
 Create Your First Survey
 </a>

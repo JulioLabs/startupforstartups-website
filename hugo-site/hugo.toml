@@ -32,7 +32,7 @@ theme = 'startup-theme'
 
   [[menu.main]]
     name = "Get Started"
-    url = "https://app.startupforstartups.com"
+    url = "https://app.presencewave.com"
     weight = 30
 
 # Site parameters

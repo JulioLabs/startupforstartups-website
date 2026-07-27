@@ -16,7 +16,7 @@ image: /assets/images/jobboard-hero-modern.png
 <h1 class="hr-headline">Create Your Job Board<br>in Minutes, Not Weeks</h1>
 <p class="hr-subheadline">Launch a professional careers page, post jobs, and manage applicants without developers or plugins. Built for startups who need to hire fast.</p>
 <div class="hr-cta-group">
-<a href="https://app.startupforstartups.com" class="hr-cta-btn">
+<a href="https://app.presencewave.com" class="hr-cta-btn">
 <span><i class="fas fa-briefcase"></i> Create Your Job Board</span>
 <span class="hr-cta-note">No credit card required</span>
 </a>
@@ -67,7 +67,7 @@ No engineering team required - just beautiful, functional job boards.
 </div>
 <div class="demo-cta">
 <p><strong>These job boards and hiring workflows were created without any technical setup.</strong></p>
-<a href="https://app.startupforstartups.com" class="btn btn-outline">
+<a href="https://app.presencewave.com" class="btn btn-outline">
 Build Your Careers Page
 </a>
 </div>
@@ -139,7 +139,7 @@ From your first hire to scaling your team - one platform that grows with your hi
 <div class="mid-cta-content">
 <h3>Ready to Start Hiring Better?</h3>
 <p>No complex HR software • No expensive recruiting platforms • Just simple, effective hiring</p>
-<a href="https://app.startupforstartups.com" class="btn btn-primary">
+<a href="https://app.presencewave.com" class="btn btn-primary">
 <i class="fas fa-briefcase"></i>
 Launch Your Careers Page
 </a>
@@ -270,7 +270,7 @@ Complete hiring toolkit that replaces expensive recruiting platforms and complex
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
 <img src="/assets/images/jobboard-themes/basic-1.png" alt="Default theme" loading="lazy">
-<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Default theme">
+<a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Default theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
 </div>
@@ -282,7 +282,7 @@ Complete hiring toolkit that replaces expensive recruiting platforms and complex
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
 <img src="/assets/images/jobboard-themes/modern-1.png" alt="Modern theme" loading="lazy">
-<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Modern theme">
+<a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Modern theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
 </div>
@@ -294,7 +294,7 @@ Complete hiring toolkit that replaces expensive recruiting platforms and complex
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
 <img src="/assets/images/jobboard-themes/minimal-1.png" alt="Minimal theme" loading="lazy">
-<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Minimal theme">
+<a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Minimal theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
 </div>
@@ -306,7 +306,7 @@ Complete hiring toolkit that replaces expensive recruiting platforms and complex
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
 <img src="/assets/images/jobboard-themes/minimal-clean-1.png" alt="Minimal Clean theme" loading="lazy">
-<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Minimal Clean theme">
+<a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Minimal Clean theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
 </div>
@@ -318,7 +318,7 @@ Complete hiring toolkit that replaces expensive recruiting platforms and complex
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
 <img src="/assets/images/jobboard-themes/brutalist-1.png" alt="Brutalist theme" loading="lazy">
-<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Brutalist theme">
+<a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Brutalist theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
 </div>
@@ -330,7 +330,7 @@ Complete hiring toolkit that replaces expensive recruiting platforms and complex
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
 <img src="/assets/images/jobboard-themes/elegant-1.png" alt="Elegant theme" loading="lazy">
-<a href="https://app.startupforstartups.com" class="lp-theme-overlay" aria-label="Use Elegant theme">
+<a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Elegant theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
 </div>
@@ -341,7 +341,7 @@ Complete hiring toolkit that replaces expensive recruiting platforms and complex
 </div>
 </div>
 <div class="lp-themes-cta">
-<a href="https://app.startupforstartups.com" class="btn btn-primary btn-lg">
+<a href="https://app.presencewave.com" class="btn btn-primary btn-lg">
 <i class="fas fa-rocket"></i> Get Started — Free
 </a>
 </div>
@@ -423,7 +423,7 @@ Replace expensive recruiting platforms with a simple, effective hiring process b
 <h2>Start Building Your Dream Team Today</h2>
 <p>Join hundreds of startups using our job board platform to hire faster, better, and more efficiently. Launch your careers page and start attracting talent in minutes.</p>
 <div class="cta-actions">
-<a href="https://app.startupforstartups.com" class="btn btn-primary btn-lg">
+<a href="https://app.presencewave.com" class="btn btn-primary btn-lg">
 <i class="fas fa-briefcase"></i>
 Create Your Job Board Now
 </a>
