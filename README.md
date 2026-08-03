@@ -170,7 +170,7 @@ Update `hugo.toml` to add menu items:
 
 - **Main Application**: [app.presencewave.com](https://app.presencewave.com)
 - **Blog**: [blog.presencewave.com](https://blog.presencewave.com)
-- **Twitter**: [@get_s4s](https://twitter.com/get_s4s)
+- **Twitter**: [@presence_wave](https://twitter.com/presence_wave)
 
 ## 🛠 Development Tips
 
