@@ -760,16 +760,16 @@ p {
 
 /* === FOOTER === */
 .footer {
-  padding: var(--spacing-3xl) 0 var(--spacing-lg);
-  background: #0F172A;
-  border-top: 1px solid rgba(227, 227, 227, 0.1);
+    padding: var(--spacing-2xl) 0 var(--spacing-lg);
+    background: #0F172A;
+    border-top: 1px solid rgba(227, 227, 227, 0.1);
 }
 
 .footer-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: flex-start;
-  gap: var(--spacing-2xl);
+  gap: 140px;
   margin-bottom: var(--spacing-xl);
 }
 
@@ -785,20 +785,43 @@ p {
   max-width: 360px;
 }
 
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-lg);
+    padding-top: 20px;
+}
+
+.footer-column {
+  text-align: left;
+}
+
 .footer-column h4 {
   font-size: var(--font-size-base);
   font-weight: 600;
-  margin-bottom: var(--spacing-md);
+  margin-bottom: var(--spacing-sm);
   color: #e3e3e3;
 }
 
+.footer-link-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: var(--spacing-sm);
+}
+
 .footer-column a {
-  display: block;
   color: #e3e3e3;
   text-decoration: none;
   font-size: var(--font-size-sm);
-  margin-bottom: var(--spacing-sm);
+}
 
+.footer-link-row a:not(:last-child)::after {
+  content: "|";
+  color: #e3e3e3;
+  opacity: 0.4;
+  margin-left: var(--spacing-sm);
 }
 
 .footer-column a:hover {
@@ -936,6 +959,19 @@ p {
   .footer-content {
     flex-direction: column;
     gap: var(--spacing-xl);
+  }
+
+  .footer-links {
+    align-items: flex-start;
+    gap: var(--spacing-lg);
+  }
+
+  .footer-column {
+    text-align: left;
+  }
+
+  .footer-link-row {
+    justify-content: flex-start;
   }
 
   .footer-bottom {

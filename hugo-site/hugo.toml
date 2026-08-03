@@ -45,7 +45,7 @@ theme = 'startup-theme'
 
   # Social links
   [params.social]
-    twitter = "https://twitter.com/get_s4s"
+    twitter = "https://twitter.com/presence_wave"
     blog = "https://blog.presencewave.com"
 
 # Output formats for different content types

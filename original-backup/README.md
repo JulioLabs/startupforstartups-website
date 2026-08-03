@@ -86,13 +86,13 @@ This website is automatically deployed using GitHub Pages with GitHub Actions:
 
 - **Main Application**: [app.presencewave.com](https://app.presencewave.com)
 - **Blog**: [blog.startupforstartups.com](https://blog.startupforstartups.com)
-- **Twitter**: [@get_s4s](https://twitter.com/get_s4s)
+- **Twitter**: [@presence_wave](https://twitter.com/presence_wave)
 
 ## 📞 Contact
 
 For questions about the website or platform:
 - **Email**: sushrut@startupforstartups.com
-- **Twitter**: [@get_s4s](https://twitter.com/get_s4s)
+- **Twitter**: [@presence_wave](https://twitter.com/presence_wave)
 
 ## 📝 License
 
