@@ -233,6 +233,21 @@ Capture more enquiries, promote your offers, understand your customers and bring
 </div>
 </section>
 
+<!-- Showcase link -->
+<section class="sc-chapter sc-alt">
+<div class="container">
+<div class="sc-split">
+<div class="sc-copy">
+<div class="rp-eyebrow">See it in action</div>
+<h2 class="rp-h2">Follow one cleaning company through every tool.</h2>
+<p>Havenly Home Care's quote form, offer banner, blog, job board, after-service survey, short links and more — all in their own brand.</p>
+<a href="/showcase/cleaning-services/" class="rp-btn rp-btn-primary">Take the tour</a>
+</div>
+<a class="sc-frame" href="/showcase/cleaning-services/"><img src="/assets/images/showcase/cleaning/01-website-hero.webp" alt="Havenly Home Care website with PresenceWave widgets" loading="lazy"></a>
+</div>
+</div>
+</section>
+
 <!-- Final CTA -->
 <section class="rp-final-cta">
 <div class="container">
