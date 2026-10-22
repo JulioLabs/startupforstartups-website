@@ -1,6 +1,6 @@
 baseURL = 'https://presencewave.com'
 languageCode = 'en-us'
-title = 'PresenceWave - Grow Your Local Service Business Online'
+title = 'PresenceWave - Grow Your Business Online'
 theme = 'startup-theme'
 
 # Enable unsafe HTML in markdown (needed for custom HTML in content)
@@ -37,7 +37,7 @@ theme = 'startup-theme'
 
 # Site parameters
 [params]
-  description = "PresenceWave helps local service businesses - cleaning, landscaping, electricians, dentists and more - capture more leads, understand their customers and bring them back, all from one platform."
+  description = "PresenceWave helps local businesses, SaaS companies and online stores capture leads, hear from customers and bring them back - all from one platform, on your own domain."
 
   # Footer configuration
   [params.footer]
@@ -55,6 +55,6 @@ theme = 'startup-theme'
 
 # SEO and meta configuration
 [params.seo]
-  title = "PresenceWave - Grow Your Local Service Business Online"
-  description = "PresenceWave helps local service businesses - cleaning, landscaping, electricians, dentists and more - capture more leads, understand their customers and bring them back, all from one platform."
+  title = "PresenceWave - Grow Your Business Online"
+  description = "PresenceWave helps local businesses, SaaS companies and online stores capture leads, hear from customers and bring them back - all from one platform, on your own domain."
   image = "/assets/images/heroimage.png"
