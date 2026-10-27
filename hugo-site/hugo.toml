@@ -31,11 +31,6 @@ theme = 'startup-theme'
     weight = 25
 
   [[menu.main]]
-    name = "Pricing"
-    url = "/pricing/"
-    weight = 28
-
-  [[menu.main]]
     name = "Get Started"
     url = "https://app.presencewave.com"
     weight = 30

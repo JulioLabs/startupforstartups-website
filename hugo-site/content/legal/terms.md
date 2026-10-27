@@ -9,7 +9,7 @@ layout: "single"
 # Terms of Service
 
 **Effective Date:** 01 December 2025
-**Last Updated:** 27 October 2026
+**Last Updated:** 01 December 2025
 
 Welcome to PresenceWave (the "Service"), operated by Julio Labs (OPC) Pvt. Ltd. ("Company", "we", "us", or "our"). These Terms of Service ("Terms") govern your access to and use of the Service available at https://presencewave.com and its subdomains (collectively, the "Platform").
 
@@ -66,25 +66,16 @@ You may not:
 
 ## 5. Subscriptions, Pricing, and Payments
 
-### 5.1 Free Trial
-New accounts start with a 30-day free trial, which includes one domain. No payment details are needed to start it, and nothing is charged during it. To keep using the Service after the trial, choose a paid plan. If the trial ends without a plan, everything keeps working for 8 more days. After that, your custom domains and the widgets for those domains stop being served until you choose a plan; your free presencewave.com address keeps working.
+### 5.1 Billing
+Paid features, if any, require a valid payment method. Subscription fees are billed in advance.
 
-### 5.2 Billing
-Paid plans require a valid payment method. Subscription fees are billed in advance, monthly or yearly, in US dollars. Each plan includes a number of domains, and you can add domain slots at any time at the price shown before you confirm. Payments are processed by our billing providers; we do not see or store your card details.
+### 5.2 Auto-Renewal
+Subscriptions may automatically renew unless canceled before the renewal date.
 
-### 5.3 New Features
-Every plan includes all features of the Service. New features we release are made available to all existing customers by default, on their current plan, at no extra cost.
-
-### 5.4 Auto-Renewal
-Subscriptions renew automatically at the end of each billing period unless cancelled before the renewal date.
-
-### 5.5 Cancellation and End of a Plan
-You can cancel at any time; cancellation takes effect at the end of the current billing period. When a plan ends (because it was cancelled or because payment could not be collected), everything keeps working for 30 more days. After that, your custom domains and the widgets for those domains stop being served until you choose a plan again; your free presencewave.com address keeps working. Details are in our [Cancellation and Refund Policy](/legal/refund-cancellation/).
-
-### 5.6 Price Changes
+### 5.3 Price Changes
 We may modify pricing with prior notice. Continued use after new pricing becomes effective constitutes acceptance.
 
-### 5.7 Refunds
+### 5.4 Refunds
 Unless otherwise required by law, all payments are non-refundable.
 
 ## 6. User Content and Ownership
@@ -153,8 +144,6 @@ We may suspend or terminate your Account if you:
 - Your license to use the Service ends.
 - Your data may be deleted after 30 days.
 - No refunds will be issued.
-
-A trial or plan ending without payment is not termination. Your account and data are kept, and your custom domains and their widgets are served again as soon as you choose a plan (see sections 5.1 and 5.5).
 
 ## 12. Changes to the Service and Terms
 
