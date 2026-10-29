@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = 'PresenceWave - Grow Your Business Online'
 theme = 'startup-theme'
 
+# Page lastmod (used in sitemap.xml) comes from each page's last git commit
+enableGitInfo = true
+
 # Enable unsafe HTML in markdown (needed for custom HTML in content)
 [markup]
   [markup.goldmark]
