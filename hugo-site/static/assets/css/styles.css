@@ -2084,10 +2084,10 @@ p {
     font-weight: 500;
 }
 
-/* === FINAL CTA === */
+/* === BLOG === */
 .rp-blog {
     padding: var(--spacing-4xl) 0;
-    background: var(--bg-tertiary);
+    background: var(--bg-secondary);
     text-align: center;
 }
 
@@ -2096,6 +2096,7 @@ p {
     text-align: left;
 }
 
+/* === FINAL CTA === */
 .rp-final-cta {
     padding: var(--spacing-4xl) 0;
     background: linear-gradient(135deg, var(--accent-secondary) 0%, var(--accent-primary) 100%);
