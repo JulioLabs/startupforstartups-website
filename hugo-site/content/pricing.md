@@ -36,7 +36,7 @@ Every tool, every theme, your whole team. You pay for the domains you run on Pre
 
 <div class="pr-plan">
 <div class="pr-plan-name"><i class="fas fa-gift"></i> Free trial</div>
-<div class="pr-price"><span class="pr-amount">$0</span><span class="pr-period">for 30 days</span></div>
+<div class="pr-price"><span class="pr-amount" data-inr="₹0">$0</span><span class="pr-period">for 30 days</span></div>
 <p class="pr-plan-intro">Try everything on one domain before you pay anything.</p>
 <ul class="pr-features">
 <li><i class="fas fa-check"></i> Every tool, on one domain</li>
@@ -50,8 +50,8 @@ Every tool, every theme, your whole team. You pay for the domains you run on Pre
 <div class="pr-plan pr-plan-featured">
 <div class="pr-badge">Recommended</div>
 <div class="pr-plan-name"><i class="fas fa-rocket"></i> Starter</div>
-<div class="pr-price"><span class="pr-amount">$29</span><span class="pr-period">per domain / month</span></div>
-<div class="pr-yearly">or <strong>$199 per domain / year</strong>, save 43%</div>
+<div class="pr-price"><span class="pr-amount" data-inr="₹2,499">$29</span><span class="pr-period">per domain / month</span></div>
+<div class="pr-yearly">or <strong><span data-inr="₹14,999">$199</span> per domain / year</strong>, save <span data-inr="50%">43%</span></div>
 <p class="pr-plan-intro">Everything PresenceWave offers, on your own domain.</p>
 <ul class="pr-features">
 <li><i class="fas fa-check"></i> Blogs, launch pages, link pages and job boards</li>
@@ -77,7 +77,8 @@ Every tool, every theme, your whole team. You pay for the domains you run on Pre
 
 </div>
 
-<div class="rp-small-note pr-plans-note">Prices in US dollars. Taxes may apply depending on where you are.</div>
+<div class="rp-small-note pr-plans-note">Prices in <span data-inr="Indian rupees">US dollars</span>. Taxes may apply depending on where you are.
+<button type="button" class="pr-currency-switch" data-inr="Show prices in US dollars">Paying with a card issued in India? Show prices in rupees</button></div>
 
 </div>
 </section>
@@ -188,7 +189,7 @@ Every tool, every theme, your whole team. You pay for the domains you run on Pre
 
 <details class="pr-faq-item">
 <summary>Is there a discount for paying yearly?</summary>
-<p>Yes: $199 a year per domain instead of $348, a saving of 43%.</p>
+<p>Yes: <span data-inr="₹14,999">$199</span> a year per domain instead of <span data-inr="₹29,988">$348</span>, a saving of <span data-inr="50%">43%</span>.</p>
 </details>
 
 <details class="pr-faq-item">
@@ -213,3 +214,26 @@ Every tool, every theme, your whole team. You pay for the domains you run on Pre
 
 </div>
 </section>
+
+<!-- Prices in rupees for visitors in India (by the browser's time zone, as the app's Billing page does), with a link to switch.
+     Cards issued in India can only pay in rupees. -->
+<script>
+(function () {
+  var nodes = document.querySelectorAll('[data-inr]');
+  nodes.forEach(function (node) { node.setAttribute('data-usd', node.textContent); });
+  function show(currency) {
+    nodes.forEach(function (node) { node.textContent = node.getAttribute(currency === 'INR' ? 'data-inr' : 'data-usd'); });
+    current = currency;
+  }
+  var current = 'USD';
+  var zone = '';
+  try { zone = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch (e) {}
+  if (zone === 'Asia/Kolkata' || zone === 'Asia/Calcutta') show('INR');
+  document.querySelectorAll('.pr-currency-switch').forEach(function (link) {
+    link.addEventListener('click', function (event) {
+      event.preventDefault();
+      show(current === 'INR' ? 'USD' : 'INR');
+    });
+  });
+})();
+</script>

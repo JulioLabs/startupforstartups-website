@@ -18,7 +18,7 @@ Every new account starts with a 30-day free trial. No payment details are needed
 
 ## 2. Plans and billing
 
-Plans are billed in advance, monthly or yearly, in US dollars, and renew automatically at the end of each billing period until cancelled. Each plan includes a number of domains. Extra domain slots can be added at any time; the first 30 days of each new slot are free, and any amount for the rest of the current period is shown before you confirm.
+Plans are billed in advance, monthly or yearly, in US dollars (or in Indian rupees for customers in India), and renew automatically at the end of each billing period until cancelled. Each plan includes a number of domains. Extra domain slots can be added at any time; the first 30 days of each new slot are free, and any amount for the rest of the current period is shown before you confirm.
 
 Payments are processed by our billing provider, Chargebee, through Razorpay. We never see or store your card details.
 

@@ -70,7 +70,7 @@ You may not:
 New accounts start with a 30-day free trial, which includes one domain. No payment details are needed to start it, and nothing is charged during it. To keep using the Service after the trial, choose a paid plan. If the trial ends without a plan, everything keeps working for 8 more days. After that, your custom domains and the widgets for those domains stop being served until you choose a plan; your free presencewave.com address keeps working.
 
 ### 5.2 Billing
-Paid plans require a valid payment method. Subscription fees are billed in advance, monthly or yearly, in US dollars. Each plan includes a number of domains, and you can add domain slots at any time at the price shown before you confirm. Payments are processed by our billing providers; we do not see or store your card details.
+Paid plans require a valid payment method. Subscription fees are billed in advance, monthly or yearly, in US dollars, or in Indian rupees for customers in India. You stay in the currency of your first plan. Each plan includes a number of domains, and you can add domain slots at any time at the price shown before you confirm. Payments are processed by our billing providers; we do not see or store your card details.
 
 ### 5.3 New Features
 Every plan includes all features of the Service. New features we release are made available to all existing customers by default, on their current plan, at no extra cost.
