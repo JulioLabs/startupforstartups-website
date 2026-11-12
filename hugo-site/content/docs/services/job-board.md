@@ -13,7 +13,7 @@ Click **Create**, then **Job Board**. You set a **Name**, a **Description**, the
 The theme settings include:
 
 - the **company name**, a headline and a subtitle;
-- a **contact email**: the **Apply** button on each job opens an email to this address, with the job title in the subject;
+- a **contact email**: the **Apply** button on each job opens an email to this address, with the job title in the subject. Until you set one, the button is shown but can't be clicked;
 - filters visitors can use: by department, location and job type;
 - an optional benefits section, mission statement and community message.
 
