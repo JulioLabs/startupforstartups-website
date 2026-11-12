@@ -14,7 +14,7 @@ Emails go out through **your own Amazon SES account** (Amazon's email sending se
 2. In the AWS email settings, enter the **Default Display Name** and **Default Email ID** (the address emails come from), and your **AWS Access Key**, **AWS Secret Key** and **AWS Region**.
 3. Enter a **Test Email Address**. A test email with a link is sent to it: click the link to confirm the settings work.
 
-Until this is done, confirmation emails and anything you send won't reach subscribers.
+Until this is done, the domain isn't offered when you create a mailing list, and you can't send emails from it.
 
 ## Set up a list
 
