@@ -1,0 +1,19 @@
+{{ define "title" }}<title>{{ .Title }} | PresenceWave Docs</title>{{ end }}
+{{ define "meta" }}{{ partial "docs/meta.html" . }}{{ end }}
+{{ define "main" }}
+<main class="docs">
+  <button id="docs-menu-toggle" class="docs-menu-toggle" aria-expanded="false" aria-controls="docs-sidebar">Docs menu</button>
+  <div class="docs-layout">
+    {{ partial "docs/sidebar.html" . }}
+    <article class="docs-content">
+      {{ with .Parent }}<p class="docs-crumb"><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>{{ end }}
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p class="docs-lead">{{ . }}</p>{{ end }}
+      {{ if and (gt .WordCount 400) .TableOfContents }}<nav class="docs-toc"><strong>On this page</strong>{{ .TableOfContents }}</nav>{{ end }}
+      {{ .Content }}
+      {{ with .Lastmod }}<p class="docs-updated">Last updated {{ .Format "2 January 2006" }}</p>{{ end }}
+    </article>
+  </div>
+</main>
+{{ partial "docs/menu-script.html" . }}
+{{ end }}

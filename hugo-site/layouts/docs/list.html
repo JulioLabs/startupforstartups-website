@@ -1,0 +1,27 @@
+{{ define "title" }}<title>{{ if eq . (site.GetPage "/docs") }}{{ .Title }}{{ else }}{{ .Title }} | PresenceWave Docs{{ end }}</title>{{ end }}
+{{ define "meta" }}{{ partial "docs/meta.html" . }}{{ end }}
+{{ define "main" }}
+<main class="docs">
+  <button id="docs-menu-toggle" class="docs-menu-toggle" aria-expanded="false" aria-controls="docs-sidebar">Docs menu</button>
+  <div class="docs-layout">
+    {{ partial "docs/sidebar.html" . }}
+    <article class="docs-content">
+      {{ with .Parent }}{{ if eq .Section "docs" }}<p class="docs-crumb"><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>{{ end }}{{ end }}
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p class="docs-lead">{{ . }}</p>{{ end }}
+      {{ .Content }}
+      {{ $cards := .Pages.ByWeight }}
+      {{ with $cards }}
+      <ul class="docs-cards">
+        {{ range . }}
+        <li><a href="{{ .RelPermalink }}"><strong>{{ .Title }}</strong>{{ with .Description }}<span>{{ . }}</span>{{ end }}</a></li>
+        {{ end }}
+      </ul>
+      {{ else }}
+      {{ if not .Content }}<p class="docs-soon">Pages for this section are being written.</p>{{ end }}
+      {{ end }}
+    </article>
+  </div>
+</main>
+{{ partial "docs/menu-script.html" . }}
+{{ end }}

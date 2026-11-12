@@ -1,0 +1,13 @@
+{{/* Head tags for /docs pages (replaces the theme's "meta" block). noindex comes from the cascade in content/docs/_index.md. */}}
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+<meta name="robots" content="{{ if .Params.noindex }}noindex, follow{{ else }}index, follow{{ end }}">
+<link rel="canonical" href="{{ .Permalink }}">
+<meta property="og:title" content="{{ .Title }} | PresenceWave Docs">
+<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+<meta property="og:type" content="article">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ site.Title }}">
+<meta property="og:image" content="{{ site.BaseURL }}{{ site.Params.seo.image }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@presence_wave">
+<link rel="stylesheet" href="/assets/css/docs.css">
