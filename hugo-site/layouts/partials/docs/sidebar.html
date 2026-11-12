@@ -1,0 +1,19 @@
+{{ $current := . }}
+{{ $root := site.GetPage "/docs" }}
+<aside id="docs-sidebar" class="docs-sidebar">
+  <nav aria-label="Docs">
+    <a href="{{ $root.RelPermalink }}" class="docs-nav-home{{ if eq $current $root }} current{{ end }}">Docs home</a>
+    {{ range $root.Sections.ByWeight }}
+    <div class="docs-nav-section">
+      <a href="{{ .RelPermalink }}" class="docs-nav-title{{ if eq $current . }} current{{ end }}">{{ .Title }}</a>
+      {{ with .RegularPages.ByWeight }}
+      <ul>
+        {{ range . }}
+        <li><a href="{{ .RelPermalink }}"{{ if eq $current . }} class="current" aria-current="page"{{ end }}>{{ .LinkTitle }}</a></li>
+        {{ end }}
+      </ul>
+      {{ end }}
+    </div>
+    {{ end }}
+  </nav>
+</aside>
