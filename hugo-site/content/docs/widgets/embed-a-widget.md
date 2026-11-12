@@ -11,7 +11,7 @@ Widgets are small pieces like a contact form, a banner or a survey that you add 
 Each widget belongs to one of your domains, and it only appears on that domain's pages. So:
 
 - **Connect your domain first.** Your domain must be [added and verified](/docs/domains/add-a-custom-domain/). A widget on an unverified domain doesn't appear.
-- **Create the widget on the domain your website uses.** A widget made for `yourbusiness.com` appears on `yourbusiness.com` and `www.yourbusiness.com`. It won't appear on another domain, or on another account's site.
+- **Create the widget on the domain your website uses.** A widget made for `yourbusiness.com` appears on `yourbusiness.com`, `www.yourbusiness.com` and any other subdomain, such as a store on `shop.yourbusiness.com` or a help center on `help.yourbusiness.com`, wherever those are hosted. It won't appear on another domain, or on another account's site.
 
 ## 1. Create the widget
 
@@ -56,7 +56,7 @@ Some widgets don't stay where you paste them: the top banner sits at the top of 
 
 Open your website. The widget appears within a moment of the page loading. If it doesn't:
 
-- **Is your domain verified**, and is the widget on that domain? Check under **Settings**.
+- **Is your domain verified**, and is the widget on that domain (or the domain your subdomain belongs to)? Check under **Settings**.
 - **Is the head code on the page?** Without it, no widgets load.
 - **Is your plan active?** When a trial or plan has ended and your domain is [switched off](/docs/billing/account-status/), its widgets stop appearing.
 - **Look in the browser console** (right-click the page, **Inspect**, then **Console**). If a widget can't be found, a message starting "Widget System:" says so: the widget may have been deleted, or it belongs to another domain.

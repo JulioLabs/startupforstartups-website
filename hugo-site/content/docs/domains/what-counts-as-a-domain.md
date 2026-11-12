@@ -18,4 +18,5 @@ Some details:
 - **A domain uses its slot as soon as you add it**, even before you've verified it.
 - **Deleting a domain frees its slot straight away**, so you can add another one in its place.
 - **There's no limit on subdomains.** Put your blog, job board, links page and newsletter on as many subdomains of one domain as you like.
+- **You don't need to add your other subdomains as domains.** Widgets made for `yourbusiness.com` already work on, say, a store at `shop.yourbusiness.com`. If you do add a subdomain as a domain of its own, it uses a slot like any other domain, and that subdomain then shows only its own widgets.
 - **The same domain can't be live on two accounts.** Only one account can verify a given domain.
