@@ -1,4 +1,4 @@
-// Homepage hero slider: one slide of real showcase screens per industry.
+// Homepage hero slider: one slide of real showcase screens per service.
 // Plays on its own until the visitor picks a tab or presses pause; never with reduced motion.
 (function () {
     var root = document.querySelector('[data-hh]');
@@ -45,7 +45,7 @@
             strip.scrollTo({ left: tabs[index].offsetLeft - 16, behavior: reduceMotion ? 'auto' : 'smooth' });
         }
         if (fromUser && window.trackEvent) {
-            window.trackEvent('hero_industry_select', { industry: slides[index].id.replace('hh-panel-', '') });
+            window.trackEvent('hero_slide_select', { slide: slides[index].id.replace('hh-panel-', '') });
         }
         restartProgress();
     }

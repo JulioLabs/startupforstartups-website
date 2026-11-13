@@ -3138,6 +3138,8 @@ a.rp-industry:hover {
 }
 
 .hh-who {
+    flex: 1;
+    min-width: 0;
     display: flex;
     flex-direction: column;
     gap: 2px;
@@ -3153,43 +3155,6 @@ a.rp-industry:hover {
     color: var(--text-muted);
 }
 
-.hh-pages-wrap {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-}
-
-.hh-pages-label {
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--text-muted);
-}
-
-.hh-pages {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.hh-pages li {
-    padding: 3px 10px;
-    border-radius: 999px;
-    background: var(--bg-tertiary);
-    color: var(--text-muted);
-    font-size: 12px;
-    font-weight: 600;
-}
-
-.hh-pages li.is-shown {
-    background: rgba(5, 150, 105, 0.12);
-    color: var(--accent-secondary);
-}
 
 .hh-more {
     flex: none;
