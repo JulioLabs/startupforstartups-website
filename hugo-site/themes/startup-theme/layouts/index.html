@@ -17,24 +17,43 @@ Capture more leads, understand your customers and bring them back — without ju
 
 <div class="rp-small-note">Start free on your own app address. Connect your domain when you're ready.</div>
 
-<!-- Product preview mock -->
-<div class="rp-preview">
-<div class="rp-preview-browser">
-<div class="rp-preview-bar">● ● ● &nbsp;&nbsp; yourbusiness.com</div>
-<div class="rp-preview-promo">New this week — 15% off for first-time customers</div>
-<div class="rp-preview-body">
-<h3>Your website. Working harder.</h3>
-<p>Offers, forms and feedback, added with one snippet.</p>
-<div class="rp-preview-form">
-<strong>Get in touch</strong>
-<div class="rp-preview-field"></div>
-<div class="rp-preview-field"></div>
-<div class="rp-preview-field"></div>
-<div class="rp-btn rp-btn-primary">Send</div>
+<!-- Product preview: real showcase screens, one slide per industry -->
+{{ $hero := site.Data.home_hero }}
+<div class="hh" data-hh>
+<p class="hh-intro">See it on a business like yours</p>
+<div class="hh-top">
+<div class="hh-tabs" role="tablist" aria-label="Example businesses">
+{{ range $i, $s := $hero.slides }}<button type="button" class="hh-tab" role="tab" id="hh-tab-{{ $s.id }}" aria-controls="hh-panel-{{ $s.id }}" aria-selected="{{ if eq $i 0 }}true{{ else }}false{{ end }}" tabindex="{{ if eq $i 0 }}0{{ else }}-1{{ end }}" data-hh-tab="{{ $i }}"><i class="fas {{ $s.icon }}" aria-hidden="true"></i><span>{{ $s.tab }}</span><b class="hh-progress" aria-hidden="true"></b></button>{{ end }}
+</div>
+<button type="button" class="hh-pause" data-hh-pause aria-label="Pause the slideshow" hidden><i class="fas fa-pause" aria-hidden="true"></i></button>
+</div>
+
+<div class="hh-stage">
+{{ range $i, $s := $hero.slides }}
+<figure class="hh-slide{{ if eq $i 0 }} is-active{{ end }}" id="hh-panel-{{ $s.id }}" role="tabpanel" aria-labelledby="hh-tab-{{ $s.id }}"{{ if ne $i 0 }} aria-hidden="true" inert{{ end }}>
+<div class="hh-visual">
+<div class="hh-browser">
+<div class="hh-bar"><span class="hh-dots" aria-hidden="true"><i></i><i></i><i></i></span><span class="hh-url">{{ $s.site_label }}</span><span class="hh-snippet"><i class="fas fa-code" aria-hidden="true"></i> 1 snippet</span></div>
+<div class="hh-shot">
+<img src="/assets/images/home-hero/{{ $s.id }}-site-1440.webp" srcset="/assets/images/home-hero/{{ $s.id }}-site-960.webp 960w, /assets/images/home-hero/{{ $s.id }}-site-1440.webp 1440w" sizes="(max-width: 700px) 100vw, 840px" width="1440" height="900" alt="{{ $s.site_alt }}"{{ if eq $i 0 }} fetchpriority="high"{{ else }} loading="lazy"{{ end }}>
+{{ range $k, $p := $s.pins }}<span class="hh-pin hh-pin-{{ $p.side }}" style="--x: {{ $p.x }}%; --y: {{ $p.y }}%; --d: {{ $k }}" aria-hidden="true"><b></b><em>{{ $p.label }}</em></span>{{ end }}
 </div>
 </div>
+<div class="hh-phone">
+<div class="hh-phone-screen"><img src="/assets/images/home-hero/{{ $s.id }}-phone.webp" width="480" height="960" alt="{{ $s.phone_alt }}" loading="lazy"></div>
+<span class="hh-phone-label">{{ $s.phone }} · on its own domain</span>
 </div>
 </div>
+<figcaption class="hh-caption">
+<div class="hh-who"><strong>{{ $s.business }}</strong><span>{{ $s.kind }} · a demo business{{ with $s.theme }} on our free {{ . }} theme{{ end }}</span></div>
+<div class="hh-pages-wrap"><span class="hh-pages-label">On its own domain</span><ul class="hh-pages">{{ range $hero.pages }}<li{{ if eq . $s.phone }} class="is-shown"{{ end }}>{{ . }}</li>{{ end }}</ul></div>
+<a class="hh-more" href="{{ $s.showcase }}">See everything {{ index (split $s.business " ") 0 }} runs <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+</figcaption>
+</figure>
+{{ end }}
+</div>
+</div>
+<script src="/assets/js/home-hero.js" defer></script>
 
 </div>
 </section>

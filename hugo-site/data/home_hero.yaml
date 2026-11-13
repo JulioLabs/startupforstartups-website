@@ -1,0 +1,88 @@
+# Homepage hero slider: one slide per industry showcase.
+# Images are resized copies of the showcase screenshots, in static/assets/images/home-hero/.
+# pins: x/y are the dot's position on the website screenshot, in % of its width/height;
+# side is where the label sits next to the dot (l or r).
+slides:
+  - id: cleaning
+    tab: Cleaning
+    icon: fa-broom
+    business: Havenly Home Care
+    kind: Cleaning company
+    theme: ""
+    site_label: havenly — home page
+    site_alt: Havenly Home Care's website with a PresenceWave welcome offer banner, quick poll, feedback tab and cookie notice
+    phone: Job board
+    phone_alt: Havenly's job board on a phone, styled in Havenly's green
+    showcase: /showcase/cleaning-services/
+    pins:
+      - { label: Offer banner, x: 3, y: 4, side: r }
+      - { label: Quick poll, x: 76, y: 68, side: l }
+      - { label: Feedback tab, x: 90, y: 86, side: l }
+      - { label: Cookie notice, x: 3, y: 95, side: r }
+  - id: home-services
+    tab: Home services
+    icon: fa-screwdriver-wrench
+    business: Copperline Home Services
+    kind: Plumbing, heating and electrical
+    theme: Dispatch
+    site_label: copperline — home page
+    site_alt: Copperline Home Services' website with a PresenceWave tune-up offer banner, quick poll, feedback tab and cookie notice
+    phone: Links page
+    phone_alt: Copperline's links page on a phone, in Copperline's navy and copper
+    showcase: /showcase/home-services/
+    pins:
+      - { label: Offer banner, x: 3, y: 4, side: r }
+      - { label: Quick poll, x: 76, y: 68, side: l }
+      - { label: Feedback tab, x: 90, y: 86, side: l }
+      - { label: Cookie notice, x: 3, y: 95, side: r }
+  - id: fitness-studios
+    tab: Fitness
+    icon: fa-dumbbell
+    business: Pulsehouse Fitness
+    kind: HIIT, ride and strength studio
+    theme: Afterburn
+    site_label: pulsehouse — home page
+    site_alt: Pulsehouse Fitness's website with a PresenceWave intro offer banner, quick poll, feedback tab and cookie notice
+    phone: Blog
+    phone_alt: The Pulsehouse Journal blog on a phone, in Pulsehouse's colors
+    showcase: /showcase/fitness-studios/
+    pins:
+      - { label: Offer banner, x: 3, y: 4, side: r }
+      - { label: Quick poll, x: 76, y: 68, side: l }
+      - { label: Feedback tab, x: 90, y: 86, side: l }
+      - { label: Cookie notice, x: 3, y: 95, side: r }
+  - id: group-tours
+    tab: Group tours
+    icon: fa-earth-americas
+    business: Wayfarer Journeys
+    kind: Small-group travel
+    theme: Getaway Club
+    site_label: wayfarer — home page
+    site_alt: Wayfarer Journeys' website with a PresenceWave early-booking banner, quick poll, feedback tab and cookie notice
+    phone: Launch page
+    phone_alt: Wayfarer's launch page for its Japan trips on a phone, with a countdown and waitlist
+    showcase: /showcase/group-tours/
+    pins:
+      - { label: Offer banner, x: 3, y: 4, side: r }
+      - { label: Quick poll, x: 76, y: 68, side: l }
+      - { label: Feedback tab, x: 90, y: 86, side: l }
+      - { label: Cookie notice, x: 3, y: 95, side: r }
+  - id: lawn-care
+    tab: Lawn care
+    icon: fa-leaf
+    business: Greenstripe Lawn Co.
+    kind: Mowing and lawn care
+    theme: Fairway
+    site_label: greenstripe — home page
+    site_alt: Greenstripe Lawn Co.'s website with a PresenceWave seasonal offer banner, quick poll, feedback tab and cookie notice
+    phone: Survey
+    phone_alt: Greenstripe's after-visit survey on a phone
+    showcase: /showcase/lawn-care/
+    pins:
+      - { label: Offer banner, x: 3, y: 4, side: r }
+      - { label: Quick poll, x: 76, y: 68, side: l }
+      - { label: Feedback tab, x: 90, y: 86, side: l }
+      - { label: Cookie notice, x: 3, y: 95, side: r }
+
+# Pages each demo business runs on its own domain, shown under the slide
+pages: [Blog, Job board, Links page, Launch page, Newsletter, Survey, Short links]

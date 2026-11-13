@@ -2816,3 +2816,462 @@ a.rp-industry:hover {
     font-weight: 600;
     color: var(--accent-primary);
 }
+
+/* ==========================================================================
+   HOMEPAGE HERO SLIDER (hh-): real showcase screens, one slide per industry
+   ========================================================================== */
+
+.hh {
+    max-width: 1100px;
+    margin: 52px auto 0;
+    text-align: left;
+}
+
+.hh-intro {
+    margin: 0 0 12px;
+    text-align: center;
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    color: var(--text-muted);
+}
+
+.hh-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 26px;
+}
+
+.hh-tabs {
+    display: flex;
+    gap: 4px;
+    padding: 5px;
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-color);
+    border-radius: 999px;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.hh-tabs::-webkit-scrollbar {
+    display: none;
+}
+
+.hh-tab {
+    position: relative;
+    flex: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 16px;
+    border: 0;
+    border-radius: 999px;
+    background: transparent;
+    color: var(--text-muted);
+    font: inherit;
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    white-space: nowrap;
+    cursor: pointer;
+    overflow: hidden;
+    transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hh-tab i {
+    font-size: 13px;
+    opacity: 0.75;
+}
+
+.hh-tab:hover {
+    color: var(--text-primary);
+}
+
+.hh-tab[aria-selected="true"] {
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+    box-shadow: 0 1px 3px rgba(15, 23, 42, 0.12);
+}
+
+.hh-tab[aria-selected="true"] i {
+    color: var(--accent-secondary);
+    opacity: 1;
+}
+
+.hh-tab:focus-visible,
+.hh-pause:focus-visible,
+.hh-more:focus-visible {
+    outline: 2px solid var(--accent-secondary);
+    outline-offset: 2px;
+}
+
+/* Time left on the current slide while the slideshow plays */
+.hh-progress {
+    position: absolute;
+    left: 16px;
+    right: 16px;
+    bottom: 3px;
+    height: 2px;
+    border-radius: 2px;
+    background: var(--accent-secondary);
+    transform: scaleX(0);
+    transform-origin: left;
+    opacity: 0;
+}
+
+.hh.is-playing .hh-tab[aria-selected="true"] .hh-progress {
+    opacity: 0.7;
+    animation: hh-progress var(--hh-interval, 7000ms) linear forwards;
+}
+
+.hh.is-paused .hh-tab[aria-selected="true"] .hh-progress {
+    animation-play-state: paused;
+}
+
+@keyframes hh-progress {
+    to { transform: scaleX(1); }
+}
+
+.hh-pause {
+    flex: none;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid var(--border-color);
+    background: var(--bg-secondary);
+    color: var(--text-muted);
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.hh-pause:hover {
+    color: var(--text-primary);
+    border-color: var(--border-light);
+}
+
+/* All slides share one grid cell, so the stage is as tall as the tallest slide */
+.hh-stage {
+    display: grid;
+}
+
+.hh-slide {
+    grid-area: 1 / 1;
+    margin: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.45s ease, visibility 0s linear 0.45s;
+}
+
+.hh-slide.is-active {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.45s ease, visibility 0s;
+}
+
+.hh-visual {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 20%;
+    gap: 3%;
+    align-items: start;
+}
+
+.hh-browser {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 30px 60px -28px rgba(15, 23, 42, 0.35), 0 8px 20px -12px rgba(15, 23, 42, 0.18);
+}
+
+.hh-bar {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--border-color);
+    background: var(--bg-secondary);
+    font-size: 13px;
+}
+
+.hh-dots {
+    display: inline-flex;
+    gap: 6px;
+}
+
+.hh-dots i {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #e2e8f0;
+}
+
+.hh-url {
+    flex: 1;
+    min-width: 0;
+    padding: 4px 12px;
+    border-radius: 6px;
+    background: var(--bg-tertiary);
+    color: var(--text-muted);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.hh-snippet {
+    flex: none;
+    color: var(--accent-secondary);
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.hh-shot {
+    position: relative;
+    aspect-ratio: 1440 / 900;
+}
+
+.hh-shot img,
+.hh-phone-screen img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+/* Labels on the PresenceWave widgets in the screenshot */
+.hh-pin {
+    position: absolute;
+    left: var(--x);
+    top: var(--y);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.hh-pin-l {
+    flex-direction: row-reverse;
+    transform: translate(-100%, -50%);
+}
+
+.hh-pin b {
+    flex: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--accent-secondary);
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 4px rgba(5, 150, 105, 0.28);
+}
+
+.hh-pin em {
+    padding: 4px 10px;
+    border-radius: 999px;
+    background: #fff;
+    color: #0f172a;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 650;
+    white-space: nowrap;
+    box-shadow: 0 4px 14px rgba(15, 23, 42, 0.22);
+}
+
+.hh-slide.is-active .hh-pin {
+    animation: hh-pin-in 0.4s ease both;
+    animation-delay: calc(0.25s + var(--d) * 0.12s);
+}
+
+@keyframes hh-pin-in {
+    from { opacity: 0; margin-top: 6px; }
+    to { opacity: 1; margin-top: 0; }
+}
+
+.hh-phone {
+    margin-top: 14%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.hh-phone-screen {
+    width: 100%;
+    aspect-ratio: 1 / 2;
+    padding: 7px;
+    border-radius: 28px;
+    background: #0f172a;
+    box-shadow: 0 30px 50px -24px rgba(15, 23, 42, 0.45);
+    overflow: hidden;
+}
+
+.hh-phone-screen img {
+    border-radius: 21px;
+}
+
+.hh-slide.is-active .hh-phone-screen {
+    animation: hh-phone-in 0.55s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+@keyframes hh-phone-in {
+    from { opacity: 0; transform: translateY(14px); }
+    to { opacity: 1; transform: none; }
+}
+
+.hh-phone-label {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-align: center;
+}
+
+.hh-caption {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 14px 28px;
+    margin-top: 26px;
+    padding: 16px 20px;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    background: var(--bg-secondary);
+}
+
+.hh-who {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.hh-who strong {
+    font-size: var(--font-size-base);
+    color: var(--text-primary);
+}
+
+.hh-who span {
+    font-size: 13px;
+    color: var(--text-muted);
+}
+
+.hh-pages-wrap {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.hh-pages-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+}
+
+.hh-pages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.hh-pages li {
+    padding: 3px 10px;
+    border-radius: 999px;
+    background: var(--bg-tertiary);
+    color: var(--text-muted);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.hh-pages li.is-shown {
+    background: rgba(5, 150, 105, 0.12);
+    color: var(--accent-secondary);
+}
+
+.hh-more {
+    flex: none;
+    font-size: var(--font-size-sm);
+    font-weight: 650;
+    color: var(--accent-secondary);
+    text-decoration: none;
+}
+
+.hh-more i {
+    margin-left: 4px;
+    font-size: 12px;
+    transition: transform 0.2s ease;
+}
+
+.hh-more:hover i {
+    transform: translateX(3px);
+}
+
+@media (max-width: 900px) {
+    .hh-pin em {
+        font-size: 11px;
+        padding: 3px 8px;
+    }
+
+    .hh-caption {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+/* Phones: the website screenshot alone, with the tab strip scrolling sideways */
+@media (max-width: 700px) {
+    .hh {
+        margin-top: 40px;
+    }
+
+    .hh-top {
+        justify-content: flex-start;
+    }
+
+    .hh-intro {
+        text-align: left;
+    }
+
+    .hh-tabs {
+        flex: 1;
+        min-width: 0;
+    }
+
+    .hh-tab {
+        padding: 8px 13px;
+    }
+
+    .hh-tab i {
+        display: none;
+    }
+
+    .hh-visual {
+        grid-template-columns: 1fr;
+    }
+
+    .hh-phone,
+    .hh-pin,
+    .hh-snippet {
+        display: none;
+    }
+
+    .hh-caption {
+        padding: 14px 16px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .hh-slide,
+    .hh-slide.is-active,
+    .hh-tab {
+        transition: none;
+    }
+
+    .hh-slide.is-active .hh-pin,
+    .hh-slide.is-active .hh-phone-screen {
+        animation: none;
+    }
+}
