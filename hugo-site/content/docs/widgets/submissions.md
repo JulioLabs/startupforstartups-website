@@ -10,12 +10,13 @@ Everything visitors send through a **contact form**, **form**, **survey** or **f
 - Use **Search submissions** to find one.
 - Click a submission to see all its details, including the page it was sent from.
 - You can delete a submission you don't need.
+- **Export CSV** downloads all of a widget's submissions as a spreadsheet file.
 
 Questionnaire responses are kept with the questionnaire instead. See [Questionnaires](/docs/services/questionnaires/).
 
 ## Get submissions somewhere else
 
-To get each submission as it arrives, open the domain's **Settings** and add a webhook under **Webhooks**. A webhook can post to Slack, Zapier or your own system. Webhooks are sent for:
+To get each submission as it arrives, add a [webhook](/docs/account/webhooks/) in the domain's **Settings**. A webhook can post to Slack, Zapier or your own system. Webhooks are sent for:
 
 - contact form submissions;
 - form submissions;
