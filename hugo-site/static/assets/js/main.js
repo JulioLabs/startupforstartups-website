@@ -150,55 +150,69 @@ style.textContent = `
 
 document.head.appendChild(style);
 
-// Analytics tracking (placeholder)
-function trackEvent(eventName, properties = {}) {
-    console.log('Event:', eventName, properties);
+// Google Analytics events (gtag is loaded in baseof.html).
+// Page views, outbound links, file downloads and 90% scroll are already
+// recorded by GA4 enhanced measurement; these add the clicks that matter to us.
+function trackEvent(eventName, params) {
+    if (typeof window.gtag === 'function') {
+        window.gtag('event', eventName, params || {});
+    }
+}
+window.trackEvent = trackEvent;
+
+// Where on the page a click happened: the section's id or first class, else header, nav or footer
+function clickLocation(el) {
+    const section = el.closest('section, header, nav, footer, aside');
+    if (!section) return 'page';
+    return section.id || (section.classList[0]) || section.tagName.toLowerCase();
 }
 
-// Track important user interactions
 document.addEventListener('click', function(e) {
-    const target = e.target.closest('a, button');
-    if (target) {
-        const href = target.getAttribute('href');
-        const text = target.textContent.trim();
+    const link = e.target.closest('a[href]');
+    if (!link) return;
 
-        if (href === '/login' || text.includes('Start') || text.includes('Get Started')) {
-            trackEvent('cta_click', {
-                location: target.closest('section')?.className || 'unknown',
-                text: text
-            });
-        }
+    const href = link.getAttribute('href');
+    const params = {
+        link_text: link.textContent.trim().replace(/\s+/g, ' ').slice(0, 100),
+        link_url: link.href,
+        click_location: clickLocation(link)
+    };
 
-        if (href && href.startsWith('#')) {
-            trackEvent('internal_navigation', {
-                section: href.replace('#', '')
-            });
-        }
+    let url;
+    try {
+        url = new URL(link.href, window.location.href);
+    } catch (err) {
+        return;
+    }
+
+    if (url.hostname === 'app.presencewave.com') {
+        // Every "Get started" / "Start free" button goes to the app; /login is the sign-in link
+        trackEvent(url.pathname.startsWith('/login') ? 'login_click' : 'sign_up_click', params);
+    } else if (url.hostname === 'github.com' && url.pathname.indexOf('/presencewave-themes') !== -1) {
+        params.theme_collection = url.pathname.split('/').filter(Boolean).pop();
+        trackEvent('theme_browse_click', params);
+    } else if (url.protocol === 'mailto:') {
+        trackEvent('contact_email_click', { click_location: params.click_location });
+    } else if (href.startsWith('#') && href.length > 1) {
+        trackEvent('internal_navigation', { section: href.slice(1), click_location: params.click_location });
     }
 });
 
-// Track scroll depth
-let maxScroll = 0;
+// Forms inside PresenceWave widgets on our own pages (contact form, surveys, newsletter)
+document.addEventListener('submit', function(e) {
+    const widget = e.target.closest('[data-widget]');
+    if (widget) {
+        trackEvent('widget_form_submit', { widget_type: widget.getAttribute('data-widget') });
+    }
+}, true);
+
+// Scroll depth (25/50/75; GA4 already records 90)
+const scrollMarks = [25, 50, 75];
 window.addEventListener('scroll', function() {
-    const scrollPercent = Math.round((window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100);
-    if (scrollPercent > maxScroll) {
-        maxScroll = scrollPercent;
-
-        if (maxScroll >= 25 && !window.tracked25) {
-            trackEvent('scroll_depth', { depth: 25 });
-            window.tracked25 = true;
-        }
-        if (maxScroll >= 50 && !window.tracked50) {
-            trackEvent('scroll_depth', { depth: 50 });
-            window.tracked50 = true;
-        }
-        if (maxScroll >= 75 && !window.tracked75) {
-            trackEvent('scroll_depth', { depth: 75 });
-            window.tracked75 = true;
-        }
-        if (maxScroll >= 90 && !window.tracked90) {
-            trackEvent('scroll_depth', { depth: 90 });
-            window.tracked90 = true;
-        }
+    const scrollable = document.body.scrollHeight - window.innerHeight;
+    if (scrollable <= 0 || scrollMarks.length === 0) return;
+    const percent = Math.round((window.scrollY / scrollable) * 100);
+    while (scrollMarks.length && percent >= scrollMarks[0]) {
+        trackEvent('scroll_depth', { percent_scrolled: scrollMarks.shift() });
     }
-});
+}, { passive: true });

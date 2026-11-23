@@ -195,6 +195,7 @@ Menus, business cards, flyers, packaging, event signage &mdash; anywhere people 
         });
 
         resultEl.hidden = false;
+        if (window.trackEvent) window.trackEvent('qr_generate');
     });
 
     downloadBtn.addEventListener('click', function () {
@@ -206,6 +207,7 @@ Menus, business cards, flyers, packaging, event signage &mdash; anywhere people 
         link.download = 'qr-code.png';
         link.href = canvas.toDataURL('image/png');
         link.click();
+        if (window.trackEvent) window.trackEvent('qr_download');
     });
 })();
 </script>
