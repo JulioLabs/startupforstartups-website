@@ -2,7 +2,7 @@
 title: "Pricing | PresenceWave"
 description: "Simple pricing per domain: $29 a month or $199 a year. Start free for 30 days, no card needed."
 date: 2026-10-26
-draft: true
+draft: false
 layout: "landing"
 canonical: "https://presencewave.com/pricing"
 ---

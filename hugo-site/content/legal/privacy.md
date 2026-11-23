@@ -175,6 +175,6 @@ Continued use after changes take effect constitutes acceptance.
 If you have any questions or requests regarding privacy, please contact:
 
 **Julio Labs (OPC) Pvt. Ltd.**
-4A, Ruchita Heights, Savarkar Nagar,
-Nashik, 422013, India
+A-4, Ruchita Height, Gangapur Road, Savarkar Nagar,
+Nashik, Maharashtra 422013, India
 📧 [sushrut@presencewave.com](mailto:sushrut@presencewave.com)

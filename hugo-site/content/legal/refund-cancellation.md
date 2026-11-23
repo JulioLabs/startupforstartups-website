@@ -2,13 +2,13 @@
 title: "Cancellation and Refund Policy | PresenceWave"
 description: "How cancelling a PresenceWave plan works, and our refund policy."
 date: 2026-10-26
-draft: true
+draft: false
 layout: "single"
 ---
 
 # Cancellation and Refund Policy
 
-**Effective Date:** [to be set on publication]
+**Effective Date:** 23 November 2026
 
 This policy applies to paid plans of PresenceWave (the "Service"), operated by Julio Labs (OPC) Pvt. Ltd. ("we", "us"). It is part of our [Terms of Service](/legal/terms).
 
@@ -41,6 +41,6 @@ If a payment fails, we and our billing provider will notify you and retry it. Yo
 ## 6. Contact
 
 **Julio Labs (OPC) Pvt. Ltd.**
-4A, Ruchita Heights, Savarkar Nagar,
-Nashik, 422013, India
+A-4, Ruchita Height, Gangapur Road, Savarkar Nagar,
+Nashik, Maharashtra 422013, India
 📧 [sushrut@presencewave.com](mailto:sushrut@presencewave.com)

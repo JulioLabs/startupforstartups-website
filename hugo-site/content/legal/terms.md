@@ -8,7 +8,7 @@ layout: "single"
 
 # Terms of Service
 
-**Effective Date:** 01 December 2025
+**Effective Date:** 23 November 2026
 **Last Updated:** 27 October 2026
 
 Welcome to PresenceWave (the "Service"), operated by Julio Labs (OPC) Pvt. Ltd. ("Company", "we", "us", or "our"). These Terms of Service ("Terms") govern your access to and use of the Service available at https://presencewave.com and its subdomains (collectively, the "Platform").
@@ -182,6 +182,6 @@ All disputes shall be resolved exclusively in the courts located in Nashik, Maha
 For questions about these Terms, contact:
 
 **Julio Labs (OPC) Pvt. Ltd.**
-4A, Ruchita Heights, Savarkar Nagar,
-Nashik, 422013, India
+A-4, Ruchita Height, Gangapur Road, Savarkar Nagar,
+Nashik, Maharashtra 422013, India
 📧 [sushrut@presencewave.com](mailto:sushrut@presencewave.com)
