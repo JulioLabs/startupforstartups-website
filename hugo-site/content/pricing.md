@@ -77,7 +77,7 @@ Every tool, every theme, your whole team. You pay for the domains you run on Pre
 
 </div>
 
-<div class="rp-small-note pr-plans-note">Prices in <span data-inr="Indian rupees">US dollars</span>. Taxes may apply depending on where you are.
+<div class="rp-small-note pr-plans-note"><span data-inr="Prices in Indian rupees, including GST.">Prices in US dollars, with no taxes added.</span>
 <button type="button" class="pr-currency-switch" data-inr="Show prices in US dollars">Paying with a card issued in India? Show prices in rupees</button></div>
 
 </div>
