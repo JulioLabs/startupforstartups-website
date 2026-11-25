@@ -4,7 +4,7 @@ description: "Simple pricing per domain: $29 a month or $199 a year. Start free 
 date: 2026-10-26
 draft: false
 layout: "landing"
-canonical: "https://presencewave.com/pricing"
+canonical: "https://presencewave.com/pricing/"
 ---
 
 <!-- Hero -->

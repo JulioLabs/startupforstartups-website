@@ -1,10 +1,10 @@
 ---
-title: "Launch Page Builder | Create Professional Coming Soon Pages | PresenceWave"
-description: "Build stunning launch pages with countdown timers & email capture in minutes. Free templates, unlimited customization, perfect for startups. Start your pre-launch campaign today!"
+title: "Coming Soon and Launch Page Builder"
+description: "Build a launch page with a countdown and a waitlist that becomes a mailing list, on your own domain, so your first customers hear the moment you open."
 date: 2025-11-15
 draft: false
 layout: "feature"
-canonical: "https://presencewave.com/launchpages"
+canonical: "https://presencewave.com/launchpages/"
 keywords: ["launch page builder", "coming soon pages", "landing page creator", "product launch pages", "pre-launch website", "startup launch page template", "countdown timer landing page", "email capture page"]
 image: /assets/images/launchpages-hero.png
 ---
@@ -430,58 +430,6 @@ Build stunning pre-launch websites with countdown timers, email capture, and bea
         </div>
     </div>
 </section>
-
-<!-- Schema Markup for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Launch Page Builder",
-  "description": "Create professional coming soon pages with countdown timers and email capture for startups and product launches",
-  "url": "https://presencewave.com/launchpages",
-  "applicationCategory": "WebApplication",
-  "operatingSystem": "Web Browser",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD"
-  },
-  "creator": {
-    "@type": "Organization",
-    "name": "PresenceWave"
-  },
-  "featureList": [
-    "Countdown timer templates",
-    "Email capture forms",
-    "Mobile responsive design",
-    "Unlimited customization",
-    "Analytics tracking",
-    "No coding required"
-  ],
-  "faq": {
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "How to create a launch page for startup?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Creating a launch page is simple with our builder. Choose a template, customize your countdown timer, add your email capture form, and publish. Your professional coming soon page will be live in minutes."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What should be included in a product launch page?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Essential launch page elements include: compelling headline, countdown timer to build urgency, email capture form for lead generation, brief product description, social proof or testimonials, and clear call-to-action."
-        }
-      }
-    ]
-  }
-}
-</script>
-
 <style>
 .image-showcase {
     padding: 80px 0;

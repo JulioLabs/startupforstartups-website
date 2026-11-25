@@ -1,11 +1,13 @@
 ---
 title: "How an Online Store Runs on PresenceWave | Showcase"
-description: "Follow TechMart, a demo electronics store, through every PresenceWave tool: sale banners, product expert questions, business quotes, a buying-guide blog, a product drop waitlist, post-purchase surveys, a deals newsletter, careers, social links, QR codes and analytics — all in its own brand."
+description: "Follow TechMart, a demo electronics store, through every PresenceWave tool: sale banners, a buying-guide blog, product drops, surveys and more."
 date: 2026-10-22
 draft: false
 layout: "landing"
 canonical: "https://presencewave.com/showcase/ecommerce/"
 keywords: ["ecommerce marketing tools", "online store widgets", "post purchase survey", "product launch waitlist", "ecommerce blog", "store announcement bar", "shopify alternative tools"]
+image: "/assets/images/og/showcase-ecommerce.jpg"
+linkTitle: "E-commerce"
 ---
 
 <!-- Hero -->
@@ -329,6 +331,6 @@ keywords: ["ecommerce marketing tools", "online store widgets", "post purchase s
 <h2 class="rp-h2">Running an online store?<br>Put everything around it in one place.</h2>
 <p class="rp-lead">Start free on your own app address, invite your team, and pick the tools you need. Add one snippet to your store when you're ready to go live.</p>
 <a href="https://app.presencewave.com" class="rp-btn rp-btn-primary">Set up my store</a>
-<div class="rp-small-note"><a href="/ecommerce-businesses">See everything PresenceWave does for online stores →</a> · <a href="/showcase/saas/">See the SaaS showcase →</a></div>
+<div class="rp-small-note"><a href="/ecommerce-businesses/">See everything PresenceWave does for online stores →</a> · <a href="/showcase/saas/">See the SaaS showcase →</a></div>
 </div>
 </section>

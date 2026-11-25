@@ -1,10 +1,10 @@
 ---
-title: "Embeddable Widgets | Contact Forms & Surveys for Any Website | PresenceWave"
-description: "Create professional embeddable widgets in minutes - contact forms, surveys, banners & more. Simple embed codes, unlimited customization, real-time analytics. No coding required!"
+title: "Website Widgets: Forms, Surveys and Banners"
+description: "Add contact forms, surveys, offer banners, feedback tabs and more to any website with one snippet, styled in your own colours and fonts."
 date: 2025-11-20
 draft: false
 layout: "feature"
-canonical: "https://presencewave.com/widgets"
+canonical: "https://presencewave.com/widgets/"
 keywords: ["embeddable widgets", "contact form widget", "survey widget", "website widgets", "embed code generator", "html widgets", "iframe widgets", "contact form embed", "survey embed", "banner widgets"]
 image: /assets/images/widgets-hero.png
 ---
@@ -430,70 +430,6 @@ Common questions about contact form widgets, survey embeds, and website integrat
 </div>
 </div>
 </section>
-
-<!-- Schema Markup for SEO -->
-<script type="application/ld+json">
-{
-"@context": "https://schema.org",
-"@type": "SoftwareApplication",
-"name": "Embeddable Widget Builder",
-"description": "Create professional embeddable widgets including contact forms, surveys, and banners for any website with simple HTML embed codes",
-"url": "https://presencewave.com/widgets",
-"applicationCategory": "WebApplication",
-"operatingSystem": "Web Browser",
-"offers": {
-"@type": "Offer",
-"price": "0",
-"priceCurrency": "USD"
-},
-"creator": {
-"@type": "Organization",
-"name": "PresenceWave"
-},
-"featureList": [
-"Contact form widgets",
-"Survey embeds",
-"Banner widgets",
-"Lead capture forms",
-"Consent banners",
-"Real-time analytics",
-"Mobile responsive design",
-"Unlimited customization",
-"No coding required",
-"Cross-platform compatibility"
-],
-"faq": {
-"@type": "FAQPage",
-"mainEntity": [
-{
-"@type": "Question",
-"name": "How to embed widgets in any website?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Embedding our widgets is simple - just copy the generated HTML embed code and paste it into your website's HTML, WordPress page, Shopify store, or any CMS. The widgets work universally across all platforms."
-}
-},
-{
-"@type": "Question",
-"name": "What types of embeddable widgets are available?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "We offer 5 professional widget types: Contact Forms, Survey Widgets, Top Banners, Dynamic Forms with conditional logic, and Consent Banners for GDPR compliance."
-}
-},
-{
-"@type": "Question",
-"name": "Do contact form widgets work on WordPress?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Yes! Our contact form widgets work perfectly on WordPress without requiring any plugins. Simply paste the embed code into any post, page, or widget area."
-}
-}
-]
-}
-}
-</script>
-
 <style>
 .widget-types {
 padding: 80px 0;

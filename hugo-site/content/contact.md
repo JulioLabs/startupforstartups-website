@@ -6,8 +6,6 @@ draft: false
 layout: "single"
 ---
 
-# Contact us
-
 We're happy to help with questions about your account, billing, plans for agencies and larger teams, or anything else.
 
 📧 **Email:** [sushrut@presencewave.com](mailto:sushrut@presencewave.com)

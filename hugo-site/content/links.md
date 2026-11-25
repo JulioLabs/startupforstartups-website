@@ -1,10 +1,10 @@
 ---
-title: "Link in Bio Pages | Professional Bio Link Tool | PresenceWave"
-description: "Create professional link-in-bio pages with unlimited links, custom branding & analytics. Best bio link solution for businesses, influencers & teams. No limits, full control!"
+title: "Link in Bio Page Builder"
+description: "A link-in-bio page on your own domain with unlimited links, your branding and click analytics, for businesses, teams and creators."
 date: 2025-11-20
 draft: false
 layout: "feature"
-canonical: "https://presencewave.com/links"
+canonical: "https://presencewave.com/links/"
 keywords: ["link in bio", "linktree alternative", "bio link page", "link page creator", "social media links", "bio links tool", "link in bio generator", "custom bio page", "link tree free", "social media optimization"]
 image: /assets/images/links-hero-placeholder.png
 ---
@@ -421,70 +421,6 @@ Common questions about link-in-bio pages and bio link tools
 </div>
 </div>
 </section>
-
-<!-- Schema Markup for SEO -->
-<script type="application/ld+json">
-{
-"@context": "https://schema.org",
-"@type": "SoftwareApplication",
-"name": "Link in Bio Page Creator",
-"description": "Professional bio link tool for creating custom link-in-bio pages with unlimited links, custom branding, and analytics",
-"url": "https://presencewave.com/links",
-"applicationCategory": "WebApplication",
-"operatingSystem": "Web Browser",
-"offers": {
-"@type": "Offer",
-"price": "0",
-"priceCurrency": "USD"
-},
-"creator": {
-"@type": "Organization",
-"name": "PresenceWave"
-},
-"featureList": [
-"Unlimited bio links",
-"Custom branding",
-"Custom domains",
-"Link analytics",
-"Mobile responsive",
-"Social media integration",
-"No link limits",
-"Professional design",
-"Click tracking",
-"Instagram bio optimization"
-],
-"faq": {
-"@type": "FAQPage",
-"mainEntity": [
-{
-"@type": "Question",
-"name": "What is a link in bio page?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "A link in bio page is a single landing page that contains multiple links to your content, products, or services, designed to work around social media platforms' limitation of only allowing one clickable link in your profile bio."
-}
-},
-{
-"@type": "Question",
-"name": "How is this different from other bio link tools?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Our link-in-bio tool offers unlimited links, custom branding, advanced analytics, and full design control without restrictions. You get custom domains and professional features that other platforms charge extra for."
-}
-},
-{
-"@type": "Question",
-"name": "Can I use custom domains for my bio link page?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Yes! Use your own custom domain like links.yourbrand.com instead of generic subdomains for improved brand recognition and professional appearance."
-}
-}
-]
-}
-}
-</script>
-
 <style>
 .image-showcase {
 padding: 80px 0;

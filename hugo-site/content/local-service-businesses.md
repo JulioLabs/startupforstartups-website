@@ -1,10 +1,10 @@
 ---
-title: "Website & Marketing Tools for Local Service Businesses | PresenceWave"
-description: "PresenceWave helps local service businesses — cleaners, landscapers, salons, trades and more — capture more enquiries, promote offers, collect reviews and bring customers back, all from one platform."
+title: "Marketing Tools for Local Service Businesses"
+description: "Cleaners, landscapers, salons, trades and more: capture enquiries, promote offers, collect reviews and bring customers back, all from one platform."
 date: 2026-10-22
 draft: false
 layout: "landing"
-canonical: "https://presencewave.com/local-service-businesses"
+canonical: "https://presencewave.com/local-service-businesses/"
 keywords: ["local business marketing", "local service business website", "quote request form", "home services marketing", "small business customer reviews", "local business email marketing"]
 ---
 

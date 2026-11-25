@@ -1,10 +1,10 @@
 ---
-title: "Website & Marketing Tools for Lawn Care Businesses | PresenceWave"
-description: "PresenceWave helps lawn care and mowing companies capture more quote requests, promote seasonal offers, collect reviews and bring customers back every season, all from one platform."
+title: "Marketing Tools for Lawn Care Businesses"
+description: "Help your lawn care or mowing company win more quote requests, promote seasonal offers, collect reviews and bring customers back every season."
 date: 2026-11-02
 draft: false
 layout: "landing"
-canonical: "https://presencewave.com/lawn-care-businesses"
+canonical: "https://presencewave.com/lawn-care-businesses/"
 keywords: ["lawn care website", "lawn care business marketing", "lawn care quote form", "lawn mowing leads", "lawn care customer retention", "landscaping business website tools"]
 ---
 

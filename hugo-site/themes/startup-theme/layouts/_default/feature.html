@@ -1,45 +1,4 @@
-{{ define "title" }}
-<title>{{ .Title }}</title>
-{{ end }}
-
-{{ define "meta" }}
-<meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-
-{{ if .Params.keywords }}
-<meta name="keywords" content="{{ delimit .Params.keywords ", " }}">
-{{ end }}
-
-{{ if .Params.canonical }}
-<link rel="canonical" href="{{ .Params.canonical }}">
-{{ else }}
-<link rel="canonical" href="{{ .Permalink }}">
-{{ end }}
-
-<!-- Open Graph -->
-<meta property="og:title" content="{{ .Title }}">
-<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-<meta property="og:type" content="website">
-<meta property="og:url" content="{{ .Permalink }}">
-<meta property="og:site_name" content="{{ .Site.Title }}">
-<meta property="og:image" content="{{ .Site.BaseURL }}{{ if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.Params.seo.image }}{{ end }}">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:locale" content="en_US">
-
-<!-- Twitter Card -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@presence_wave">
-<meta name="twitter:creator" content="@presence_wave">
-<meta name="twitter:title" content="{{ .Title }}">
-<meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-<meta name="twitter:image" content="{{ .Site.BaseURL }}{{ if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.Params.seo.image }}{{ end }}">
-
-<meta name="robots" content="index, follow">
-<meta name="googlebot" content="index, follow">
-<meta name="author" content="PresenceWave">
-<meta name="language" content="English">
-{{ end }}
-
+{{- /* Title and head meta come from baseof.html (shared SEO tags and structured data). */ -}}
 {{ define "header" }}
 <header class="header hr-header-hidden" id="hr-site-header">
     <nav class="nav container">

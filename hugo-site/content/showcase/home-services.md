@@ -1,11 +1,13 @@
 ---
 title: "How a Home Services Company Runs on PresenceWave | Showcase"
-description: "Follow Copperline Home Services, a demo plumbing, HVAC and electrical company, through every PresenceWave tool: a request-service form, seasonal tune-up banners, a home care blog, technician hiring, a new service area waitlist, newsletter, after-visit NPS survey, truck and invoice QR codes and analytics, all in its own brand."
+description: "Follow Copperline Home Services, a demo plumbing, HVAC and electrical company, through every PresenceWave tool: service requests, hiring and more."
 date: 2026-11-13
 draft: false
 layout: "landing"
 canonical: "https://presencewave.com/showcase/home-services/"
 keywords: ["home services website tools", "plumber website request form", "HVAC marketing tools", "electrician lead generation", "home services customer survey", "plumbing blog", "technician jobs board", "truck QR code tracking"]
+image: "/assets/images/og/showcase-home-services.jpg"
+linkTitle: "Home services"
 ---
 
 <!-- Hero -->
@@ -315,6 +317,6 @@ keywords: ["home services website tools", "plumber website request form", "HVAC 
 <h2 class="rp-h2">Run a plumbing, HVAC or electrical company?<br>This can be yours this week.</h2>
 <p class="rp-lead">Start free on your own app address, invite your team, and pick the tools you need. Add one snippet to your website when you're ready to go live.</p>
 <a href="https://app.presencewave.com" class="rp-btn rp-btn-primary">Set up my company</a>
-<div class="rp-small-note"><a href="/home-service-businesses">See everything PresenceWave does for home services →</a></div>
+<div class="rp-small-note"><a href="/home-service-businesses/">See everything PresenceWave does for home services →</a></div>
 </div>
 </section>

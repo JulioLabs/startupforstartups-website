@@ -1,10 +1,10 @@
 ---
-title: "Lead Generation Forms | High-Converting Form Builder | PresenceWave"
-description: "Build and embed high converting lead forms without code. Capture more leads from your site, blog and pages with simple, powerful forms styled to match your brand. Create forms for lead capture, bookings, sign-ups and feedback in minutes."
+title: "Lead Generation Form Builder"
+description: "Build quote, booking, sign-up and feedback forms without code, styled to match your brand, and embed them on your website, blog and pages."
 date: 2025-12-01
 draft: false
 layout: "feature"
-canonical: "https://presencewave.com/lead-generation-forms"
+canonical: "https://presencewave.com/lead-generation-forms/"
 keywords: ["lead generation forms", "high converting lead forms", "no-code form builder", "embed forms", "capture leads", "form builder for startups", "website form widget", "simple lead capture", "unlimited forms", "built for SaaS teams"]
 image: /assets/images/lead-generation-form-hero.png
 ---
@@ -374,36 +374,3 @@ Common questions about building high-converting lead capture forms
 </div>
 </div>
 </section>
-
-<!-- Schema Markup for SEO -->
-<script type="application/ld+json">
-{
-"@context": "https://schema.org",
-"@type": "SoftwareApplication",
-"name": "Lead Generation Form Builder",
-"description": "Build and embed high converting lead forms without code. Capture more leads with simple powerful forms for startups and small teams.",
-"url": "https://presencewave.com/lead-generation-forms",
-"applicationCategory": "WebApplication",
-"operatingSystem": "Web Browser",
-"offers": {
-"@type": "Offer",
-"price": "0",
-"priceCurrency": "USD"
-},
-"creator": {
-"@type": "Organization",
-"name": "PresenceWave"
-},
-"featureList": [
-"High-converting lead forms",
-"No-code form builder",
-"Universal embed codes",
-"Mobile-optimized forms",
-"Custom styling with live preview",
-"Email notifications",
-"Webhooks and API",
-"CSV export",
-"Unlimited forms and leads"
-]
-}
-</script>

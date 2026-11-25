@@ -1,11 +1,13 @@
 ---
 title: "How a Lawn Care Company Runs on PresenceWave | Showcase"
-description: "Follow Greenstripe Lawn Co., a demo lawn care company, through every PresenceWave tool: a lawn care quote form, offer banners, a lawn tips blog, a crew job board, links page, launch page, newsletter, after-visit NPS survey, short links, QR codes and analytics, all in its own brand."
+description: "Follow Greenstripe Lawn Co., a demo lawn care company, through every PresenceWave tool: quote forms, offers, a crew job board, surveys and more."
 date: 2026-11-02
 draft: false
 layout: "landing"
 canonical: "https://presencewave.com/showcase/lawn-care/"
 keywords: ["lawn care business website tools", "lawn care quote form", "lawn care marketing", "lawn care business NPS survey", "lawn care blog", "lawn care jobs board", "lawn mowing lead generation", "landscaping business marketing"]
+image: "/assets/images/og/showcase-lawn-care.jpg"
+linkTitle: "Lawn care"
 ---
 
 <!-- Hero -->
@@ -315,6 +317,6 @@ keywords: ["lawn care business website tools", "lawn care quote form", "lawn car
 <h2 class="rp-h2">Run a lawn care business?<br>This can be yours this week.</h2>
 <p class="rp-lead">Start free on your own app address, invite your crew, and pick the tools you need. Add one snippet to your website when you're ready to go live.</p>
 <a href="https://app.presencewave.com" class="rp-btn rp-btn-primary">Set up my lawn care business</a>
-<div class="rp-small-note"><a href="/lawn-care-businesses">See everything PresenceWave does for lawn care businesses →</a></div>
+<div class="rp-small-note"><a href="/lawn-care-businesses/">See everything PresenceWave does for lawn care businesses →</a></div>
 </div>
 </section>

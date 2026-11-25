@@ -1,10 +1,10 @@
 ---
-title: "Website & Marketing Tools for Restaurants and Cafés | PresenceWave"
-description: "PresenceWave helps cafés, restaurants, food trucks and coffee shops fill more tables, promote specials, take catering requests, hear how every visit went and bring regulars back, all from one platform."
+title: "Marketing Tools for Restaurants and Cafés"
+description: "Help your café, restaurant or food truck fill more tables, promote specials, take catering requests and bring regulars back, all from one platform."
 date: 2026-11-18
 draft: false
 layout: "landing"
-canonical: "https://presencewave.com/restaurant-cafe-businesses"
+canonical: "https://presencewave.com/restaurant-cafe-businesses/"
 keywords: ["restaurant website", "cafe marketing tools", "restaurant catering form", "restaurant customer feedback", "restaurant newsletter", "table tent QR code"]
 ---
 

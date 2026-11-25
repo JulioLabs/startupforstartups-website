@@ -1,11 +1,13 @@
 ---
 title: "How a Cleaning Company Runs on PresenceWave | Showcase"
-description: "Follow Havenly Home Care, a demo cleaning company, through every PresenceWave tool: quote forms, offer banners, a blog, a job board, links page, launch page, newsletter, after-service NPS survey, short links, QR codes and analytics — all in its own brand."
+description: "Follow Havenly Home Care, a demo cleaning company, through every PresenceWave tool: quote forms, offers, a blog, hiring, surveys and more, in its brand."
 date: 2026-10-22
 draft: false
 layout: "landing"
 canonical: "https://presencewave.com/showcase/cleaning-services/"
 keywords: ["cleaning business website tools", "cleaning company quote form", "cleaning business NPS survey", "cleaning company marketing", "cleaning business blog", "cleaning jobs board", "house cleaning lead generation"]
+image: "/assets/images/og/showcase-cleaning-services.jpg"
+linkTitle: "Cleaning services"
 ---
 
 <!-- Hero -->
@@ -312,6 +314,6 @@ keywords: ["cleaning business website tools", "cleaning company quote form", "cl
 <h2 class="rp-h2">Run a cleaning business?<br>This can be yours this week.</h2>
 <p class="rp-lead">Start free on your own app address, invite your team, and pick the tools you need. Add one snippet to your website when you're ready to go live.</p>
 <a href="https://app.presencewave.com" class="rp-btn rp-btn-primary">Set up my cleaning business</a>
-<div class="rp-small-note"><a href="/cleaning-service-businesses">See everything PresenceWave does for cleaning businesses →</a></div>
+<div class="rp-small-note"><a href="/cleaning-service-businesses/">See everything PresenceWave does for cleaning businesses →</a></div>
 </div>
 </section>

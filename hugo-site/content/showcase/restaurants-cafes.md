@@ -1,11 +1,13 @@
 ---
 title: "How a Café Runs on PresenceWave | Showcase"
-description: "Follow Marigold Corner Café, a demo all-day café, through every PresenceWave tool: catering and big-table requests, a specials banner, a kitchen blog, staff hiring, a new bakery waitlist, a weekly newsletter, an after-visit NPS survey, table-tent QR codes and analytics, all in its own brand."
+description: "Follow Marigold Corner Café, a demo café, through every PresenceWave tool: catering requests, specials, a kitchen blog, table QR codes and more."
 date: 2026-11-18
 draft: false
 layout: "landing"
 canonical: "https://presencewave.com/showcase/restaurants-cafes/"
 keywords: ["restaurant website tools", "cafe marketing tools", "restaurant catering request form", "restaurant customer feedback survey", "table tent QR code", "restaurant newsletter", "restaurant staff hiring page", "cafe blog"]
+image: "/assets/images/og/showcase-restaurants-cafes.jpg"
+linkTitle: "Restaurants and cafés"
 ---
 
 <!-- Hero -->
@@ -315,6 +317,6 @@ keywords: ["restaurant website tools", "cafe marketing tools", "restaurant cater
 <h2 class="rp-h2">Run a restaurant, café or food truck?<br>This can be yours this week.</h2>
 <p class="rp-lead">Start free on your own app address, invite your team, and pick the tools you need. Add one snippet to your website when you're ready to go live.</p>
 <a href="https://app.presencewave.com" class="rp-btn rp-btn-primary">Set up my restaurant</a>
-<div class="rp-small-note"><a href="/restaurant-cafe-businesses">See everything PresenceWave does for restaurants and cafés →</a></div>
+<div class="rp-small-note"><a href="/restaurant-cafe-businesses/">See everything PresenceWave does for restaurants and cafés →</a></div>
 </div>
 </section>

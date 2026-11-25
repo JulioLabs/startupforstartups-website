@@ -1,10 +1,10 @@
 ---
-title: "Website & Marketing Tools for Salons, Barbers and Spas | PresenceWave"
-description: "PresenceWave helps hair salons, barbershops, day spas and nail and lash studios fill more chairs, promote new-client offers, take wedding and event requests, hear how every appointment went and bring clients back to rebook, all from one platform."
+title: "Marketing Tools for Salons, Barbers and Spas"
+description: "Help your salon, barbershop or spa fill more chairs, promote new-client offers, take wedding requests and bring clients back to rebook, from one platform."
 date: 2026-11-24
 draft: false
 layout: "landing"
-canonical: "https://presencewave.com/salon-spa-businesses"
+canonical: "https://presencewave.com/salon-spa-businesses/"
 keywords: ["salon website", "salon marketing tools", "barbershop marketing", "spa marketing tools", "salon client feedback", "salon rebooking reminders", "salon QR code"]
 ---
 

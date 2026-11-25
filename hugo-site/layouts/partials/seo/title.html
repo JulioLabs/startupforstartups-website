@@ -1,0 +1,8 @@
+{{- /* The page title: the site title on the home page; otherwise the page's title, with " | PresenceWave" added only
+       when the title doesn't already name PresenceWave. */ -}}
+{{- $t := site.Title -}}
+{{- if not .IsHome -}}
+  {{- $t = .Title -}}
+  {{- if not (strings.Contains $t "PresenceWave") }}{{ $t = printf "%s | PresenceWave" $t }}{{ end -}}
+{{- end -}}
+{{- return $t -}}

@@ -1,10 +1,10 @@
 ---
-title: "Privacy-First Web Analytics | Privacy-Focused Analytics Tool | PresenceWave"
-description: "Privacy-compliant web analytics with real-time insights, custom dashboards & goal tracking. Google Analytics alternative with privacy-first design. No cookies, full control over your data!"
+title: "Website Analytics in One Dashboard"
+description: "Page views, visitors and events across your website, blog, job board, links and launch pages in one dashboard, with no extra tracking code to add."
 date: 2025-11-20
 draft: false
 layout: "feature"
-canonical: "https://presencewave.com/analytics"
+canonical: "https://presencewave.com/analytics/"
 keywords: ["privacy analytics", "privacy first analytics", "web analytics tool", "privacy compliant analytics", "google analytics alternative", "cookieless analytics", "real-time analytics", "website analytics", "anonymous tracking", "privacy focused analytics"]
 ---
 
@@ -405,70 +405,6 @@ Common questions about privacy-focused analytics and Google Analytics alternativ
 </div>
 </div>
 </section>
-
-<!-- Schema Markup for SEO -->
-<script type="application/ld+json">
-{
-"@context": "https://schema.org",
-"@type": "SoftwareApplication",
-"name": "Privacy-First Web Analytics",
-"description": "Privacy-focused web analytics tool providing real-time insights, custom dashboards, and goal tracking without compromising user privacy",
-"url": "https://presencewave.com/analytics",
-"applicationCategory": "WebApplication",
-"operatingSystem": "Web Browser",
-"offers": {
-"@type": "Offer",
-"price": "0",
-"priceCurrency": "USD"
-},
-"creator": {
-"@type": "Organization",
-"name": "PresenceWave"
-},
-"featureList": [
-"Privacy-focused tracking",
-"Cookieless analytics",
-"Real-time insights",
-"Custom dashboards",
-"Goal tracking",
-"Privacy protection",
-"Anonymous tracking",
-"Custom reporting",
-"Performance monitoring",
-"No consent banners required"
-],
-"faq": {
-"@type": "FAQPage",
-"mainEntity": [
-{
-"@type": "Question",
-"name": "What is privacy-first web analytics?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Privacy-first web analytics collects website insights while respecting user privacy and privacy compliance. It doesn't use cookies, doesn't track personal data, and gives users full control over their data."
-}
-},
-{
-"@type": "Question",
-"name": "How does cookieless analytics work?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Cookieless analytics tracks website behavior without storing cookies or personal data on user devices using privacy-preserving techniques like IP anonymization and session-based tracking."
-}
-},
-{
-"@type": "Question",
-"name": "Is this a good Google Analytics alternative?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Yes! Our privacy-compliant analytics provides all essential features like real-time insights, custom dashboards, and goal tracking - but with privacy compliance and no cookie consent banners required."
-}
-}
-]
-}
-}
-</script>
-
 <style>
 .analytics-types {
 padding: 80px 0;

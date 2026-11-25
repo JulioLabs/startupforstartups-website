@@ -1,10 +1,10 @@
 ---
 title: "Marketing & Growth Tools for Online Stores | PresenceWave"
-description: "PresenceWave gives online stores sale banners, product questions, business quote forms, a buying-guide blog, product drop waitlists, post-purchase surveys, a deals newsletter and social links — on your own domain, in your own brand."
+description: "Sale banners, product questions, a buying-guide blog, product drop waitlists, post-purchase surveys and a deals newsletter for online stores, in your brand."
 date: 2026-10-22
 draft: false
 layout: "landing"
-canonical: "https://presencewave.com/ecommerce-businesses"
+canonical: "https://presencewave.com/ecommerce-businesses/"
 keywords: ["ecommerce marketing tools", "online store announcement bar", "post purchase survey", "product launch waitlist", "ecommerce blog", "link in bio for stores", "ecommerce newsletter"]
 ---
 

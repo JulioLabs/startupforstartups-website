@@ -6,8 +6,6 @@ draft: false
 layout: "single"
 ---
 
-# Terms of Service
-
 **Effective Date:** 23 November 2026
 **Last Updated:** 27 October 2026
 
@@ -101,7 +99,7 @@ You are responsible for the legality, accuracy, and integrity of your Content.
 ## 7. Data, Privacy & Security
 
 ### 7.1 Privacy Policy
-Your use of the Service is also governed by our [Privacy Policy](/legal/privacy).
+Your use of the Service is also governed by our [Privacy Policy](/legal/privacy/).
 
 ### 7.2 Data Protection
 We take reasonable steps to protect your data but cannot guarantee absolute security.

@@ -1,10 +1,10 @@
 ---
-title: "Website & Marketing Tools for Plumbers, HVAC and Electricians | PresenceWave"
-description: "PresenceWave helps plumbers, heating and cooling companies, electricians and handyman crews get more service requests, promote seasonal tune-ups, hear how every visit went and stay top of mind, all from one platform."
+title: "Marketing Tools for Home Service Businesses"
+description: "Plumbers, HVAC companies, electricians and handyman crews: get more service requests, promote tune-ups and hear how every visit went, from one platform."
 date: 2026-11-13
 draft: false
 layout: "landing"
-canonical: "https://presencewave.com/home-service-businesses"
+canonical: "https://presencewave.com/home-service-businesses/"
 keywords: ["home services website", "plumber marketing tools", "HVAC website tools", "electrician lead generation", "service request form", "home services customer reviews"]
 ---
 

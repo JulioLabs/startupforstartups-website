@@ -1,11 +1,13 @@
 ---
 title: "How a SaaS Company Runs on PresenceWave | Showcase"
-description: "Follow CloudSync Pro, a demo SaaS company, through every PresenceWave tool: demo request forms, launch banners, a product blog, a beta waitlist, an NPS survey, docs feedback, careers, a newsletter, campaign links and analytics — all in its own brand."
+description: "Follow CloudSync Pro, a demo SaaS company, through every PresenceWave tool: demo requests, a product blog, a beta waitlist, NPS surveys and more."
 date: 2026-10-22
 draft: false
 layout: "landing"
 canonical: "https://presencewave.com/showcase/saas/"
 keywords: ["saas marketing tools", "saas demo request form", "saas nps survey", "product changelog blog", "beta waitlist page", "saas careers page", "saas website widgets"]
+image: "/assets/images/og/showcase-saas.jpg"
+linkTitle: "SaaS"
 ---
 
 <!-- Hero -->
@@ -318,6 +320,6 @@ keywords: ["saas marketing tools", "saas demo request form", "saas nps survey", 
 <h2 class="rp-h2">Building a SaaS product?<br>Put your growth stack in one place.</h2>
 <p class="rp-lead">Start free on your own app address, invite your team, and pick the tools you need. Add one snippet to your website when you're ready to go live.</p>
 <a href="https://app.presencewave.com" class="rp-btn rp-btn-primary">Set up my SaaS</a>
-<div class="rp-small-note"><a href="/saas-businesses">See everything PresenceWave does for SaaS companies →</a> · <a href="/showcase/cleaning-services/">See the cleaning services showcase →</a></div>
+<div class="rp-small-note"><a href="/saas-businesses/">See everything PresenceWave does for SaaS companies →</a> · <a href="/showcase/cleaning-services/">See the cleaning services showcase →</a></div>
 </div>
 </section>

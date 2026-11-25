@@ -1,12 +1,13 @@
 ---
-title: "Job Board Software | Custom Career Pages for Companies | PresenceWave"
-description: "Professional job board software with custom branding, advanced filtering & application management. Create branded career pages for hiring. Perfect for companies & recruitment agencies!"
+title: "Job Board Software for Branded Career Pages"
+description: "Run a branded job board on your own domain: post roles, collect applications, and let candidates filter and apply, styled in your colours and fonts."
 date: 2025-11-20
 draft: false
 layout: "feature"
-canonical: "https://presencewave.com/job-boards"
+canonical: "https://presencewave.com/job-boards/"
 keywords: ["job board software", "career page builder", "company job board", "recruitment software", "hiring platform", "job posting site", "applicant tracking", "career portal", "job board creation", "employment website"]
 image: /assets/images/jobboard-hero-modern.png
+aliases: ["/startup-job-board/"]
 ---
 
 <!-- Hero Section -->
@@ -147,7 +148,7 @@ Complete job board platform with advanced features for modern hiring
 <div class="lp-themes-grid">
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
-<img src="/assets/images/jobboard-themes/basic-1.png" alt="Default theme" loading="lazy">
+<img src="/assets/images/jobboard-themes/basic-1.webp" alt="Default theme" loading="lazy">
 <a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Default theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
@@ -159,7 +160,7 @@ Complete job board platform with advanced features for modern hiring
 </div>
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
-<img src="/assets/images/jobboard-themes/modern-1.png" alt="Modern theme" loading="lazy">
+<img src="/assets/images/jobboard-themes/modern-1.webp" alt="Modern theme" loading="lazy">
 <a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Modern theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
@@ -171,7 +172,7 @@ Complete job board platform with advanced features for modern hiring
 </div>
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
-<img src="/assets/images/jobboard-themes/minimal-1.png" alt="Minimal theme" loading="lazy">
+<img src="/assets/images/jobboard-themes/minimal-1.webp" alt="Minimal theme" loading="lazy">
 <a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Minimal theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
@@ -183,7 +184,7 @@ Complete job board platform with advanced features for modern hiring
 </div>
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
-<img src="/assets/images/jobboard-themes/minimal-clean-1.png" alt="Minimal Clean theme" loading="lazy">
+<img src="/assets/images/jobboard-themes/minimal-clean-1.webp" alt="Minimal Clean theme" loading="lazy">
 <a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Minimal Clean theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
@@ -195,7 +196,7 @@ Complete job board platform with advanced features for modern hiring
 </div>
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
-<img src="/assets/images/jobboard-themes/brutalist-1.png" alt="Brutalist theme" loading="lazy">
+<img src="/assets/images/jobboard-themes/brutalist-1.webp" alt="Brutalist theme" loading="lazy">
 <a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Brutalist theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
@@ -207,7 +208,7 @@ Complete job board platform with advanced features for modern hiring
 </div>
 <div class="lp-theme-card">
 <div class="lp-theme-image-wrap">
-<img src="/assets/images/jobboard-themes/elegant-1.png" alt="Elegant theme" loading="lazy">
+<img src="/assets/images/jobboard-themes/elegant-1.webp" alt="Elegant theme" loading="lazy">
 <a href="https://app.presencewave.com" class="lp-theme-overlay" aria-label="Use Elegant theme">
 <span><i class="fas fa-rocket"></i> Use this theme</span>
 </a>
@@ -421,70 +422,6 @@ Common questions about job board creation, career pages, and recruitment softwar
 </div>
 </div>
 </section>
-
-<!-- Schema Markup for SEO -->
-<script type="application/ld+json">
-{
-"@context": "https://schema.org",
-"@type": "SoftwareApplication",
-"name": "Job Board Software",
-"description": "Professional job board software for creating custom career pages with application management, advanced filtering, and branded design",
-"url": "https://presencewave.com/job-boards",
-"applicationCategory": "WebApplication",
-"operatingSystem": "Web Browser",
-"offers": {
-"@type": "Offer",
-"price": "0",
-"priceCurrency": "USD"
-},
-"creator": {
-"@type": "Organization",
-"name": "PresenceWave"
-},
-"featureList": [
-"Custom job board creation",
-"Branded career pages",
-"Application management",
-"Advanced job filtering",
-"Mobile responsive design",
-"Applicant tracking",
-"Multi-location support",
-"Social media integration",
-"SEO optimization",
-"HR tool integration"
-],
-"faq": {
-"@type": "FAQPage",
-"mainEntity": [
-{
-"@type": "Question",
-"name": "What is job board software?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Job board software allows companies to create professional career pages and recruitment platforms for posting jobs, managing applications, and streamlining hiring processes with advanced filtering and candidate management."
-}
-},
-{
-"@type": "Question",
-"name": "How do I create a company career page?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Choose a professional template, customize branding with your company colors and logo, add job postings with detailed descriptions, and publish your career portal. The entire process takes just minutes with no technical skills required."
-}
-},
-{
-"@type": "Question",
-"name": "Can I customize the design of my job board?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Yes! Full customization includes themes, color schemes, fonts, layouts, and branding options. Add your company logo, match brand colors, and create a career page that reflects your company culture."
-}
-}
-]
-}
-}
-</script>
-
 <style>
 .image-showcase {
 padding: 80px 0;

@@ -2,10 +2,11 @@
 {{- /* Every published page is listed. lastmod is the date of the page's last git commit (enableGitInfo in hugo.toml).
        loc is the page's canonical URL (front matter `canonical`), else its permalink.
        To keep a page out, add `sitemap: { disable: true }` to its front matter.
-       Section pages (content/<section>/_index.md) are only listed when their front matter has `sitemap_section: true`. */}}
+       Pages with `noindex: true` are left out too. Section pages (content/<section>/_index.md) are only listed when their
+       front matter (or a cascade) has `sitemap_section: true`. */}}
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {{- range (slice .Site.Home | append .Site.RegularPages | append (where .Site.Sections "Params.sitemap_section" true)) }}
-    {{- if not .Sitemap.Disable }}
+  {{- range .Site.Pages }}
+    {{- if and (not .Sitemap.Disable) (not .Params.noindex) (or .IsHome .IsPage .Params.sitemap_section) }}
   <url>
     <loc>{{ .Params.canonical | default .Permalink }}</loc>
     {{- if not .Lastmod.IsZero }}

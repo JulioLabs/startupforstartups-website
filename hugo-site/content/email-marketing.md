@@ -1,10 +1,10 @@
 ---
-title: "Email Marketing Platform | Newsletter & Campaign Builder | PresenceWave"
-description: "Build professional email campaigns and newsletters with our integrated email marketing platform. Drag-and-drop builder, automation, analytics, and seamless integration with your startup tools."
+title: "Email Marketing and Newsletters"
+description: "Send newsletters and campaigns to your mailing lists from your own domain, with a rich text editor, automated email sequences and sign-up forms."
 date: 2025-11-27
 draft: false
 layout: "feature"
-canonical: "https://presencewave.com/email-marketing"
+canonical: "https://presencewave.com/email-marketing/"
 keywords: ["email marketing", "newsletter builder", "email campaigns", "marketing automation", "email templates", "startup email marketing", "drag drop email builder", "email analytics", "email automation", "newsletter platform"]
 ---
 

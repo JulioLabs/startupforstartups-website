@@ -1,11 +1,13 @@
 ---
 title: "How a Salon Runs on PresenceWave | Showcase"
-description: "Follow Hazel & Hue Salon, a demo salon with a barber corner and a spa room, through every PresenceWave tool: wedding party requests, a new-client offer banner, a hair advice blog, stylist hiring, a spa waitlist, a rebooking newsletter, an after-appointment NPS survey, mirror-card QR codes and analytics, all in its own brand."
+description: "Follow Hazel & Hue Salon, a demo salon, through every PresenceWave tool: wedding requests, new-client offers, stylist hiring, surveys and more."
 date: 2026-11-24
 draft: false
 layout: "landing"
 canonical: "https://presencewave.com/showcase/salons-spas/"
 keywords: ["salon website tools", "salon marketing tools", "barbershop website", "spa marketing tools", "salon client feedback survey", "salon rebooking reminders", "salon QR code", "salon staff hiring page", "bridal party booking form"]
+image: "/assets/images/og/showcase-salons-spas.jpg"
+linkTitle: "Salons, barbers and spas"
 ---
 
 <!-- Hero -->
@@ -315,6 +317,6 @@ keywords: ["salon website tools", "salon marketing tools", "barbershop website",
 <h2 class="rp-h2">Run a salon, barbershop or spa?<br>This can be yours this week.</h2>
 <p class="rp-lead">Start free on your own app address, invite your team, and pick the tools you need. Add one snippet to your website when you're ready to go live.</p>
 <a href="https://app.presencewave.com" class="rp-btn rp-btn-primary">Set up my salon</a>
-<div class="rp-small-note"><a href="/salon-spa-businesses">See everything PresenceWave does for salons, barbers and spas →</a></div>
+<div class="rp-small-note"><a href="/salon-spa-businesses/">See everything PresenceWave does for salons, barbers and spas →</a></div>
 </div>
 </section>

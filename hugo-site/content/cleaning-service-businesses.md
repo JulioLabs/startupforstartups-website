@@ -1,10 +1,10 @@
 ---
-title: "Website & Marketing Tools for Cleaning Businesses | PresenceWave"
+title: "Marketing Tools for Cleaning Businesses"
 description: "PresenceWave helps cleaning companies capture more enquiries, promote offers, collect reviews and bring customers back — all from one platform."
 date: 2026-07-24
 draft: false
 layout: "landing"
-canonical: "https://presencewave.com/cleaning-service-businesses"
+canonical: "https://presencewave.com/cleaning-service-businesses/"
 keywords: ["cleaning company website", "cleaning business marketing", "cleaning service quote form", "cleaning business leads", "residential cleaning marketing", "commercial cleaning website tools"]
 ---
 

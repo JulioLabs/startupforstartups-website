@@ -1,10 +1,10 @@
 ---
-title: "Email Marketing Platform | Professional Mailing Lists & Campaigns | PresenceWave"
-description: "Create professional email campaigns with our integrated mailing list platform. Rich text editor, subscriber management, automated workflows, and seamless platform integration. GDPR compliant with AWS delivery."
+title: "Mailing Lists and Sign-up Forms"
+description: "Grow a mailing list with sign-up forms on your website and pages, then email your subscribers newsletters and automated sequences from your own domain."
 date: 2025-11-27
 draft: false
 layout: "feature"
-canonical: "https://presencewave.com/mailing-lists"
+canonical: "https://presencewave.com/mailing-lists/"
 keywords: ["email marketing platform", "mailing lists", "email campaigns", "newsletter marketing", "subscriber management", "email automation", "professional email marketing", "startup email marketing", "bulk email sending", "email templates", "GDPR compliant email", "AWS email delivery"]
 image: /assets/images/mailing-lists-hero-placeholder.png
 ---
@@ -372,41 +372,6 @@ Common questions about our mailing list platform and email campaign tools
 </div>
 </div>
 </section>
-
-<!-- Schema Markup for SEO -->
-<script type="application/ld+json">
-{
-"@context": "https://schema.org",
-"@type": "SoftwareApplication",
-"name": "Email Marketing & Mailing Lists",
-"description": "Create professional email campaigns with our integrated mailing list platform. Rich text editor, subscriber management, GDPR compliance, and AWS-powered delivery.",
-"url": "https://presencewave.com/mailing-lists",
-"applicationCategory": "WebApplication",
-"operatingSystem": "Web Browser",
-"offers": {
-"@type": "Offer",
-"price": "0",
-"priceCurrency": "USD"
-},
-"creator": {
-"@type": "Organization",
-"name": "PresenceWave"
-},
-"featureList": [
-"Professional email campaigns",
-"GDPR compliant mailing lists",
-"AWS SES delivery",
-"Rich text email editor",
-"CSV import/export",
-"Subscriber management",
-"Bulk email sending",
-"Email analytics",
-"Platform integration",
-"Brand-consistent templates"
-]
-}
-</script>
-
 <style>
 .image-showcase {
 padding: 80px 0;

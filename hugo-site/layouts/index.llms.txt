@@ -1,0 +1,47 @@
+{{- partial "llms-intro.txt" . }}
+{{- $pages := where site.RegularPages "Params.noindex" "!=" true }}
+{{- $docs := where $pages "Section" "docs" }}
+{{- $showcases := where $pages "Section" "showcase" }}
+{{- $legal := where $pages "Section" "legal" }}
+{{- $rest := complement $docs $showcases $legal $pages }}
+{{- $industries := slice }}{{ $product := slice }}{{ $company := slice }}
+{{- range $rest }}
+  {{- if strings.HasSuffix .File.BaseFileName "-businesses" }}{{ $industries = $industries | append . }}
+  {{- else if in (slice "pricing" "themes" "contact") .File.BaseFileName }}{{ $company = $company | append . }}
+  {{- else }}{{ $product = $product | append . }}{{ end }}
+{{- end }}
+
+## Pricing, themes and contact
+{{ range $company }}
+- [{{ replace .Title " | PresenceWave" "" }}]({{ .Permalink }}): {{ .Description }}
+{{- end }}
+
+## Product: what each tool does
+{{ range $product }}
+- [{{ replace .Title " | PresenceWave" "" }}]({{ .Permalink }}): {{ .Description }}
+{{- end }}
+
+## PresenceWave by industry
+{{ range $industries }}
+- [{{ replace .Title " | PresenceWave" "" }}]({{ .Permalink }}): {{ .Description }}
+{{- end }}
+
+## Showcases: demo businesses using every tool
+{{ with site.GetPage "/showcase" }}
+- [All showcases]({{ .Permalink }}): {{ .Description }}
+{{- end }}
+{{- range $showcases }}
+- [{{ replace .Title " | PresenceWave" "" }}]({{ .Permalink }}): {{ .Description }}
+{{- end }}
+
+## Docs: how to use PresenceWave
+
+The full text of every docs page is in https://presencewave.com/llms-full.txt
+{{ range $docs.ByWeight }}
+- [{{ .Title }}]({{ .Permalink }}): {{ .Description }}
+{{- end }}
+
+## Optional
+{{ range $legal }}
+- [{{ replace .Title " | PresenceWave" "" }}]({{ .Permalink }}): {{ .Description }}
+{{- end }}

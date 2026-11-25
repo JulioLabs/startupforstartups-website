@@ -1,0 +1,31 @@
+{{- partial "llms-intro.txt" . }}
+
+This file is the complete PresenceWave documentation as Markdown, followed by the pricing questions and answers. A shorter guide to the whole site is https://presencewave.com/llms.txt
+{{ range (where site.Pages "Section" "docs").ByWeight }}
+{{- if and (not .Params.noindex) (or .IsPage .IsSection) }}
+
+---
+
+# {{ .Title }}
+
+Source: {{ .Permalink }}
+{{ with .Description }}
+{{ . }}
+{{ end }}
+{{ .RawContent | strings.TrimSpace }}
+{{- end }}
+{{- end }}
+
+---
+
+# Pricing questions
+
+Source: https://presencewave.com/pricing/
+{{ with site.GetPage "/pricing" }}
+{{- range findRESubmatch `(?s)<details class="pr-faq-item">\s*<summary>(.*?)</summary>(.*?)</details>` .Content }}
+
+## {{ index . 1 | plainify | htmlUnescape | strings.TrimSpace }}
+
+{{ index . 2 | plainify | htmlUnescape | strings.TrimSpace }}
+{{- end }}
+{{- end }}

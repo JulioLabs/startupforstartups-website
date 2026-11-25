@@ -1,10 +1,10 @@
 ---
-title: "URL Shortener | Custom Branded Short Links with Analytics | PresenceWave"
-description: "Professional URL shortener with custom domains, click tracking & analytics. Create branded short links for marketing campaigns. Free alternative to Bitly with API integration!"
+title: "Branded URL Shortener with Click Analytics"
+description: "Create branded short links on your own domain, track every click, and make QR codes for campaigns. Includes an API for creating links from your own tools."
 date: 2025-11-20
 draft: false
 layout: "feature"
-canonical: "https://presencewave.com/url-shortener"
+canonical: "https://presencewave.com/url-shortener/"
 keywords: ["URL shortener", "short link generator", "branded short links", "custom domain shortener", "bitly alternative", "link shortening service", "URL shortening tool", "click tracking", "link analytics", "custom short URLs"]
 image: /assets/images/url-hero.png
 ---
@@ -314,70 +314,6 @@ Common questions about URL shortening, branded links, and Bitly alternatives
 </div>
 </div>
 </section>
-
-<!-- Schema Markup for SEO -->
-<script type="application/ld+json">
-{
-"@context": "https://schema.org",
-"@type": "SoftwareApplication",
-"name": "URL Shortener",
-"description": "Professional URL shortening tool with custom domains, click tracking, and comprehensive analytics for marketing campaigns",
-"url": "https://presencewave.com/url-shortener",
-"applicationCategory": "WebApplication",
-"operatingSystem": "Web Browser",
-"offers": {
-"@type": "Offer",
-"price": "0",
-"priceCurrency": "USD"
-},
-"creator": {
-"@type": "Organization",
-"name": "PresenceWave"
-},
-"featureList": [
-"Unlimited URL shortening",
-"Custom domain branding",
-"Click tracking analytics",
-"API integration",
-"Real-time statistics",
-"Link management",
-"Geographic analytics",
-"Referral tracking",
-"Device analytics",
-"Bulk operations"
-],
-"faq": {
-"@type": "FAQPage",
-"mainEntity": [
-{
-"@type": "Question",
-"name": "What is a URL shortener and how does it work?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "A URL shortener takes long, complex URLs and converts them into short, memorable links that redirect to the original destination while tracking click data and analytics."
-}
-},
-{
-"@type": "Question",
-"name": "How is this different from Bitly?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Our URL shortener offers unlimited link creation, custom domain branding, detailed analytics, and API access - all for free, without Bitly's usage limits or paid tier restrictions."
-}
-},
-{
-"@type": "Question",
-"name": "Can I use my own custom domain for short links?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Yes! Use your own branded domain like go.yourbrand.com for all short links to increase click-through rates, build brand trust, and provide professional appearance."
-}
-}
-]
-}
-}
-</script>
-
 <style>
 .image-showcase {
 padding: 80px 0;

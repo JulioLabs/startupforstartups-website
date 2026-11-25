@@ -1,11 +1,13 @@
 ---
 title: "How a Group Tour Company Runs on PresenceWave | Showcase"
-description: "Follow Wayfarer Group Journeys, a demo tour organizer, through every PresenceWave tool: a reserve-a-seat form, early booking banners, a travel blog, a hiring board for tour hosts, links page, a new destination waitlist, newsletter, after-trip NPS survey, short links, QR codes and analytics, all in its own brand."
+description: "Follow Wayfarer Group Journeys, a demo tour company, through every PresenceWave tool: seat reservations, early booking offers, surveys and more."
 date: 2026-11-11
 draft: false
 layout: "landing"
 canonical: "https://presencewave.com/showcase/group-tours/"
 keywords: ["tour operator website tools", "group tour booking form", "tour company marketing", "group travel business NPS survey", "travel blog for tour operators", "tour guide jobs board", "small group tours lead generation", "tour organizer marketing"]
+image: "/assets/images/og/showcase-group-tours.jpg"
+linkTitle: "Group tours"
 ---
 
 <!-- Hero -->
@@ -315,6 +317,6 @@ keywords: ["tour operator website tools", "group tour booking form", "tour compa
 <h2 class="rp-h2">Organize group trips?<br>This can be yours this week.</h2>
 <p class="rp-lead">Start free on your own app address, invite your team, and pick the tools you need. Add one snippet to your website when you're ready to go live.</p>
 <a href="https://app.presencewave.com" class="rp-btn rp-btn-primary">Set up my tour business</a>
-<div class="rp-small-note"><a href="/group-tour-businesses">See everything PresenceWave does for group tour businesses →</a></div>
+<div class="rp-small-note"><a href="/group-tour-businesses/">See everything PresenceWave does for group tour businesses →</a></div>
 </div>
 </section>

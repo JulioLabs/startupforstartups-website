@@ -3,7 +3,7 @@
     <div class="container">
         <article class="content-page">
             <header class="page-header">
-                <h1 class="page-title">{{ .Title }}</h1>
+                <h1 class="page-title">{{ replace .Title " | PresenceWave" "" }}</h1>
                 {{ if .Description }}
                 <p class="page-description">{{ .Description }}</p>
                 {{ end }}

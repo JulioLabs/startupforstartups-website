@@ -6,11 +6,9 @@ draft: false
 layout: "single"
 ---
 
-# Cancellation and Refund Policy
-
 **Effective Date:** 23 November 2026
 
-This policy applies to paid plans of PresenceWave (the "Service"), operated by Julio Labs (OPC) Pvt. Ltd. ("we", "us"). It is part of our [Terms of Service](/legal/terms).
+This policy applies to paid plans of PresenceWave (the "Service"), operated by Julio Labs (OPC) Pvt. Ltd. ("we", "us"). It is part of our [Terms of Service](/legal/terms/).
 
 ## 1. Free trial
 

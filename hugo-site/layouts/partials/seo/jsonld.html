@@ -1,0 +1,95 @@
+{{- /* Structured data for every page, as one linked graph: the organization and website, this page and its breadcrumbs,
+       the product with its real prices (home and pricing), and an FAQPage built from the FAQ items on the page
+       (div.faq-item with h3 + p, or details.pr-faq-item with summary + answer), so it always matches what's shown. */ -}}
+{{- $home := site.Home.Permalink -}}
+{{- $org := printf "%s#organization" $home -}}
+{{- $site := printf "%s#website" $home -}}
+{{- $url := .Params.canonical | default .Permalink -}}
+{{- $title := partial "seo/title.html" . -}}
+{{- $desc := .Description | default site.Params.description -}}
+{{- $graph := slice -}}
+
+{{- $graph = $graph | append (dict
+  "@type" "Organization"
+  "@id" $org
+  "name" "PresenceWave"
+  "legalName" "Julio Labs (OPC) Private Limited"
+  "url" $home
+  "logo" (dict "@type" "ImageObject" "url" (absURL "assets/images/logo.png") "width" 1080 "height" 300)
+  "description" site.Params.description
+  "sameAs" (slice site.Params.social.twitter site.Params.social.blog "https://github.com/JulioLabs/presencewave-themes")
+  "contactPoint" (dict "@type" "ContactPoint" "contactType" "customer support" "url" (absURL "contact/"))
+) -}}
+
+{{- $graph = $graph | append (dict
+  "@type" "WebSite"
+  "@id" $site
+  "name" "PresenceWave"
+  "url" $home
+  "description" site.Params.description
+  "publisher" (dict "@id" $org)
+  "inLanguage" "en"
+) -}}
+
+{{- $page := dict
+  "@type" (cond (eq .Section "docs") "TechArticle" "WebPage")
+  "@id" (printf "%s#webpage" $url)
+  "url" $url
+  "name" $title
+  "description" $desc
+  "isPartOf" (dict "@id" $site)
+  "publisher" (dict "@id" $org)
+  "inLanguage" "en"
+-}}
+{{- with .Params.image }}{{ $page = merge $page (dict "primaryImageOfPage" (absURL .)) }}{{ end -}}
+{{- if not .Lastmod.IsZero }}{{ $page = merge $page (dict "dateModified" (.Lastmod.Format "2006-01-02")) }}{{ end -}}
+{{- if eq .Section "docs" }}{{ $page = merge $page (dict "headline" .Title "author" (dict "@id" $org)) }}{{ end -}}
+
+{{- if not .IsHome -}}
+  {{- $crumbs := slice (dict "@type" "ListItem" "position" 1 "name" "Home" "item" $home) -}}
+  {{- $pos := 1 -}}
+  {{- range .Ancestors.Reverse -}}
+    {{- if not .IsHome -}}
+      {{- $pos = add $pos 1 -}}
+      {{- $crumbs = $crumbs | append (dict "@type" "ListItem" "position" $pos "name" (replace .LinkTitle " | PresenceWave" "") "item" .Permalink) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $crumbs = $crumbs | append (dict "@type" "ListItem" "position" (add $pos 1) "name" (replace .LinkTitle " | PresenceWave" "") "item" $url) -}}
+  {{- $bc := printf "%s#breadcrumb" $url -}}
+  {{- $graph = $graph | append (dict "@type" "BreadcrumbList" "@id" $bc "itemListElement" $crumbs) -}}
+  {{- $page = merge $page (dict "breadcrumb" (dict "@id" $bc)) -}}
+{{- end -}}
+{{- $graph = $graph | append $page -}}
+
+{{- if or .IsHome (eq .RelPermalink "/pricing/") -}}
+  {{- $offer := dict "@type" "Offer" "priceCurrency" "USD" "availability" "https://schema.org/InStock" "url" (absURL "pricing/") -}}
+  {{- $graph = $graph | append (dict
+    "@type" "SoftwareApplication"
+    "@id" (printf "%s#software" $home)
+    "name" "PresenceWave"
+    "url" $home
+    "description" site.Params.description
+    "applicationCategory" "BusinessApplication"
+    "operatingSystem" "Web browser"
+    "publisher" (dict "@id" $org)
+    "featureList" (slice "Lead capture and quote forms" "Offer and announcement banners" "Blog" "Job board" "Links page" "Launch page with waitlist" "Mailing lists and newsletters" "Surveys and NPS questionnaires" "Short links and QR codes" "Website analytics" "Custom domains" "Unlimited team members")
+    "offers" (slice
+      (merge $offer (dict "name" "Free trial" "price" "0" "description" "30 days free, no credit card needed."))
+      (merge $offer (dict "name" "Starter, monthly" "price" "29" "description" "Per domain per month. Every feature, unlimited team members." "priceSpecification" (dict "@type" "UnitPriceSpecification" "price" "29" "priceCurrency" "USD" "billingDuration" "P1M" "unitText" "domain")))
+      (merge $offer (dict "name" "Starter, yearly" "price" "199" "description" "Per domain per year. Every feature, unlimited team members." "priceSpecification" (dict "@type" "UnitPriceSpecification" "price" "199" "priceCurrency" "USD" "billingDuration" "P1Y" "unitText" "domain")))
+    )
+  ) -}}
+{{- end -}}
+
+{{- $faqs := slice -}}
+{{- range findRESubmatch `(?s)<div class="faq-item">\s*<h3>(.*?)</h3>(.*?)</div>` .Content -}}
+  {{- $faqs = $faqs | append (dict "@type" "Question" "name" (index . 1 | plainify | htmlUnescape | strings.TrimSpace) "acceptedAnswer" (dict "@type" "Answer" "text" (index . 2 | plainify | htmlUnescape | strings.TrimSpace))) -}}
+{{- end -}}
+{{- range findRESubmatch `(?s)<details class="pr-faq-item">\s*<summary>(.*?)</summary>(.*?)</details>` .Content -}}
+  {{- $faqs = $faqs | append (dict "@type" "Question" "name" (index . 1 | plainify | htmlUnescape | strings.TrimSpace) "acceptedAnswer" (dict "@type" "Answer" "text" (index . 2 | plainify | htmlUnescape | strings.TrimSpace))) -}}
+{{- end -}}
+{{- with $faqs -}}
+  {{- $graph = $graph | append (dict "@type" "FAQPage" "@id" (printf "%s#faq" $url) "mainEntity" . "isPartOf" (dict "@id" (printf "%s#webpage" $url))) -}}
+{{- end -}}
+
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@graph" $graph | jsonify | safeJS }}</script>

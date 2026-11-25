@@ -5,157 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     {{ block "title" . }}
-    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+    <title>{{ partial "seo/title.html" . }}</title>
     {{ end }}
 
     {{ block "meta" . }}
-    <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    {{ $title := partial "seo/title.html" . }}
+    {{ $desc := .Description | default .Site.Params.description }}
+    {{ $url := .Params.canonical | default .Permalink }}
+    {{ $image := absURL (.Params.image | default .Site.Params.seo.image) }}
+    <meta name="description" content="{{ $desc }}">
+    <link rel="canonical" href="{{ $url }}">
+    <meta name="robots" content="{{ if .Params.noindex }}noindex, follow{{ else }}index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1{{ end }}">
 
-    <!-- Keywords -->
-    {{ if .Params.keywords }}
-    <meta name="keywords" content="{{ delimit .Params.keywords ", " }}">
-    {{ end }}
-
-    <!-- Canonical URL -->
-    {{ if .Params.canonical }}
-    <link rel="canonical" href="{{ .Params.canonical }}">
-    {{ else }}
-    <link rel="canonical" href="{{ .Permalink }}">
-    {{ end }}
-
-    <!-- Open Graph meta tags -->
-    <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
-    <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-    <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
-    <meta property="og:url" content="{{ .Permalink }}">
-    <meta property="og:site_name" content="{{ .Site.Title }}">
-    <meta property="og:image" content="{{ .Site.BaseURL }}{{ if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.Params.seo.image }}{{ end }}">
+    <!-- Open Graph -->
+    <meta property="og:title" content="{{ $title }}">
+    <meta property="og:description" content="{{ $desc }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ $url }}">
+    <meta property="og:site_name" content="PresenceWave">
+    <meta property="og:image" content="{{ $image }}">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="{{ $title }}">
     <meta property="og:locale" content="en_US">
 
-    <!-- Twitter Card meta tags -->
+    <!-- Twitter / X -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@presence_wave">
-    <meta name="twitter:creator" content="@presence_wave">
-    <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
-    <meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-    <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.Params.seo.image }}{{ end }}">
-
-    <!-- Additional SEO meta tags -->
-    <meta name="robots" content="index, follow">
-    <meta name="googlebot" content="index, follow">
-    <meta name="author" content="PresenceWave">
-    <meta name="language" content="English">
-
+    <meta name="twitter:title" content="{{ $title }}">
+    <meta name="twitter:description" content="{{ $desc }}">
+    <meta name="twitter:image" content="{{ $image }}">
     {{ end }}
 
-    <!-- Structured Data for SEO and Sitelinks -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "{{ .Site.Title }}",
-        "url": "{{ .Site.BaseURL }}",
-        "description": "{{ .Site.Params.description }}",
-        "publisher": {
-            "@type": "Organization",
-            "name": "{{ .Site.Title }}",
-            "url": "{{ .Site.BaseURL }}",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "{{ .Site.BaseURL }}assets/images/logo.png"
-            }
-        },
-        "potentialAction": {
-            "@type": "SearchAction",
-            "target": {
-                "@type": "EntryPoint",
-                "urlTemplate": "{{ .Site.BaseURL }}?q={search_term_string}"
-            },
-            "query-input": "required name=search_term_string"
-        }
-    }
-    </script>
-
-    {{ if .IsHome }}
-    <!-- Sitelinks Searchbox and Navigation Structure -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "{{ .Site.Title }}",
-        "url": "{{ .Site.BaseURL }}",
-        "description": "{{ .Site.Params.description }}",
-        "logo": {
-            "@type": "ImageObject",
-            "url": "{{ .Site.BaseURL }}assets/images/logo.png"
-        },
-        "sameAs": [
-            "https://twitter.com/presence_wave"
-        ],
-        "contactPoint": {
-            "@type": "ContactPoint",
-            "contactType": "customer service",
-            "url": "{{ .Site.BaseURL }}"
-        }
-    }
-    </script>
-
-    <!-- Website Navigation Menu for Sitelinks -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "SiteNavigationElement",
-        "name": "Main Navigation",
-        "url": "{{ .Site.BaseURL }}",
-        "hasPart": [
-            {
-                "@type": "WebPage",
-                "name": "Job Boards",
-                "description": "Create and manage professional job boards for your startup",
-                "url": "{{ .Site.BaseURL }}job-boards"
-            },
-            {
-                "@type": "WebPage",
-                "name": "Mailing Lists",
-                "description": "Email marketing and newsletter management platform",
-                "url": "{{ .Site.BaseURL }}mailing-lists"
-            },
-            {
-                "@type": "WebPage",
-                "name": "Widgets",
-                "description": "Embeddable widgets for your website and applications",
-                "url": "{{ .Site.BaseURL }}widgets"
-            },
-            {
-                "@type": "WebPage",
-                "name": "URL Shortener",
-                "description": "Custom URL shortening and link management",
-                "url": "{{ .Site.BaseURL }}url-shortener"
-            },
-            {
-                "@type": "WebPage",
-                "name": "Analytics",
-                "description": "Web analytics and visitor tracking platform",
-                "url": "{{ .Site.BaseURL }}analytics"
-            },
-            {
-                "@type": "WebPage",
-                "name": "Email Marketing",
-                "description": "Email campaign management and automation",
-                "url": "{{ .Site.BaseURL }}email-marketing"
-            },
-            {
-                "@type": "WebPage",
-                "name": "Startup Platform",
-                "description": "Complete digital presence solution and tools for businesses",
-                "url": "{{ .Site.BaseURL }}startup-platform"
-            }
-        ]
-    }
-    </script>
-    {{ end }}
+    {{ partial "seo/jsonld.html" . }}
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
@@ -182,84 +64,6 @@
         };
     </script>
     <script src="https://app.presencewave.com/loader/loader.js" async></script>
-
-    <!-- JSON-LD Structured Data -->
-    {{ if .IsHome }}
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "PresenceWave",
-      "url": "{{ .Site.BaseURL }}",
-      "logo": "{{ .Site.BaseURL }}/assets/images/logo.png",
-      "description": "{{ .Site.Params.description }}",
-      "foundingDate": "2024",
-      "sameAs": [
-        "{{ .Site.Params.social.twitter }}",
-        "{{ .Site.Params.social.blog }}"
-      ],
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "contactType": "customer support",
-        "url": "{{ .Site.BaseURL }}"
-      },
-      "offers": {
-        "@type": "Offer",
-        "category": "Software Platform",
-        "description": "Complete digital presence platform with tools for launch pages, job boards, widgets, analytics and more"
-      }
-    }
-    </script>
-
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "PresenceWave - Digital Presence Platform",
-      "description": "{{ .Site.Params.description }}",
-      "url": "{{ .Site.BaseURL }}",
-      "applicationCategory": "BusinessApplication",
-      "operatingSystem": "Web Browser",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "USD",
-        "description": "Free tier available"
-      },
-      "featureList": [
-        "Launch Pages",
-        "Job Boards",
-        "Embeddable Widgets",
-        "Analytics Dashboard",
-        "URL Shortener",
-        "Link-in-Bio Pages",
-        "Content Management"
-      ]
-    }
-    </script>
-
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "{{ .Site.Title }}",
-      "url": "{{ .Site.BaseURL }}",
-      "description": "{{ .Site.Params.description }}",
-      "publisher": {
-        "@type": "Organization",
-        "name": "PresenceWave"
-      },
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "{{ .Site.BaseURL }}/search?q={search_term_string}"
-        },
-        "query-input": "required name=search_term_string"
-      }
-    }
-    </script>
-    {{ end }}
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-TH8732XWRW"></script>

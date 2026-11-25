@@ -1,11 +1,12 @@
 ---
 title: "35 Free Website Themes for Local Businesses | PresenceWave"
-description: "Free, responsive website themes for salons, restaurants, cafés, gyms, cleaning, lawn care, home services and tour companies. Live previews, plain HTML, CSS and JavaScript, free to use with attribution."
+description: "35 free, responsive website themes for salons, restaurants, gyms, cleaners, lawn care, trades and tour companies. Live previews, plain HTML, free to use."
 date: 2026-11-25
 draft: false
 layout: "landing"
 canonical: "https://presencewave.com/themes/"
 keywords: ["free website themes", "free website templates for small business", "free salon website template", "free restaurant website template", "free gym website template", "free cleaning business website template", "free lawn care website template", "free plumber website template", "free tour company website template", "html website templates"]
+image: "/assets/images/og/themes.jpg"
 ---
 
 <!-- Hero -->

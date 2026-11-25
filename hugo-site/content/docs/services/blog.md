@@ -2,6 +2,7 @@
 title: "Blog"
 description: "Write, schedule and publish posts on your own blog."
 weight: 10
+aliases: ["/startup-blog-platform/"]
 ---
 
 A blog on its own address, such as `blog.yourbusiness.com`, with a home page, a page for each post, category and tag pages, and an RSS feed.

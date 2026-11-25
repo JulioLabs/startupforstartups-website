@@ -6,6 +6,9 @@ theme = 'startup-theme'
 # Page lastmod (used in sitemap.xml) comes from each page's last git commit
 enableGitInfo = true
 
+# No tag or category pages: the site has no taxonomies, and the empty list pages were indexable
+disableKinds = ['taxonomy', 'term']
+
 # Enable unsafe HTML in markdown (needed for custom HTML in content)
 [markup]
   [markup.goldmark]
@@ -58,11 +61,25 @@ enableGitInfo = true
 
 # Output formats for different content types
 [outputs]
-  home = ["HTML", "RSS"]
+  home = ["HTML", "RSS", "llms", "llmsfull"]
   page = ["HTML"]
+
+# /llms.txt (a guide to the site for AI assistants and agents) and /llms-full.txt (the same plus the full docs text),
+# generated from the pages so they stay current: layouts/index.llms.txt and layouts/index.llmsfull.txt
+[outputFormats]
+  [outputFormats.llms]
+    mediaType = "text/plain"
+    baseName = "llms"
+    isPlainText = true
+    notAlternative = true
+  [outputFormats.llmsfull]
+    mediaType = "text/plain"
+    baseName = "llms-full"
+    isPlainText = true
+    notAlternative = true
 
 # SEO and meta configuration
 [params.seo]
   title = "PresenceWave - Grow Your Business Online"
   description = "PresenceWave helps local businesses, SaaS companies and online stores capture leads, hear from customers and bring them back - all from one platform, on your own domain."
-  image = "/assets/images/heroimage.png"
+  image = "/assets/images/og-default.jpg"

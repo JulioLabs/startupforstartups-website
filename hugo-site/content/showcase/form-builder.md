@@ -1,12 +1,13 @@
 ---
-title: "Form Builder in Action: Build and Style a Form in Minutes | Showcase"
-description: "Watch a contact form being built and styled in PresenceWave, then see four very different forms — a booking form, a feedback form, a hiring sign-up and a contact form — each in its own colours and fonts, on a real website."
+title: "Form Builder Showcase: Build and Style a Form"
+description: "Watch a form being built and styled in PresenceWave, then see a booking form, feedback form, hiring sign-up and contact form on a real website."
 date: 2026-10-28
 draft: false
 layout: "landing"
 canonical: "https://presencewave.com/showcase/form-builder/"
 keywords: ["form builder", "embed form on website", "custom styled forms", "no-code form builder", "booking form", "feedback form", "lead capture form", "website form widget"]
-image: /assets/images/showcase/form-builder/07-brand-colour.webp
+image: "/assets/images/og/showcase-form-builder.jpg"
+linkTitle: "Form builder"
 ---
 
 <!-- Hero -->
@@ -185,6 +186,6 @@ image: /assets/images/showcase/form-builder/07-brand-colour.webp
 <h2 class="rp-h2">Your first form is a few minutes away.</h2>
 <p class="rp-lead">Start free, build the form, style it to match your site, then paste one snippet when you're ready to go live.</p>
 <a href="https://app.presencewave.com" class="rp-btn rp-btn-primary">Build my first form</a>
-<div class="rp-small-note"><a href="/lead-generation-forms">See everything PresenceWave forms can do →</a></div>
+<div class="rp-small-note"><a href="/lead-generation-forms/">See everything PresenceWave forms can do →</a></div>
 </div>
 </section>

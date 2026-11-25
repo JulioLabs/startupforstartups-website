@@ -6,8 +6,6 @@ draft: false
 layout: "single"
 ---
 
-# Privacy Policy
-
 **Effective Date:** 01 December 2025
 **Last Updated:** 01 December 2025
 

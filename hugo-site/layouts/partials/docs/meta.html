@@ -1,13 +1,18 @@
-{{/* Head tags for /docs pages (replaces the theme's "meta" block). noindex comes from the cascade in content/docs/_index.md. */}}
+{{/* Head tags for /docs pages (replaces the theme's "meta" block). A page is kept out of search engines only if its front matter sets noindex: true. */}}
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
-<meta name="robots" content="{{ if .Params.noindex }}noindex, follow{{ else }}index, follow{{ end }}">
+<meta name="robots" content="{{ if .Params.noindex }}noindex, follow{{ else }}index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1{{ end }}">
 <link rel="canonical" href="{{ .Permalink }}">
 <meta property="og:title" content="{{ .Title }} | PresenceWave Docs">
 <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
 <meta property="og:type" content="article">
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:site_name" content="{{ site.Title }}">
-<meta property="og:image" content="{{ site.BaseURL }}{{ site.Params.seo.image }}">
+<meta property="og:image" content="{{ absURL site.Params.seo.image }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:title" content="{{ .Title }} | PresenceWave Docs">
+<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+<meta name="twitter:image" content="{{ absURL site.Params.seo.image }}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@presence_wave">
 <link rel="stylesheet" href="/assets/css/docs.css">

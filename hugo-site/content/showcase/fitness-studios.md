@@ -1,11 +1,13 @@
 ---
 title: "How a Fitness Studio Runs on PresenceWave | Showcase"
-description: "Follow Pulsehouse Fitness, a demo boutique studio, through every PresenceWave tool: a book-a-free-class form, intro offer banners, a training blog, a coach hiring board, links page, a new studio waitlist, newsletter, first-month NPS survey, short links, QR codes and analytics, all in its own brand."
+description: "Follow Pulsehouse Fitness, a demo studio, through every PresenceWave tool: free class sign-ups, intro offers, coach hiring, member surveys and more."
 date: 2026-11-12
 draft: false
 layout: "landing"
 canonical: "https://presencewave.com/showcase/fitness-studios/"
 keywords: ["fitness studio website tools", "gym free trial form", "fitness studio marketing", "gym member NPS survey", "fitness blog for studios", "fitness coach jobs board", "boutique gym lead generation", "personal trainer marketing"]
+image: "/assets/images/og/showcase-fitness-studios.jpg"
+linkTitle: "Fitness studios"
 ---
 
 <!-- Hero -->
@@ -315,6 +317,6 @@ keywords: ["fitness studio website tools", "gym free trial form", "fitness studi
 <h2 class="rp-h2">Run a studio or gym?<br>This can be yours this week.</h2>
 <p class="rp-lead">Start free on your own app address, invite your team, and pick the tools you need. Add one snippet to your website when you're ready to go live.</p>
 <a href="https://app.presencewave.com" class="rp-btn rp-btn-primary">Set up my studio</a>
-<div class="rp-small-note"><a href="/fitness-studio-businesses">See everything PresenceWave does for fitness studios →</a></div>
+<div class="rp-small-note"><a href="/fitness-studio-businesses/">See everything PresenceWave does for fitness studios →</a></div>
 </div>
 </section>

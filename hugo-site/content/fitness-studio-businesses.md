@@ -1,10 +1,10 @@
 ---
-title: "Website & Marketing Tools for Fitness Studios and Gyms | PresenceWave"
-description: "PresenceWave helps fitness studios, gyms and personal trainers book more free classes, promote intro offers, hear how new members are getting on and keep them coming back, all from one platform."
+title: "Marketing Tools for Fitness Studios and Gyms"
+description: "Help your studio, gym or training business book more free classes, promote intro offers, hear from new members and keep them coming back, from one platform."
 date: 2026-11-12
 draft: false
 layout: "landing"
-canonical: "https://presencewave.com/fitness-studio-businesses"
+canonical: "https://presencewave.com/fitness-studio-businesses/"
 keywords: ["fitness studio website", "gym marketing tools", "gym free trial form", "boutique fitness leads", "gym member retention", "personal trainer website tools"]
 ---
 

@@ -1,12 +1,11 @@
 ---
 title: "PresenceWave Docs"
 description: "Guides for running your website tools on PresenceWave: plans and billing, domains, widgets and every service."
-# Every page under /docs: the docs layout, kept out of search engines and the sitemap until real pages are published.
-# To open the docs to search engines, delete noindex and the sitemap line.
+# Every page under /docs uses the docs layout. Docs are open to search engines and AI crawlers (2026-11-25); the docs
+# section pages are listed in the sitemap too (sitemap_section).
 cascade:
   type: docs
   params:
-    noindex: true
-  sitemap:
-    disable: true
+    sitemap_section: true
+linkTitle: "Docs"
 ---

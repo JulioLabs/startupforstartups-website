@@ -1,10 +1,10 @@
 ---
 title: "Website & Growth Tools for SaaS Companies | PresenceWave"
-description: "PresenceWave gives SaaS companies demo request forms, launch banners, a product blog, beta waitlists, NPS surveys, a careers page, product newsletters and campaign links — on your own domain, in your own brand."
+description: "Demo request forms, launch banners, a product blog, beta waitlists, NPS surveys, a careers page and newsletters for SaaS companies, on your own domain."
 date: 2026-10-22
 draft: false
 layout: "landing"
-canonical: "https://presencewave.com/saas-businesses"
+canonical: "https://presencewave.com/saas-businesses/"
 keywords: ["saas marketing tools", "saas demo request form", "saas nps survey", "saas changelog blog", "beta waitlist page", "saas careers page", "product newsletter"]
 ---
 

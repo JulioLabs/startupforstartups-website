@@ -1,10 +1,10 @@
 ---
-title: "Online Survey & Questionnaire Builder | Create Multi-Page Surveys | PresenceWave"
-description: "Build professional multi-page surveys and questionnaires in minutes. Collect structured feedback, track responses, and export results. Beautiful themes, full customization, no coding required."
+title: "Survey and Questionnaire Builder"
+description: "Build multi-page surveys, questionnaires and NPS surveys, share or embed them, track every response and export the results. No coding needed."
 date: 2026-02-28
 draft: false
 layout: "feature"
-canonical: "https://presencewave.com/questionnaire"
+canonical: "https://presencewave.com/questionnaire/"
 keywords: ["online survey maker", "questionnaire builder", "create surveys online", "multi-page survey", "customer feedback form", "survey tool", "free survey builder", "form builder", "survey software"]
 image: /assets/images/questionnaire-form.png
 ---
@@ -395,68 +395,6 @@ Common questions about building and managing online surveys and questionnaires
 </div>
 </div>
 </section>
-
-<!-- Schema Markup for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Survey & Questionnaire Builder",
-  "description": "Build professional multi-page surveys and questionnaires with beautiful themes, collect structured responses, and export results as CSV",
-  "url": "https://presencewave.com/questionnaire",
-  "applicationCategory": "WebApplication",
-  "operatingSystem": "Web Browser",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD"
-  },
-  "creator": {
-    "@type": "Organization",
-    "name": "PresenceWave"
-  },
-  "featureList": [
-    "Multi-page question flows",
-    "Custom brand themes",
-    "CSV response export",
-    "Email notifications",
-    "Webhook integrations",
-    "Mobile responsive design",
-    "Custom subdomain hosting",
-    "Real-time response dashboard"
-  ],
-  "faq": {
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "How do I create an online survey?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Creating a survey takes just minutes. Sign in, click New Questionnaire, add your pages and questions, choose a theme, and publish. Your survey will be live on a branded subdomain immediately."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Can I create multi-page surveys?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. Our survey builder fully supports multi-page questionnaires. You can add as many pages as needed, reorder them, and control the question flow."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How do I export survey responses?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "You can export all responses as a CSV file in wide format — one row per respondent with each question as its own column — ready to open in Excel or any analytics tool."
-        }
-      }
-    ]
-  }
-}
-</script>
-
 <style>
 .image-showcase {
 padding: 80px 0;

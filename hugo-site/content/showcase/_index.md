@@ -1,12 +1,14 @@
 ---
 title: "Industry Showcases: See How Businesses Run on PresenceWave"
-description: "Tours of demo businesses using every PresenceWave tool: a salon, café, fitness studio, cleaning company, lawn care company, home services company, tour operator, SaaS company and online store. Every screen is real."
+description: "Tour demo businesses using every PresenceWave tool: a salon, café, gym, cleaner, lawn care and home services company, tour operator, SaaS and online store."
 date: 2026-11-25
 draft: false
 layout: "landing"
 canonical: "https://presencewave.com/showcase/"
 sitemap_section: true
 keywords: ["presencewave showcase", "small business website tools examples", "local business marketing examples", "lead capture form examples", "business website widgets examples", "customer survey examples"]
+image: "/assets/images/og/showcase.jpg"
+linkTitle: "Showcases"
 ---
 
 <!-- Hero -->

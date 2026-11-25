@@ -1,10 +1,10 @@
 ---
-title: "Website & Marketing Tools for Group Tour Businesses | PresenceWave"
-description: "PresenceWave helps tour organizers who run group vacations capture more seat reservations, promote early booking offers, collect after-trip feedback and bring travelers back for the next departure, all from one platform."
+title: "Marketing Tools for Group Tour Companies"
+description: "Fill more seats on your group trips: reservation forms, early booking offers, after-trip surveys and newsletters that bring travelers back, from one platform."
 date: 2026-11-11
 draft: false
 layout: "landing"
-canonical: "https://presencewave.com/group-tour-businesses"
+canonical: "https://presencewave.com/group-tour-businesses/"
 keywords: ["tour operator website", "group tour business marketing", "group tour booking form", "small group tours leads", "tour company customer retention", "travel business website tools"]
 ---
 

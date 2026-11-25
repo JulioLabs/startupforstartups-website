@@ -1,10 +1,10 @@
 ---
-title: "Free QR Code Generator | Create a QR Code for Any Link | PresenceWave"
-description: "Generate a free QR code for any link instantly. No sign-up required, nothing stored. Download as PNG. Want custom colors, your logo, and branding? Create a free PresenceWave account."
+title: "Free QR Code Generator for Any Link"
+description: "Make a free QR code for any link instantly, with no sign-up and nothing stored, and download it as a PNG. Branded QR codes come with a PresenceWave account."
 date: 2026-09-18
 draft: false
 layout: "feature"
-canonical: "https://presencewave.com/qr-code-generator"
+canonical: "https://presencewave.com/qr-code-generator/"
 keywords: ["QR code generator", "free QR code generator", "QR code maker", "create QR code", "QR code for link", "QR code generator no sign up", "custom QR code", "QR code with logo", "download QR code", "branded QR code"]
 ---
 
