@@ -3476,8 +3476,8 @@ a.rp-industry:hover {
 
 /* ===== Free themes gallery (/themes/) ===== */
 .th-gallery {
-    padding: 56px 0 72px;
-    background: var(--bg-primary);
+    padding-top: 48px;
+    background: var(--bg-secondary);
 }
 
 .th-filters {
@@ -3485,7 +3485,7 @@ a.rp-industry:hover {
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 32px;
 }
 
 .th-chip {
@@ -3510,8 +3510,71 @@ a.rp-industry:hover {
     color: var(--text-inverse);
 }
 
-.th-group + .th-group {
-    margin-top: 56px;
+.th-group {
+    padding: 48px 0 56px;
+    border-top: 1px solid var(--border-color);
+    background: var(--bg-primary);
+}
+
+.th-group-alt {
+    background: var(--bg-tertiary);
+}
+
+.th-cta {
+    padding: 40px 0;
+    background: linear-gradient(135deg, var(--accent-secondary) 0%, var(--accent-primary) 100%);
+    color: var(--text-inverse);
+}
+
+.th-cta[hidden] {
+    display: none;
+}
+
+.th-cta-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px 40px;
+}
+
+.th-cta h2 {
+    margin: 0 0 8px;
+    color: var(--text-inverse);
+    font-size: var(--font-size-2xl);
+}
+
+.th-cta p {
+    max-width: 640px;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.88);
+}
+
+.th-cta-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    gap: 10px;
+}
+
+.th-cta .rp-btn-primary {
+    background: var(--bg-secondary);
+    color: var(--accent-primary);
+}
+
+.th-cta .rp-btn-primary:hover {
+    background: var(--bg-primary);
+}
+
+.th-cta-link {
+    color: var(--text-inverse);
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.th-cta-link:hover {
+    text-decoration: underline;
 }
 
 .th-group[hidden] {
@@ -3747,8 +3810,14 @@ a.rp-industry:hover {
         align-items: stretch;
     }
 
-    .th-gallery {
-        padding: 40px 0 56px;
+    .th-group {
+        padding: 36px 0 44px;
+    }
+
+    .th-cta-inner {
+        flex-direction: column;
+        align-items: stretch;
+        text-align: center;
     }
 }
 

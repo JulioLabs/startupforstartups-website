@@ -1,17 +1,21 @@
-{{- /* Free themes gallery, from data/themes.yaml: filter chips, then one group per industry with a card per theme.
-       Without JavaScript every group shows; the chips only filter. */ -}}
+{{- /* Free themes gallery, from data/themes.yaml: filter chips, then one full-width band per industry (alternating
+       backgrounds) with a card per theme, and a call to action after the first industry. Without JavaScript every
+       group shows; the chips only filter, and the call to action shows only when all industries do. */ -}}
 {{- $repo := "https://github.com/JulioLabs/presencewave-themes" -}}
 {{- $preview := "https://juliolabs.github.io/presencewave-themes" -}}
 {{- $industries := site.Data.themes.industries -}}
+<div class="container">
 <div class="th-filters" role="group" aria-label="Filter themes by industry">
   <button type="button" class="th-chip is-active" data-filter="all" aria-pressed="true">All industries</button>
   {{- range $industries }}
   <button type="button" class="th-chip" data-filter="{{ .id }}" aria-pressed="false">{{ .label }}</button>
   {{- end }}
 </div>
-{{- range $industries }}
+</div>
+{{- range $i, $_ := $industries }}
 {{- $industry := . }}
-<div class="th-group" id="{{ .id }}" data-industry="{{ .id }}">
+<div class="th-group{{ if modBool $i 2 }} th-group-alt{{ end }}" id="{{ .id }}" data-industry="{{ .id }}">
+<div class="container">
   <div class="th-group-head">
     <h2 class="th-group-title">{{ .label }} <span>{{ len .themes }} themes</span></h2>
     <a class="th-group-link" href="{{ .showcase }}">See {{ .demo }} run on PresenceWave <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
@@ -38,11 +42,27 @@
     {{- end }}
   </div>
 </div>
+</div>
+{{- if eq $i 0 }}
+<div class="th-cta" data-cta>
+<div class="container th-cta-inner">
+  <div>
+    <h2>Found a theme? Make it bring in customers.</h2>
+    <p>Add quote and booking forms, offers, a blog, hiring and customer surveys to any of these themes with one snippet, styled in its own colours and fonts.</p>
+  </div>
+  <div class="th-cta-actions">
+    <a class="rp-btn rp-btn-primary" href="https://app.presencewave.com">Start free</a>
+    <a class="th-cta-link" href="{{ .showcase }}">See a theme running with PresenceWave <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+  </div>
+</div>
+</div>
+{{- end }}
 {{- end }}
 <script>
 (function () {
   var chips = document.querySelectorAll('.th-chip');
   var groups = document.querySelectorAll('.th-group');
+  var cta = document.querySelector('[data-cta]');
   function show(filter) {
     chips.forEach(function (chip) {
       var active = chip.getAttribute('data-filter') === filter;
@@ -52,6 +72,7 @@
     groups.forEach(function (group) {
       group.hidden = filter !== 'all' && group.getAttribute('data-industry') !== filter;
     });
+    if (cta) cta.hidden = filter !== 'all';
   }
   chips.forEach(function (chip) {
     chip.addEventListener('click', function () {

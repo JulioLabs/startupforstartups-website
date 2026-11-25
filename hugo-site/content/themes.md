@@ -23,11 +23,9 @@ keywords: ["free website themes", "free website templates for small business", "
 
 <!-- Gallery -->
 <section class="th-gallery" id="gallery">
-<div class="container">
 
 {{< themes-gallery >}}
 
-</div>
 </section>
 
 <!-- In every theme -->
