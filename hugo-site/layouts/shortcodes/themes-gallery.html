@@ -1,0 +1,67 @@
+{{- /* Free themes gallery, from data/themes.yaml: filter chips, then one group per industry with a card per theme.
+       Without JavaScript every group shows; the chips only filter. */ -}}
+{{- $repo := "https://github.com/JulioLabs/presencewave-themes" -}}
+{{- $preview := "https://juliolabs.github.io/presencewave-themes" -}}
+{{- $industries := site.Data.themes.industries -}}
+<div class="th-filters" role="group" aria-label="Filter themes by industry">
+  <button type="button" class="th-chip is-active" data-filter="all" aria-pressed="true">All industries</button>
+  {{- range $industries }}
+  <button type="button" class="th-chip" data-filter="{{ .id }}" aria-pressed="false">{{ .label }}</button>
+  {{- end }}
+</div>
+{{- range $industries }}
+{{- $industry := . }}
+<div class="th-group" id="{{ .id }}" data-industry="{{ .id }}">
+  <div class="th-group-head">
+    <h2 class="th-group-title">{{ .label }} <span>{{ len .themes }} themes</span></h2>
+    <a class="th-group-link" href="{{ .showcase }}">See {{ .demo }} run on PresenceWave <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+  </div>
+  <div class="th-grid">
+    {{- range .themes }}
+    {{- $live := printf "%s/%s/%s/" $preview $industry.id .id }}
+    <article class="th-card">
+      <a class="th-shot" href="{{ $live }}" target="_blank" rel="noopener" aria-label="Live preview of {{ .name }}">
+        <img src="/assets/images/themes/{{ $industry.id }}/{{ .id }}.webp" alt="{{ .name }} theme for {{ lower $industry.label }}: home page" loading="lazy" width="760" height="494">
+      </a>
+      <div class="th-body">
+        <div class="th-title">
+          <h3>{{ .name }}</h3>
+          <span class="th-badge">{{ if eq .pages "multi" }}Multi-page{{ else }}Landing page{{ end }}</span>
+        </div>
+        <p>{{ .summary }}</p>
+        <div class="th-actions">
+          <a class="rp-btn rp-btn-primary rp-btn-sm" href="{{ $live }}" target="_blank" rel="noopener">Live preview</a>
+          <a class="rp-btn rp-btn-secondary rp-btn-sm" href="{{ $repo }}/releases/latest/download/{{ $industry.id }}-{{ .id }}.zip"><i class="fas fa-download" aria-hidden="true"></i> Download</a>
+        </div>
+      </div>
+    </article>
+    {{- end }}
+  </div>
+</div>
+{{- end }}
+<script>
+(function () {
+  var chips = document.querySelectorAll('.th-chip');
+  var groups = document.querySelectorAll('.th-group');
+  function show(filter) {
+    chips.forEach(function (chip) {
+      var active = chip.getAttribute('data-filter') === filter;
+      chip.classList.toggle('is-active', active);
+      chip.setAttribute('aria-pressed', active ? 'true' : 'false');
+    });
+    groups.forEach(function (group) {
+      group.hidden = filter !== 'all' && group.getAttribute('data-industry') !== filter;
+    });
+  }
+  chips.forEach(function (chip) {
+    chip.addEventListener('click', function () {
+      var filter = chip.getAttribute('data-filter');
+      show(filter);
+      if (typeof window.trackEvent === 'function') window.trackEvent('theme_filter', { industry: filter });
+      try { history.replaceState(null, '', filter === 'all' ? location.pathname : '#' + filter); } catch (e) {}
+    });
+  });
+  var hash = location.hash.slice(1);
+  if (hash && document.querySelector('.th-chip[data-filter="' + hash + '"]')) show(hash);
+})();
+</script>

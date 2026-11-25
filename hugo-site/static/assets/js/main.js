@@ -188,6 +188,14 @@ document.addEventListener('click', function(e) {
     if (url.hostname === 'app.presencewave.com') {
         // Every "Get started" / "Start free" button goes to the app; /login is the sign-in link
         trackEvent(url.pathname.startsWith('/login') ? 'login_click' : 'sign_up_click', params);
+    } else if (url.hostname === 'github.com' && url.pathname.indexOf('/presencewave-themes/releases/') !== -1) {
+        // A theme's ZIP from the themes gallery or a blog post: <industry>-<theme>.zip
+        params.theme = url.pathname.split('/').pop().replace(/\.zip$/, '');
+        trackEvent('theme_download_click', params);
+    } else if (url.hostname === 'juliolabs.github.io' && url.pathname.indexOf('/presencewave-themes/') === 0) {
+        // A theme's live preview (GitHub Pages): /presencewave-themes/<industry>/<theme>/
+        params.theme = url.pathname.split('/').filter(Boolean).slice(1, 3).join('-');
+        trackEvent('theme_preview_click', params);
     } else if (url.hostname === 'github.com' && url.pathname.indexOf('/presencewave-themes') !== -1) {
         params.theme_collection = url.pathname.split('/').filter(Boolean).pop();
         trackEvent('theme_browse_click', params);

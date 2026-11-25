@@ -1,0 +1,179 @@
+# Free website themes shown on /themes/. Source: github.com/JulioLabs/presencewave-themes (one folder per industry).
+# Images: static/assets/images/themes/<industry>/<theme>.webp (the theme's preview, resized).
+# Download: the latest release's <industry>-<theme>.zip. Live preview: GitHub Pages of the themes repo.
+industries:
+  - id: cleaning-services
+    label: "Cleaning services"
+    showcase: /showcase/cleaning-services/
+    demo: "Havenly Home Care"
+    themes:
+      - id: afterglow
+        name: "Afterglow"
+        summary: "Cinematic, high-contrast landing page with an interactive before/after reveal."
+        pages: single
+      - id: citrus-and-co
+        name: "Citrus & Co."
+        summary: "Bright, warm multi-page theme with a playful service-business feel."
+        pages: multi
+      - id: gridline-clean
+        name: "Gridline Clean"
+        summary: "Structured, commercial-first multi-page theme with a systems-led design."
+        pages: multi
+      - id: noir-and-neat
+        name: "Noir & Neat"
+        summary: "Refined editorial landing page with a premium service angle."
+        pages: single
+      - id: sunshine-spark
+        name: "Sunshine Spark"
+        summary: "Bright and friendly single-page cleaning-service theme."
+        pages: single
+  - id: fitness-studios
+    label: "Fitness studios"
+    showcase: /showcase/fitness-studios/
+    demo: "Pulsehouse Fitness"
+    themes:
+      - id: afterburn
+        name: "Afterburn"
+        summary: "Bold, dark landing page for HIIT and cycle studios with a weekly schedule, spots-left badges and a free class form."
+        pages: single
+      - id: stillpoint
+        name: "Stillpoint"
+        summary: "Calm multi-page theme for yoga and pilates with a filterable timetable and a pack-or-membership planner."
+        pages: multi
+      - id: ironworks
+        name: "Ironworks"
+        summary: "Industrial landing page for strength gyms with a membership comparison and a free 3-day pass."
+        pages: single
+      - id: personal-best
+        name: "Personal Best"
+        summary: "Clean landing page for personal trainers with a goal finder that recommends a program and price."
+        pages: single
+      - id: neighborhood-gym
+        name: "Neighborhood Gym"
+        summary: "Friendly multi-page theme for community gyms with a family membership builder."
+        pages: multi
+  - id: group-tours
+    label: "Group tours"
+    showcase: /showcase/group-tours/
+    demo: "Wayfarer Group Journeys"
+    themes:
+      - id: getaway-club
+        name: "Getaway Club"
+        summary: "Bright, social landing page with a departure calendar, seats-left badges and a waitlist."
+        pages: single
+      - id: basecamp
+        name: "Basecamp"
+        summary: "Rugged landing page for hiking and adventure trips with a live trip finder."
+        pages: single
+      - id: itinerary
+        name: "Itinerary"
+        summary: "Editorial multi-page theme for cultural and food tours with a day-by-day itinerary and a deposit form."
+        pages: multi
+      - id: private-groups
+        name: "Private Groups"
+        summary: "Practical multi-page theme for custom group trips with a group quote builder."
+        pages: multi
+      - id: grand-tour
+        name: "Grand Tour"
+        summary: "Dark, elegant landing page for rail and luxury journeys with a side-by-side comparison."
+        pages: single
+  - id: home-services
+    label: "Home services"
+    showcase: /showcase/home-services/
+    demo: "Copperline Home Services"
+    themes:
+      - id: dispatch
+        name: "Dispatch"
+        summary: "Bold landing page for multi-trade companies with a 24/7 emergency bar, a ZIP code check and a request-service form by trade and urgency."
+        pages: single
+      - id: pipeline
+        name: "Pipeline"
+        summary: "Friendly multi-page theme for plumbers with an upfront price guide that books the job."
+        pages: multi
+      - id: comfort-air
+        name: "Comfort Air"
+        summary: "Clean landing page for HVAC companies with a heating/cooling season switch and a care plan builder."
+        pages: single
+      - id: live-wire
+        name: "Live Wire"
+        summary: "Dark landing page for electricians with a project estimator for EV chargers, panels, lighting and generators."
+        pages: single
+      - id: handy-crew
+        name: "Handy Crew"
+        summary: "Warm multi-page theme for handyman businesses with a book-a-visit picker by day and arrival window."
+        pages: multi
+  - id: lawn-care
+    label: "Lawn care"
+    showcase: /showcase/lawn-care/
+    demo: "Greenstripe Lawn Co."
+    themes:
+      - id: fairway
+        name: "Fairway"
+        summary: "Crisp, premium landing page with a lawn-size quote builder."
+        pages: single
+      - id: groundwork
+        name: "Groundwork"
+        summary: "Structured, commercial-first multi-page theme for grounds maintenance."
+        pages: multi
+      - id: meadow-and-mow
+        name: "Meadow & Mow"
+        summary: "Bright, friendly multi-page theme for family-run lawn care."
+        pages: multi
+      - id: evergreen-estate
+        name: "Evergreen Estate"
+        summary: "Editorial, high-end landing page with a before/after reveal."
+        pages: single
+      - id: four-seasons
+        name: "Four Seasons"
+        summary: "Practical landing page built around yearly lawn care plans."
+        pages: single
+  - id: restaurants-cafes
+    label: "Restaurants & cafés"
+    showcase: /showcase/restaurants-cafes/
+    demo: "Marigold Corner Café"
+    themes:
+      - id: daybreak
+        name: "Daybreak"
+        summary: "Sunny landing page for cafés and brunch spots with an open-now badge and a menu filtered by vegetarian, vegan and gluten-free."
+        pages: single
+      - id: trattoria
+        name: "Trattoria"
+        summary: "Warm multi-page theme for family restaurants with a table request picker by party size, day and time."
+        pages: multi
+      - id: night-market
+        name: "Night Market"
+        summary: "Dark, neon landing page for street food and food trucks with a weekly schedule and a build-your-bowl calculator."
+        pages: single
+      - id: pour-over
+        name: "Pour Over"
+        summary: "Minimal landing page for coffee roasters with this season's coffees and a subscription builder."
+        pages: single
+      - id: supper-club
+        name: "Supper Club"
+        summary: "Elegant multi-page theme for tasting-menu restaurants with a private event estimator."
+        pages: multi
+  - id: salons-spas
+    label: "Salons, barbers & spas"
+    showcase: /showcase/salons-spas/
+    demo: "Hazel & Hue Salon"
+    themes:
+      - id: golden-hour
+        name: "Golden Hour"
+        summary: "Warm landing page for hair salons with a service menu that switches prices and times by stylist level."
+        pages: single
+      - id: sharp-and-steady
+        name: "Sharp & Steady"
+        summary: "Bold, vintage landing page for barbershops with a walk-in board, the current wait and a join-the-list form."
+        pages: single
+      - id: still-water
+        name: "Still Water"
+        summary: "Calm multi-page theme for day spas with a spa day builder that adds up time and price."
+        pages: multi
+      - id: bloom-bar
+        name: "Bloom Bar"
+        summary: "Playful landing page for nail, lash and brow studios with a three-step booking request."
+        pages: single
+      - id: maison
+        name: "Maison"
+        summary: "Dark, editorial multi-page theme for luxury salons with a color consultation that shows a price range."
+        pages: multi
