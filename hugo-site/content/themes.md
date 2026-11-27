@@ -1,11 +1,11 @@
 ---
-title: "35 Free Website Themes for Local Businesses | PresenceWave"
-description: "35 free, responsive website themes for salons, restaurants, gyms, cleaners, lawn care, trades and tour companies. Live previews, plain HTML, free to use."
+title: "40 Free Website Themes for Local Businesses | PresenceWave"
+description: "40 free, responsive website themes for salons, dentists and clinics, restaurants, gyms, cleaners, lawn care, trades and tour companies. Live previews, plain HTML, free to use."
 date: 2026-11-25
 draft: false
 layout: "landing"
 canonical: "https://presencewave.com/themes/"
-keywords: ["free website themes", "free website templates for small business", "free salon website template", "free restaurant website template", "free gym website template", "free cleaning business website template", "free lawn care website template", "free plumber website template", "free tour company website template", "html website templates"]
+keywords: ["free website themes", "free website templates for small business", "free salon website template", "free dental website template", "free medical clinic website template", "free restaurant website template", "free gym website template", "free cleaning business website template", "free lawn care website template", "free plumber website template", "free tour company website template", "html website templates"]
 image: "/assets/images/og/themes.jpg"
 ---
 
@@ -13,8 +13,8 @@ image: "/assets/images/og/themes.jpg"
 <section class="sc-hero th-hero">
 <div class="container">
 <div class="rp-eyebrow">Free website themes</div>
-<h1 class="rp-h1">35 free website themes for local businesses.</h1>
-<p class="rp-lead">Salons, restaurants, gyms, cleaners, lawn care, trades and tour companies. Most come with something that turns a visitor into a customer, from a quote builder to a booking request. Try any of them live, then download it free.</p>
+<h1 class="rp-h1">40 free website themes for local businesses.</h1>
+<p class="rp-lead">Salons, dentists and clinics, restaurants, gyms, cleaners, lawn care, trades and tour companies. Most come with something that turns a visitor into a customer, from a quote builder to a booking request. Try any of them live, then download it free.</p>
 <div class="rp-hero-actions">
 <a href="#gallery" class="rp-btn rp-btn-primary">Browse the themes</a>
 <a href="/showcase/" class="rp-btn rp-btn-secondary">See them in action</a>

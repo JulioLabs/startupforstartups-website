@@ -27,6 +27,31 @@ industries:
         name: "Sunshine Spark"
         summary: "Bright and friendly single-page cleaning-service theme."
         pages: single
+  - id: dental-clinics
+    label: "Dental & medical clinics"
+    showcase: /showcase/dental-clinics/
+    demo: "Brightwater Family Dental"
+    themes:
+      - id: fresh-mint
+        name: "Fresh Mint"
+        summary: "Bright landing page for family dentists with an insurance check and a new-patient request."
+        pages: single
+      - id: clear-smile
+        name: "Clear Smile"
+        summary: "Polished multi-page theme for cosmetic dentists with a smile cost estimator and monthly payments."
+        pages: multi
+      - id: little-molars
+        name: "Little Molars"
+        summary: "Playful landing page for pediatric dentists with a first-visit guide by age."
+        pages: single
+      - id: steady-care
+        name: "Steady Care"
+        summary: "Calm multi-page theme for family medicine and walk-in clinics with an open-now status and the walk-in wait."
+        pages: multi
+      - id: motion-lab
+        name: "Motion Lab"
+        summary: "Energetic landing page for physical therapy clinics with a \"where does it hurt?\" picker."
+        pages: single
   - id: fitness-studios
     label: "Fitness studios"
     showcase: /showcase/fitness-studios/
