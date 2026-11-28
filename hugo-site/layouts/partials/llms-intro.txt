@@ -5,9 +5,9 @@
 Key facts:
 
 - Website: https://presencewave.com. Sign up and dashboard: https://app.presencewave.com. Blog: https://blog.presencewave.com.
-- Who it's for: local and service businesses (salons, dental and medical clinics, restaurants and cafés, gyms and fitness studios, cleaning, lawn care, home services such as plumbing and HVAC, tour operators), SaaS companies and online stores, and the agencies that build their websites.
+- Who it's for: local and service businesses (real estate agents, salons, dental and medical clinics, restaurants and cafés, gyms and fitness studios, cleaning, lawn care, home services such as plumbing and HVAC, tour operators), SaaS companies and online stores, and the agencies that build their websites.
 - How it works: each tool runs on its own address on the business's domain (for example blog.yourbusiness.com or jobs.yourbusiness.com), or on a free yourname.presencewave.com address; widgets (forms, banners, surveys, feedback, cookie notice) are added to any existing website (WordPress, Shopify, plain HTML or any site builder that allows custom code) with one script snippet. Everything is styled in the business's own colours and fonts.
 - Pricing: a 30-day free trial with no credit card. Then the Starter plan is US$29 per domain per month, or US$199 per domain per year (in India: ₹2,499 a month or ₹14,999 a year, including GST). Every plan includes every feature and unlimited team members. Agencies and larger teams can ask for a custom plan. Details: https://presencewave.com/pricing/
-- Free website themes: 40 free, responsive HTML/CSS/JavaScript themes for local businesses, with live previews and downloads at https://presencewave.com/themes/ (source: https://github.com/JulioLabs/presencewave-themes).
+- Free website themes: 45 free, responsive HTML/CSS/JavaScript themes for local businesses, with live previews and downloads at https://presencewave.com/themes/ (source: https://github.com/JulioLabs/presencewave-themes).
 - API and webhooks: a REST API with tokens, and webhooks for submissions and other events (see the docs).
 - Company: PresenceWave is made by Julio Labs (OPC) Private Limited, India. Contact: https://presencewave.com/contact/
