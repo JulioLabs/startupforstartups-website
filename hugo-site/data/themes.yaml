@@ -152,6 +152,31 @@ industries:
         name: "Four Seasons"
         summary: "Practical landing page built around yearly lawn care plans."
         pages: single
+  - id: real-estate
+    label: "Real estate agents"
+    showcase: /showcase/real-estate/
+    demo: "Marlow Home Group"
+    themes:
+      - id: front-porch
+        name: "Front Porch"
+        summary: "Warm landing page for neighborhood agents with a home value estimate and a free market analysis request."
+        pages: single
+      - id: skyline
+        name: "Skyline"
+        summary: "Sleek, dark multi-page theme for luxury and condo brokerages with a listing search and showing requests."
+        pages: multi
+      - id: open-door
+        name: "Open Door"
+        summary: "Bold landing page with this weekend's open houses, RSVPs and add-to-calendar buttons."
+        pages: single
+      - id: common-ground
+        name: "Common Ground"
+        summary: "Editorial multi-page theme for relocation agents with a neighborhood compare and moving guides."
+        pages: multi
+      - id: keystone
+        name: "Keystone"
+        summary: "Steady landing page for first-time buyer specialists with a mortgage payment calculator."
+        pages: single
   - id: restaurants-cafes
     label: "Restaurants & cafés"
     showcase: /showcase/restaurants-cafes/
