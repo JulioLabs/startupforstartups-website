@@ -1,6 +1,6 @@
 ---
 title: "Industry Showcases: See How Businesses Run on PresenceWave"
-description: "Tour demo businesses using every PresenceWave tool: a salon, café, gym, cleaner, lawn care and home services company, tour operator, SaaS and online store."
+description: "Tour demo businesses using every PresenceWave tool: a dentist, salon, café, gym, cleaner, lawn care and home services company, tour operator, SaaS and online store."
 date: 2026-11-25
 draft: false
 layout: "landing"
@@ -33,6 +33,16 @@ linkTitle: "Showcases"
 <h2 class="rp-h2">Every tool, set up for one business.</h2></div>
 </div>
 <div class="sh-grid">
+
+<a class="sh-card" href="/showcase/dental-clinics/">
+<span class="sh-shot"><img src="/assets/images/showcase/index/dental-clinics.webp" alt="Brightwater Family Dental website with PresenceWave widgets" loading="lazy" width="640" height="400"></span>
+<span class="sh-body">
+<span class="sh-industry">Dental &amp; medical clinics</span>
+<strong>Brightwater Family Dental</strong>
+<span class="sh-text">New-patient requests without medical details, a $99 new-patient offer, an after-visit survey, hygienist hiring and a second-office waitlist.</span>
+<span class="sh-more">Take the tour <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+</span>
+</a>
 
 <a class="sh-card" href="/showcase/salons-spas/">
 <span class="sh-shot"><img src="/assets/images/showcase/index/salons-spas.webp" alt="Hazel &amp; Hue Salon website with PresenceWave widgets" loading="lazy" width="640" height="400"></span>
